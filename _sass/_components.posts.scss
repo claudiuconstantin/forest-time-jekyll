@@ -1,0 +1,35 @@
+.c-posts {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.c-posts__post {
+	padding: $base-padding;	
+	border-bottom: 1px solid $border-color;
+
+	&:hover {
+		background-color: $posts-highlight-color;
+		cursor: pointer;
+	}
+
+	p:hover {
+		cursor: text;
+	}
+}
+
+.c-posts__post__iconcontainer {
+	max-width: 50px;
+	padding-top: $base-padding;
+}
+
+.c-posts__post__icon {
+	color: #F1C40F;
+	font-size: 3rem;
+}
+
+.c-posts__post__meta {
+	font-size: .9rem;
+	font-style: italic;
+	color: lighten(gray, 8%);
+}

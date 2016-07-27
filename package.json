@@ -1,0 +1,22 @@
+{
+  "name": "today-i-learned",
+  "version": "1.0.0",
+  "description": "Webdev blog by Gabor Pinter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaboratorium/gaboratorium.github.io.git"
+  },
+  "author": "Gabor Pinter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaboratorium/gaboratorium.github.io/issues"
+  },
+  "homepage": "https://github.com/gaboratorium/gaboratorium.github.io#readme",
+  "devDependencies": {
+    "bower": "^1.7.9"
+  }
+}

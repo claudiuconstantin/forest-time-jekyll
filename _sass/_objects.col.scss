@@ -1,0 +1,29 @@
+.col {
+	padding: 0;
+}
+
+.col--content {
+	padding: $base-padding;
+}
+
+.col--sidebar{
+	max-width: 400px;
+	text-align: center;
+}
+
+.col--sidebar__logo {
+	max-width: 100%;
+}
+
+.col--main {
+	max-width: 600px;
+	min-height: 100vh;
+	margin-top: $base-margin * 2;
+	border-top: none;
+	border-bottom: none;
+	border-radius: 4px;
+	border-top: 1px solid $border-color;
+	border-left: 1px solid $border-color;
+	border-right: 1px solid $border-color;
+	overflow: auto;
+}

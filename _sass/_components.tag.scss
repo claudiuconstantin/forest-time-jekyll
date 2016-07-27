@@ -1,0 +1,20 @@
+.c-tag {
+	background-color: $primary-color;
+	color: #fff;
+	padding: 6px 8px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: .7rem;
+
+	> a {
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+.c-tag--more {
+	background-color: #6E9379;
+}

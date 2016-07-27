@@ -1,0 +1,32 @@
+.c-navigation {
+	list-style-type: none;
+	text-align: center;
+	border: 1px solid $gray-color;
+	border-radius: 4px;
+	max-width: 10rem;
+	padding: 0;
+	margin: auto;
+}
+
+.c-navigation__elem {
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: .5rem;
+	border-bottom: 1px solid $gray-color;
+	font-size: .75rem;
+
+	& > a {
+		text-transform: uppercase;
+		color: $gray-color;
+		text-decoration: none;
+	}
+
+	&:last-of-type {
+		border-bottom: none;
+	}
+
+	&:hover {
+		background-color: $posts-highlight-color;
+		cursor: pointer;
+	}
+}

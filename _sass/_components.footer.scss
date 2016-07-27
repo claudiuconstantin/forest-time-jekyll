@@ -4,7 +4,8 @@
 
 .c-footer__text {
 	text-transform: uppercase;
-	color: #C5C5C5;
+	color: $gray-color;
+	font-size: .75rem;
 }
 
 .c-footer__text--block {

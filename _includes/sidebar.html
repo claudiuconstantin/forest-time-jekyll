@@ -1,0 +1,28 @@
+
+      <img class="c-sidebar__logo" src="http://www.jeremyschneider.fr/files/gimgs/43_la-surprise.jpg" alt="Today I Learned">
+
+      <h1 class="c-sidebar__title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      <h2 class="c-sidebar__description">{{ site.description }}</h2>
+
+      <nav>
+
+      <ul class="c-navigation">
+        {% for page in site.pages %}
+          {% if page.title %}
+          <li class="c-navigation__elem"><a href="{{ page.url }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+      <ul class='o-horizontallist'>
+        {% for tag in site.tags %}
+          <li class="o-horizontallist__elem c-tag"><a href="/archive/#{{tag | first}}">{{ tag | first}}</a></li>
+        {% endfor %}
+        <li class="o-horizontallist__elem c-tag c-tag--more"><a href="/archive/">More...</a></li>
+      </ul>
+        
+        
+      </nav>
+      
+
+      {% include footer.html %}

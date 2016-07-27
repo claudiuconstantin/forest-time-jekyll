@@ -26,18 +26,21 @@
 @import "../_sass/base.typography";
 
 // 5. Objects (o-classname) for positioning and layouting
-@import "../bower_components/font-awesome/scss/font-awesome.scss";
+// @import "../bower_components/font-awesome/scss/font-awesome.scss";
 @import "../bower_components/gridlex/src/gridlex";
+@import "../_sass/vendor/gridlex";
 @import "../_sass/objects.grid";
 @import "../_sass/objects.col";
 @import "../_sass/objects.horizontallist";
 
 // 6. UI Components (write your stuff here)
-// @import "../_sass/components.code";
+@import "../_sass/components.code";
 @import "../_sass/components.posts";
 @import "../_sass/components.sidebar";
 @import "../_sass/components.social-icon";
 @import "../_sass/components.footer";
+@import "../_sass/components.navigation";
+@import "../_sass/components.tag";
 // @import "../_sass/components.button";
 // @import "../_sass/components.footer";
 

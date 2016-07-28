@@ -3,5 +3,4 @@ layout: page
 title: About
 permalink: /about/
 ---
-This will be the about section.
-For now, you can find me on [Twitter](http://twitter.com/gaboratorium).
+Hi, I am Gabor Pinter and I like to code. You can find me on [Twitter](http://twitter.com/gaboratorium) and [GitHub](http://github.com/gaboratorium).

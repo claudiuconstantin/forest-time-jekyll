@@ -12,12 +12,14 @@ layout: default
 	  <div class="post-content" itemprop="articleBody">
 	    {{ content }}
 	  </div>
-		<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-
+		<p class="post-meta">
+			Posted in {{ page.tags | join ", " }} 
+			on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
+		</p>
 	</article>
 
 	<!-- Disqus comment section -->
-	{% if page.comments %}
+	<!-- {% if page.comments %}
 		<div id="disqus_thread"></div>
 			<script>
 			    /**
@@ -40,5 +42,5 @@ layout: default
 			    })();
 			</script>
 			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-	{% endif %}
+	{% endif %} -->
 </div>

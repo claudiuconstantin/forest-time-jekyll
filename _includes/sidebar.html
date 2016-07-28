@@ -1,4 +1,4 @@
-
+    <div class="col--sidebar__sticky">
       <img class="c-sidebar__logo" src="http://www.jeremyschneider.fr/files/gimgs/43_la-surprise.jpg" alt="Today I Learned">
 
       <h1 class="c-sidebar__title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
@@ -15,10 +15,7 @@
       </ul>
 
       <ul class='o-horizontallist'>
-        {% for tag in site.tags %}
-          <li class="o-horizontallist__elem c-tag"><a href="/archive/#{{tag | first}}">{{ tag | first}}</a></li>
-        {% endfor %}
-        <li class="o-horizontallist__elem c-tag c-tag--more"><a href="/archive/">More...</a></li>
+        {% for tag in site.tags limit:10 %}<li class="o-horizontallist__elem c-tag"><a href="/archive#{{tag | first}}">{{ tag | first}}</a></li>{% endfor %}<li class="o-horizontallist__elem c-tag"><a href="/archive/">More...</a></li>
       </ul>
         
         
@@ -26,3 +23,4 @@
       
 
       {% include footer.html %}
+      </div>

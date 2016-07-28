@@ -1,5 +1,6 @@
 .col {
 	padding: 0;
+	max-width: 100%;
 }
 
 .col--content {
@@ -9,6 +10,11 @@
 .col--sidebar{
 	max-width: 400px;
 	text-align: center;
+}
+
+.col--sidebar__sticky {
+	position: fixed;
+	max-width: 400px;
 }
 
 .col--main {
@@ -22,4 +28,41 @@
 	border-left: 1px solid $border-color;
 	border-right: 1px solid $border-color;
 	overflow: auto;
+	overflow-x: hidden;
+}
+
+@media only screen and (max-width: 850px) {
+	.grid--wrapper {
+		flex-direction: column;
+	}
+
+    .col--sidebar {
+    	max-width: 100%;
+    }
+
+    .col--sidebar__sticky {
+    	position: static;
+    	max-width: 100%;
+    }
+
+    .col--main {
+    	max-width: 100%;
+    }
+
+    .c-sidebar__logo {
+    	display: none;
+    }
+
+    .c-sidebar__title {
+		margin-top: 1rem !important;
+    }
+
+    .o-horizontallist {
+    	display: none;
+    }
+
+    h1 {
+    	text-align: center;
+
+    }
 }

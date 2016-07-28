@@ -1,7 +1,19 @@
 html, body {
-    font-family: $primary-font, sans-serif;
+    // font-family: $primary-font, sans-serif;
+	font-family: 'PT Serif', serif;
     font-size: $base-font-size;
     margin: 0;
     color: $font-color;
-    overflow: hidden;
+    // overflow: hidden;
+}
+
+article img {
+	max-width: 100%;
+	border-radius: 4px;
+	box-shadow: 0px 3px 5px rgba(0,0,0,.6);
+}
+
+img {
+	border-radius: 4px;
+	max-width: 100%;
 }

@@ -1,5 +1,6 @@
 .c-sidebar__logo {
 	max-width: 100%;
+	max-height: 22.5rem;
 }
 
 .c-sidebar__title {
@@ -8,8 +9,9 @@
 	& > a {
 		text-decoration: none;
 		font-style: italic;
-		font-weight: normal;
+		font-weight: bold;
 		font-size: 1.75rem;
+		color: $site-title-color;
 	}
 }
 

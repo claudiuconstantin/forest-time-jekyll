@@ -3,7 +3,7 @@ layout: default
 ---
 
   <ul class="c-posts">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:10 %}
       <li class="c-posts__post grid">
         <!-- <div class="col c-posts__post__iconcontainer">
           <i class="fa fa-lightbulb-o c-posts__post__icon" aria-hidden="true"></i>
@@ -11,10 +11,12 @@ layout: default
         <div class="col">
           <h1 class="c-posts__post__title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
           <p>{{ post.content }}</p>
-          <span class="c-posts__post__meta">Learned about {{ post.tags | join ', ' }} on {{ post.date | date: "%b %-d, %Y" }}</span>
+          <span class="c-posts__post__meta">Posted in {{ post.tags | join ", " }} on {{ post.date | date: "%b %-d, %Y" }}</span>
         </div>
       </li>
-
-   
     {% endfor %}
+    <li class="c-posts__post">
+      <h2 style="margin-top: 1.25rem">Looking for more reads? Check out the <a href="/archive">archive!</a></h2>
+    </li>
   </ul>
+  

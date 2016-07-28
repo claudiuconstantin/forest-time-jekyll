@@ -9,7 +9,7 @@
 title: gaboratorium.xyz
 email: gaboratorium@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Thoughts beyond Offlinia
+  Adventures beyond Offlinia
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gaborpinter.net" # the base hostname & protocol for your site
 twitter_username: gaboratorium

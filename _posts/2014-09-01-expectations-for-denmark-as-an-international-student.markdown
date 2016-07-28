@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Expectations for Denmark as an international student"
+date:   2014-09-01 12:03:16 +0200
+categories: posts
+comments: true
+tags: things denmark student
+---
+Let me explain why did I choose Denmark after all, and why you should think over following me. Picking the right university / college and finding your own way is never easy and Denmark might be a good choice, but not for everyone.
+
+I have studied at a university back in my home country (Hungary) for ages (how sad is that), but I haven't really found what I was looking for. Unfortunately, as a young teenager I didn’t think wide enough to consider studying abroad, and due to the pressure of the rat race, I didn’t choose wisely. I chose something, which was (according to my personality) not bad but OK, but definitely not AWESOME (and I am completely sure the majority of nowadays students feel the same, but that’s another story - coming soon), and I tell you that ain’t good, no-no.
+ 
+Of course, beyond studying the right study programme Denmark had more to offer. Why is it so attractive? Let’s see the key features:
+ 
+- The most eye-catching detail which gets you hooked on is the tuition fee: it is free for every european citizen. Not only the first diploma but any of it and any type (AP, BSc, MSc), which is fantastic, I know. However don’t forget that living abroad is not cheap, not at all. And I don’t want to break the party, but Denmark is exceptionally expensive, specially Copenhagen, so you’ll need loads of money. Even if you are hardcore always-on-the-road guy with low standards and expectations, don’t fool yourself about your surviving skills (I know that feeling), be prepared instead and jump-in only if you are sure about it,  otherwise you might be surprised in a bad way.
+- SU. SU is a huge financial support from the government which is basically meant for the Danish students, but a few years ago they made it available for the international students as well. To get entitled for it you have to provide at least 10 certificated working hours per week. (more details about the SU are coming here soon). I know getting a part-time job in Copenhagen is not easy at all due to the student crowds, but as I fortunately have quite much international working experience I reckon sooner or later (hopefully sooner) I will be able to find one.
+- International environment and socializing: traveling abroad is always a nice adventure. What could be more? Studying abroad of course (surprisingly!). Denmark gets more and more popular, meaning that more and more international students arrive every year. So, let’s say if you are eager to be independent, like meeting new faces and want to practice your English, then Denmark could be good choice for you because quite likely you will meet guys with the same approach (at least as far as I think). The thought of being surrounded by curious, outgoing and social-hungry international people like me simply got me and didn’t let me go, so 10 more points to Griffendor.
+- International diploma in English language. You will study in English, speak in English, live in English. You know you need English. You just need it. Everybody knows the best way of learning a language is using it. But the best way of using it is using it with people at your age, and talking without any pressure, which only appeals if you talking to someone who sings the same blues and doesn’t care about the level of your English (or you doesn’t care if he/she cares). You can work abroad, but talking to your boss or to customers is just not the same.
+- Scandinavia. Well it’s quite subjective, it depends on your personal references if you are into the wild north or not. Personally, I got excited about the thought of moving to Denmark, because I haven’t had any clue before how to imagine these countries up here, and Norway has been always on my bucket list, so this may be one step forward to it.
+
+In conclusion I shall say I expected a socialized, open-minded environment, with nice living circumstances and a practice oriented learn-by-doing educational approach, sharing with people with the same obsession.
+ 
+These are the reasons for the why, and the expectations which I have arrived to Denmark with, as a freshman. Will they match reality? Keep up with the blog of course and you will see!

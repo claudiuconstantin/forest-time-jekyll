@@ -17,3 +17,15 @@ github_username:  gaboratorium
 
 # Build settings
 markdown: kramdown
+
+# Front Matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+        layout: "post"
+        categories: "posts"
+        comments: "true"
+        permalink: "/:year/:month/:day/:title/"

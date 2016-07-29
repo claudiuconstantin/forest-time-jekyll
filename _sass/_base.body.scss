@@ -17,3 +17,8 @@ img {
 	border-radius: 4px;
 	max-width: 100%;
 }
+
+blockquote > p {
+	font-size: 1.25rem;
+	color: $gray-color;
+}

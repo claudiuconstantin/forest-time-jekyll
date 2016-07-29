@@ -5,9 +5,13 @@
 .c-footer__text {
 	text-transform: uppercase;
 	color: $gray-color;
-	font-size: .75rem;
+	font-size: .65rem;
+	a {
+		color: $gray-color;
+	}
 }
 
 .c-footer__text--block {
 	display: block;
+	margin-bottom: .2rem;
 }

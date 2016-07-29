@@ -13,7 +13,7 @@
 .c-navigation__elem {
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
-	padding: .5rem;
+	// padding: .5rem;
 	border-bottom: 1px solid $gray-color;
 	font-size: .75rem;
 	transition: background-color $link-animation-speed;
@@ -22,6 +22,9 @@
 		text-transform: uppercase;
 		color: $gray-color;
 		text-decoration: none;
+		display: block;
+		padding-top: .5rem;
+		padding-bottom: .5rem;
 	}
 
 	&:last-of-type {

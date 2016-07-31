@@ -11,7 +11,7 @@ email: gaboratorium@gmail.com
 description: Adventures beyond Offlinia
 baseurl: "" # the subpath of your site, e.g. /blog
 logo: /assets/logo.png
-url: "http://gaborpinter.net" # the base hostname & protocol for your site
+url: "http://gaboratorium.xyz" # the base hostname & protocol for your site
 twitter_username: gaboratorium
 github_username:  gaboratorium
 repository: gaboratorium/gaboratorium.github.io

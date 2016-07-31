@@ -3,6 +3,10 @@
 	max-height: 22.5rem;
 }
 
+.c-sidebar__logocontainer:hover + .c-sidebar__title > a {
+	color: $warning-color;
+}
+
 .c-sidebar__title {
 	margin-bottom: .25rem;
 	margin-top: 0;

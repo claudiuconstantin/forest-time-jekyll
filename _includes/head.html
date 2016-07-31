@@ -5,10 +5,9 @@
 
   <title>
   	{% if page.title %}
-  		{{ page.title | escape }}
-  	{% else %}
-  		{{ site.title | escape }} // {{ site.description }}
+  		{{ page.title | escape }} - 
   	{% endif %}
+  		{{ site.title | escape }} 
   </title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gridlex/2.1.1/gridlex.min.css">
@@ -26,4 +25,5 @@
   <link rel="shortcut icon" href="/favicons/favicon.ico">
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
+  {% seo %}
 </head>

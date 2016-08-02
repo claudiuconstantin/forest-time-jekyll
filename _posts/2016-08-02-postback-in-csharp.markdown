@@ -58,3 +58,6 @@ I asked a collegue to help me out. The issue was a missing ending bracket in a s
 ```
 
 ![ok](http://media.giphy.com/media/kwQfk9zUJ6eVq/giphy.gif "ok")
+
+## NB
+It is interesting to note that the missing bracket caused no issue on any browser but Safari.

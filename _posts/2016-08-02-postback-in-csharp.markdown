@@ -57,4 +57,4 @@ I asked a collegue to help me out. The issue was a missing ending bracket in a s
 ']'
 ```
 
-![ok](http://media.giphy.com/media/kwQfk9zUJ6eVq/giphy.gif, "ok")
+![ok](http://media.giphy.com/media/kwQfk9zUJ6eVq/giphy.gif "ok")

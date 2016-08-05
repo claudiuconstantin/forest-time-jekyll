@@ -86,7 +86,7 @@ component > ul.modified > li { @extend c-component-name__element1--modifier1 }
 
 ```
 
-In this pattern the `original` modules only relevant if you are migrating from a framework.
+In this pattern the `original` modules are only relevant if you are migrating from an already implemented framework.
 
 Try to keep files small, and not to exceed LN 200.
 

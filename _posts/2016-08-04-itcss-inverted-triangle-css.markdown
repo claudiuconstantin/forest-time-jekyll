@@ -41,11 +41,11 @@ Whenever implementing new CSS or converting existing CSS into ITCSS these steps 
  5. Use ITCSS prefixing and BEM.
 
 #### 1. Adding as a modifier
-Adding an element as a modifier of an existing one is suitable when the element can be implemented with the base block element + some its modifiers without changing the majority of the base elements' rules (To read about block elements and modifiers: [BEM](https://en.bem.info/)).
+Adding an element as a modifier of an existing one is suitable when the element can be implemented with the base block element + some of its modifiers without changing the majority of the base elements' rules (To read about block elements and modifiers: [BEM](https://en.bem.info/)).
 **This compels code recycling**. 
 
 #### 2. Converting our framework to ITCSS
-**ITCSS is designed to be structure without frameworks.** Many frameworks (the most popular ones at least) weights a lot (~166kb), and most of its components are often not even being used, and those which are, are often gets overwritten by our custom rules. These frameworks once we have them, should serve as a helpers in implementation, but in this setup we cannot rely on them because of their complexity and incompatibility.
+**ITCSS is designed to be structure without frameworks.** Many frameworks (the most popular ones at least) weights a lot (~166kb), and most of its components are often not even being used, and those which are, are often gets overwritten by our custom rules. These frameworks once we have them, should serve as helpers in implementation, but in this setup we cannot rely on them because of their complexity and incompatibility.
 
 Recommended way of conversion:
 

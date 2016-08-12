@@ -56,7 +56,37 @@ Recommended way of conversion:
  5. Test
 
 #### 3. One block element, one file
-Always apply [BEM methodology](https://en.bem.info/) (`block-name`, `block-name__element`, `block-name--modifier`). One file should always contain only one block, its elements and modifiers.
+Always apply [BEM methodology](https://en.bem.info/) (`block-name`, `block-name__element`, `block-name--modifier`). One file should always contain only one block, its elements and modifiers, and should follow the following pattern:
+
+```
+// Block
+c-component-name {
+	...
+}
+
+// Modifiers
+c-component-name--modifier1 { ... }
+c-component-name--modifier2 { ... }
+
+// Elements
+c-component-name__element1 { ... }
+c-component-name__element1--modifier1 { ... }
+c-component-name__element2 { ... }
+c-component-name__element1--modifier2 { ... }
+
+// Original - block
+.component { @extend c-component-name }
+
+// Original modifiers
+.component.modified { @extend c-component-name--modifier1 }
+
+// Original elements
+component > ul > li { @extend c-component-name__element1 }
+component > ul.modified > li { @extend c-component-name__element1--modifier1 }
+
+```
+
+In this pattern the `original` modules are only relevant if you are migrating from an already implemented framework.
 
 Try to keep files small, and not to exceed LN 200.
 

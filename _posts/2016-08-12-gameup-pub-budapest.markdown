@@ -14,4 +14,10 @@ So we found [GameUp Pub](http://gameup.hu/), a relatively new place with a very 
 
 <iframe src="https://drive.google.com/file/d/0B4vZ8mV5VTD9Uy0xVnl3TWI2aFU/preview" width="640" height="480"></iframe>
 
-<iframe src="https://drive.google.com/file/d/0B4vZ8mV5VTD9NkkxZG9xellXeWc/preview" width="640" height="480"></iframe>
+
+
+![GameUp Pub](https://lh4.googleusercontent.com/-FSc3N5moOhrEXL2H5pZP518TBMw2w3pMfs4nr1dGAsf7TTKk2gyGaFWISZZtnxt5W_TvKnwRMEWqn4=w1920-h969-rw "GameUp Pub")
+
+![GameUp Pub](https://lh5.googleusercontent.com/wQ7UrN2PJ3ZOB8pKNZgBoWU29qYWmFFFQUKidWyO6DRPURBDAQGLPGC2QTzUeqPvzs5y73FTLoqhCOw=w1920-h969-rw "GameUp Pub")
+
+![GameUp Pub](https://lh4.googleusercontent.com/kDm2vmez0FdVm8GG1BD-NF5Kk5ZvQdptXkiUWx5bBykatCbemunmT_X1KGmKOCoJ05QWKmvtCi5qzQw=w1920-h969-rw "GameUp Pub")

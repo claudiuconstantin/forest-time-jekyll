@@ -10,8 +10,8 @@ I love boardgames and [boardgame cafés](http://gaboratorium.xyz/2015/06/10/the-
 
 So we found [GameUp Pub](http://gameup.hu/), a relatively new place with a very friendly staff. Cosy place, highly recommended.
 
-![GameUp Pub](https://drive.google.com/open?id=0B4vZ8mV5VTD9X2dUUWM0SWRLWHc "GameUp Pub")
+<iframe src="https://drive.google.com/file/d/0B4vZ8mV5VTD9X2dUUWM0SWRLWHc/preview" width="640" height="480"></iframe>
 
-![GameUp Pub](https://drive.google.com/open?id=0B4vZ8mV5VTD9Uy0xVnl3TWI2aFU "GameUp Pub")
+<iframe src="https://drive.google.com/file/d/0B4vZ8mV5VTD9Uy0xVnl3TWI2aFU/preview" width="640" height="480"></iframe>
 
-![GameUp Pub](https://drive.google.com/open?id=0B4vZ8mV5VTD9NkkxZG9xellXeWc "GameUp Pub")
+<iframe src="https://drive.google.com/file/d/0B4vZ8mV5VTD9NkkxZG9xellXeWc/preview" width="640" height="480"></iframe>

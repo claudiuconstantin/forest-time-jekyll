@@ -11,7 +11,7 @@ I have started writing when I moved to Denmark in 2014, since then the blog went
 - to share what I know, what I do, and why I do
 - to learn how to consciously formulate problems and solutions thoroughly
 
-Therefore during composing, simplicity and straight-to-the-point approach is preferred over 	
+Therefore during composing a post, simplicity and straight-to-the-point approach is preferred over 	
 elegance. Raw facts, commands and steps in guidance may play.
 
 ## Under the hood

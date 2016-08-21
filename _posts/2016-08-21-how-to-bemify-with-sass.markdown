@@ -16,7 +16,7 @@ From [https://en.bem.info/methodology/](https://en.bem.info/methodology/):
 
 ## Refactoring existing CSS to apply BEM  with Sass (Bemifying)
 
-Following BEM principles from the first line of CSS is highly recommended, however it might happen that we already have some written and/or we are using some frameworks and we would like to improve on maintainability. In that case Bemifying is the way to go.
+Following BEM principles from the first line of CSS is highly recommended, however it might happen that we already have some written and/or we are using some frameworks (wich we would like to get rid of) and we would like to improve on maintainability. In that case Bemifying is the way to go.
 
 The issue with refactoring our CSS code is that **it is strongly related to our markup and logics**. Refactoring something in multiple places and jumping back and forth between different files can be a pain in the butt (specially when testing & debugging), therefore a flat, step-by-step technique is required where we don't have to shift our attention from the CSS code.
 

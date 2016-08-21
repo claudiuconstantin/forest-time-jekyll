@@ -20,9 +20,9 @@ Following BEM principles from the first line of CSS is highly recommended, howev
 
 The issue with refactoring our CSS code is that **it is strongly related to our markup and logics**. Refactoring something in multiple places and jumping back and forth between different files can be a pain in the butt (specially when testing & debugging), therefore a flat, step-by-step technique is required where we don't have to shift our attention from the CSS code.
 
-With this technique we can **refactor our CSS and apply BEM without touching any HTML or JavaScript**. This comes very handy for testing, and when the CSS refactoring is done and tested, we can begin refactor our HTML and JS.
+With this technique we can **refactor our CSS and apply BEM without touching any HTML or JavaScript**. This comes very handy for testing, and when the CSS refactoring is done and tested, we can begin refactoring our HTML and JS.
 
-In the following example let's assume we have a login screen, with a login box and a signup box.
+In the following example let's assume we have a **login screen**, with a **login box** and a **signup box**.
 
 ```
 .login {
@@ -43,7 +43,7 @@ In the following example let's assume we have a login screen, with a login box a
 
 ## Steps:
   1. Create a BEM structured, individual file
-  2. Create an alias to remove nesting eg.: `.login > h1 { }`
+  2. Create an alias to remove nesting eg.: `.login > h1 { ... }`
   3. Create BEM compatible element eg.: `.login__headline { ... } ` with the properties
   4. Extend alias with BEM elem eg.: `.login > h1 { @extend .login__headline; }`
 
@@ -63,7 +63,7 @@ I recommend to have 1 UI component / file. Therefore I would split the code abov
 
 // Original - block
   .login {
-  	...
+    ...
     h1 { ... }
     h1.warning { ... }
     .email-field { ... }
@@ -81,7 +81,7 @@ I recommend to have 1 UI component / file. Therefore I would split the code abov
 
 ### 2. Create alias for nested elements
 
-Our `.login` element is our block element, so it is in its place (--> no need for creating an alias). But `h1` element is nested, so it should be an element. Our code becomes
+Our `.login` element is our block element, so it is in its place (--> no need for creating an alias). But `h1` element is nested, so it should be a Bem element. Our code becomes:
 
 ```
 // Block
@@ -196,6 +196,8 @@ After going through all the elements and modifiers, our code should look like th
 
 At this point we have succesfully restructured our CSS and applied BEM without touching any HTML or JS. We can start testing, and if we are happy with the result we can continue on refactoring our next component, or jump to the markup or logics.
 
+**Please note:** the `.email-field` element used to be dependent on its parent and changed values whether `.login` had a modifier class or not. We have changed this structure in a way that `.email-field` is now not depending on any other elements but itself. This is one of the principles of BEM, and therefore refactoring the HTML  *actually* means restructuring it, not just renaming the classes.
+
 After succesfully refactoring our HTML and JS files, we can remove the *original* parts.
 
 ## Bemifying template
@@ -211,6 +213,7 @@ After succesfully refactoring our HTML and JS files, we can remove the *original
 // Elements
 	.block__element01 { ... }
 	.block__element02 { ... }
+	.block__element02--modifier01 { ... }
 
 // Original - block
 	.login { @extend .block }
@@ -220,6 +223,7 @@ After succesfully refactoring our HTML and JS files, we can remove the *original
 	.login.rounded { @extend .block--modifier02 }
 
 // Original - elements
-	.block > ul > li { @extend .block__element01 }
-	.block > .greenLine > div { @extend .block__element02 }
+	.login > ul > li { @extend .block__element01 }
+	.login > .greenLine > div { @extend .block__element02 }
+	.login.condensed > .greenLine > div { @extend .block__element02--modifier01 }
 ```

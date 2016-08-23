@@ -6,21 +6,22 @@ categories: posts
 comments: true
 tags: keawebdev  
 ---
-### Santiago
+### Santiago's contact
 
-Unofficial (recommended):
-santiagokea@gmail.com
+**Unofficial (recommended):**
+  santiagokea@gmail.com
 
-Official:
-sand@kea.dk
+**"Official":**
+  sand@kea.dk
 
 ### SU
 
-Marie Birkhoj 
+**Marie Birkhoj**
 
-SU counselor
-Pia gregersen pg@kea.dk
-Service Center at Lygten 16
+**Pia Gregersen**
+  pg@kea.dk
+  SU counselor
+  Service Center at Lygten 16
 
 ### Social 
 

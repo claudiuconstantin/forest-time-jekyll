@@ -6,13 +6,15 @@ categories: posts
 comments: true
 tags: keawebdev  
 ---
-## Santiago's contact
+## Webdev
 
-**Unofficial (recommended):** santiagokea@gmail.com
+**Santiago's unofficial (recommended) e-mail:** santiagokea@gmail.com
 
-**"Official":** sand@kea.dk
+**Santiago's "Official" e-mail:** sand@kea.dk
 
 **Module document:** [View](https://docs.google.com/document/d/1e27PmGJw-Y4IZqmP-YWFgqb2P4tU5KU3qvJVnytV-MY/pub)
+
+**Class work on GitHub:** [Keaproject on GitHub](https://github.com/gaboratorium/keaproject)
 
 ## SU
 

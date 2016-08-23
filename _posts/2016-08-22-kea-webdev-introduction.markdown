@@ -9,26 +9,26 @@ tags: keawebdev
 ### Santiago's contact
 
 **Unofficial (recommended):**
-  santiagokea@gmail.com
+  - santiagokea@gmail.com
 
 **"Official":**
-  sand@kea.dk
+  - sand@kea.dk
 
 ### SU
 
 **Marie Birkhoj**
 
 **Pia Gregersen**
-  pg@kea.dk
-  SU counselor
-  Service Center at Lygten 16
+  - pg@kea.dk
+  - SU counselor
+  - Service Center at Lygten 16
 
 ### Social 
 
-[Keawebdev Slack](https://keawebdev.slack.com/)
-[Web Development 2016](https://www.facebook.com/groups/215100098887982/)
-[KEA Summer intake 2016](https://www.facebook.com/groups/keasummerintake16/)
+  - [Keawebdev Slack](https://keawebdev.slack.com/)
+  - [Web Development 2016](https://www.facebook.com/groups/215100098887982/)
+  - [KEA Summer intake 2016](https://www.facebook.com/groups/keasummerintake16/)
 
 ### Other
-[Mindset Accelerator](http://www.mindsetaccelerator.dk/)
-[Service Desk](http://it.kea.dk/dansk/)
+  - [Mindset Accelerator](http://www.mindsetaccelerator.dk/)
+  - [Service Desk](http://it.kea.dk/dansk/)

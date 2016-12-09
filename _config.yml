@@ -1,34 +1,56 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Site Info
+title:              "The Plain"
+description:        "The Plain is a Minimalist Jekyll theme that focuses on writing matters."
+google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
+google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
 
-# Site settings
-title: gaboratorium.xyz
-email: gaboratorium@gmail.com
-description: Adventures beyond Offlinia
-baseurl: "" # the subpath of your site, e.g. /blog
-logo: /assets/logo.png
-url: "http://gaboratorium.xyz" # the base hostname & protocol for your site
-twitter_username: gaboratorium
-github_username:  gaboratorium
-repository: gaboratorium/gaboratorium.github.io
-gems: 
- - jekyll-seo-tag
+# Author Info
+author_name:        "Heiswayi Nrird"
+author_email:       hnrird@gmail.com
+author_gravatar:    2b38b1b0e7e08b69379bd61582adf0c8 # Gravatar md5 hash
+twitter_username:   HeiswayiNrird
+github_username:    heiswayi # GitHub username
 
-# Build settings
-markdown: kramdown
+# Site Settings
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+permalink:          /notes/:title # Post permalink
+timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-# Front Matter defaults
+# Site Build
+highlighter:        rouge
+#markdown:           redcarpet
+#redcarpet:
+#    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+gems:
+  - jekyll-sitemap
+
+compress_html:
+    clippings:      all
+    ingore:
+        envs:       [ "test" ]
+
 defaults:
   -
     scope:
-      path: ""
-      type: "posts"
+      path:         ""
     values:
-        layout: "post"
-        categories: "posts"
-        comments: "true"
-        permalink: "/:year/:month/:day/:title/"
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"

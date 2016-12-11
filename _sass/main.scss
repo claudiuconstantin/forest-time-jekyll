@@ -109,7 +109,7 @@ span[data-note] {
 }
 .logo {
   position: relative;
-  margin: 0 auto 35px;
+  margin: 0 auto 25px;
   text-align: center;
   animation-duration: 0.7s;
   animation-fill-mode: both;
@@ -133,7 +133,8 @@ span[data-note] {
     box-sizing: border-box;
     &:hover,
     &:focus {
-      background: #f14e32;
+      // background: #f14e32;
+      background: #777
     }
     &:hover + .logo-prompt,
     &:focus + .logo-prompt {
@@ -144,6 +145,8 @@ span[data-note] {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%;
+      width: 80px;
+      height: 80px;
     }
     @media (max-width : 480px) {&:hover + .logo-prompt,
       &:focus + .logo-prompt {
@@ -251,11 +254,15 @@ iframe {
   width: 100%;
 }
 article {
-  max-width: 500px;
+  max-width: 540px;
   margin: 0 auto;
   .title {
     line-height: 1.4em;
     text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: .6rem;
+    font-weight: normal;
   }
   .divider {
     background: #ddd;
@@ -269,14 +276,18 @@ article {
     text-align: center;
     margin: 0 auto;
   }
+  h1 {
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+  }
   hr {
     border: 0;
     border-bottom: 1px solid #000;
     margin: 30px 0;
   }
   p {
-    font-size: 15px;
-    line-height: 1.9em;
+    font-size: 16px;
+    line-height: 1.7em;
     word-wrap: break-word;
   }
   .footnote {
@@ -407,4 +418,9 @@ section {
   100% {
     -webkit-transform: none;
   }
+}
+
+// ITCSS - BEM
+.o-text--bold {
+  font-weight: bold;
 }

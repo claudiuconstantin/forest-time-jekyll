@@ -1,6 +1,6 @@
 # Site Info
-title:              "The Plain"
-description:        "The Plain is a Minimalist Jekyll theme that focuses on writing matters."
+title:              "gaboratorium.xyz"
+description:        "Articles, tutorials, epic stories written by Gábor Pintér"
 google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
 google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
 
@@ -54,3 +54,6 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+
+# path
+cdn_path: http://gaborpinter.net/gaboratorium.xyz

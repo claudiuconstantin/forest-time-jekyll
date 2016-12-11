@@ -1,8 +1,16 @@
 ---
 layout: default
 ---
+<article>
+	<div class="center">
+		<h1 class="title title--main">Welcome to <span class="o-text--bold">{{ site.title }}</span></h1>
+		<time>{{ site.description }}</time>
+	</div>
+</article>
 
 <section>
+
+	
 
 	{% for post in site.posts %}
 		{% unless post.next %}

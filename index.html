@@ -71,15 +71,19 @@ layout: default
   {% assign posts = tag | last %}
 
 <ul>
-<h3 id="{{ t | downcase }}" class="list-title">{{ t | downcase }} &#172;</h3>
-{% for post in posts %}
-  {% if post.tags contains t %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
-  </li>
-  {% endif %}
-{% endfor %}
+	<h3 id="{{ t | downcase }}" class="list-title">{{ t | downcase }} &#172;</h3>
+	{% for post in posts %}
+		{% if post.tags contains t %}
+		<li>
+			<div class="post-date">
+				<span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+			</div>
+			<div class="title">
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			</div>
+		</li>
+		{% endif %}
+	{% endfor %}
 </ul>
 {% endfor %}
 

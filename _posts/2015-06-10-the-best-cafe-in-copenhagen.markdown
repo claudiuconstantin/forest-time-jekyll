@@ -12,8 +12,6 @@ A couple of months ago, we have discovered probably one of the coolest places of
 
 Some of them are free to play anytime, but if you are planning visit week by week ( and why wouldn't you do that?) you better buy an 'awesome membership' which is for a year and costs only 125 DKK. For this price you can play anything, anytime unless it's taken of course which (even though they have several copies of the most popular ones)  sometimes does happen. But what's more important, you support an awesome place where you are probably going to spend many-many hours.
 
-![Bastard Cafe](http://codencoffee.gaborpinter.net/wp-content/uploads/2015/06/Screenshot_1-1024x670.png "Bastard Care")
-
 The café has game gurus, who are eager to help you out with choosing the right game for your company, or explaining the rules. You can even ask for a spectacular  "Looking for Players" flag, indicating that players are welcome to join your game. The people of the place are most likely very open, playing with strangers can be very funny if you are into that.
 
 If I recall correctly, time to time they organize competitions as well in different games. In my opinion it's just a matter of time for them to start hosting Magic competitions (if they are not doing that already).

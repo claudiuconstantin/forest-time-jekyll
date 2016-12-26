@@ -14,6 +14,7 @@ h3,
 h4,
 h5 {
   margin: 45px 0 25px;
+  font-weight: normal;
 }
 img {
   max-width: 100%;
@@ -262,16 +263,9 @@ article {
     font-family: 'Noto Serif', serif;
     font-family: 'Noto Serif', serif;
     margin-bottom: .6rem;
-    font-weight: normal;
+    font-weight: bold;
   }
-  .divider {
-    background: #ddd;
-    background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(#ccc),to(rgba(255,255,255,0)));
-    background: -webkit-linear-gradient(left,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
-    background: linear-gradient(to right,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
-    height: 1px;
-    margin: 2em 0;
-  }
+  
   .center {
     text-align: center;
     margin: 0 auto;
@@ -423,4 +417,25 @@ section {
 // ITCSS - BEM
 .o-text--bold {
   font-weight: bold;
+}
+
+.list-title {
+  // border-bottom: 1px solid #000;
+  // padding-bottom: .5rem;
+}
+
+.divider {
+    background: #ddd;
+    background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(#ccc),to(rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(left,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
+    background: linear-gradient(to right,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
+    height: 1px;
+    margin: 2em 0;
+  }
+
+article img {
+  max-width: 700px;
+  margin-left: -80px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }

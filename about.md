@@ -7,6 +7,8 @@ Hi, I am Gábor Pintér, front end developer [@SimpleSite](http://simplesite.com
 
 You can find me on [Twitter](http://twitter.com/gaboratorium), [LinkedIn](https://dk.linkedin.com/in/gaboratorium) and [GitHub](http://github.com/gaboratorium).
 
+![Me!]({{ site.cdn_path }}/img/about.jpg)
+
 ## Why blogging?
 I have started writing when I moved to Denmark in 2014, since then the blog went through several changes regarding content, context and platform. Today it mainly serves as a devlog and reference base. I have two goals with it:
 

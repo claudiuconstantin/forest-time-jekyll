@@ -25,7 +25,7 @@ layout: default
 
 </article>
 
-<div class="page-navigation">
+<!--<div class="page-navigation">
 	{% if page.next.url %}
     <a class="next" href="{{page.next.url}}" title="NEXT: {{page.next.title}}">&lt;&lt;</a>
 		<span> &middot; </span>
@@ -35,4 +35,31 @@ layout: default
 		<span> &middot; </span>
     <a class="prev" href="{{page.previous.url}}" title="PREV: {{page.previous.title}}">&gt;&gt;</a>
   {% endif %}
-</div>
+</div>-->
+
+	<!-- Disqus comment section -->
+	{% if page.comments %}
+		<div id="disqus_thread"></div>
+			<script>
+			    /**
+			     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+			     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+			     */
+			    
+			    var disqus_config = function () {
+			        this.page.url = "http://gaboratorium.com" +  "notes/{{page.url | json}}";  // Replace PAGE_URL with your page's canonical URL variable
+			        // console.log(this.page.url);
+			        this.page.identifier = "{{page.id | json}}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+			    };
+			    
+			    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+			        var d = document, s = d.createElement('script');
+			        
+			        s.src = '//gaboratorium.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+			        
+			        s.setAttribute('data-timestamp', +new Date());
+			        (d.head || d.body).appendChild(s);
+			    })();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	{% endif %}

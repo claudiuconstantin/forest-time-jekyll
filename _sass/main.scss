@@ -119,7 +119,7 @@ span[data-note] {
   -webkit-animation-fill-mode: both;
   -webkit-animation-name: bounce;
   a {
-    background: #ddd url("gravatar_wrapper.png");
+    background: #ddd;
     color: #000;
     text-decoration: none;
     font-weight: 700;
@@ -134,8 +134,8 @@ span[data-note] {
     box-sizing: border-box;
     &:hover,
     &:focus {
-      // background: #f14e32;
-      background: #777
+      background: #f14e32;
+      // background: #777
     }
     &:hover + .logo-prompt,
     &:focus + .logo-prompt {

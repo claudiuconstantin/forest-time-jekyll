@@ -1,4 +1,9 @@
 <div class="footer">
-  <span class="block">Made with &hearts; using <a href="http://jekyllrb.com/">Jekyll</a> &amp; <a href="https://github.com/heiswayi/the-plain" title="The Plain theme by Heiswayi Nrird">The Plain</a> &middot; &lt;/&gt; on <a href="https://github.com/{{ site.github_username }}" title="Hosted on GitHub">GitHub</a></span>
-  <span class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author_name }}</span>
+  {% assign link = '/about' %}
+  <span class="block">&copy gaboratorium notes 2014-{{ site.time | date: '%Y' }}</span>
+  <span class="block"><a href="{{ link | prepend: site.baseurl }}">About</a> · 
+  <a href="https://twitter.com/{{site.twitter_username}}" target="_blank">Twitter</a> · 
+  <a href="https://github.com/{{site.github_username}}" target="_blank">GitHub</a></span>
+  <span class="block">Theme by <a href="https://github.com/heiswayi/the-plain" target="_blank">Heiswayi Nrird</a></span>
 </div>
+

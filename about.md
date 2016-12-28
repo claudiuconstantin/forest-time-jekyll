@@ -3,9 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
-Hi, I am Gábor Pintér, front end developer [@SimpleSite](http://simplesite.com). I live in Copenhagen and study web development [@Copenhagen School of Design and Technology (KEA)](http://kea.dk).
+Hi, I am Gábor Pintér, front end developer [@SimpleSite](http://simplesite.com). I live in Copenhagen and study web development [@KEA](http://kea.dk).
 
-You can find me on [Twitter](http://twitter.com/gaboratorium) and [GitHub](http://github.com/gaboratorium).
+You can find me on [Twitter](http://twitter.com/{{site.twitter_username}}) and [GitHub](http://github.com/{{site.github_username}}).
 
 ![Me!]({{ site.cdn_path }}/img/about.jpg)
 

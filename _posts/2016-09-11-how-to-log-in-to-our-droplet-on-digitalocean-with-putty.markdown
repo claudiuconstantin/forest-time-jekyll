@@ -25,8 +25,6 @@ When we open up `putty.exe` we will see a configuration screen. We will have to 
 
 `Host Name (or IP address)` is the one we can find on our dashboard on DigitalOcean.
 
-![IP Address on dashboard](http://prntscr.com/cgbia8 "IP address on dashboard")
-
 Make sure port is set to `22` and `Connection type` is `SSH`.
 
 Next go to `SSH` on the left sidebar, and check `Preferred SSH protocol version` to `2 only`.

@@ -14,7 +14,7 @@ This summer has been quite busy for me, unfortunately (or thankfully?) I don't r
 
 I must admit I have waited for this release for a long time. Not because of the features Microsoft has announced, I don't really care about Cortana or the "better" Mail, Calendar and Office apps, or the Xbox integration (if you are reading this, chances are you already know about these things). So I don't want to speak about this part.
 
-![Windows 10](http://codencoffee.gaborpinter.net/wp-content/uploads/2015/07/windows_screen-1024x576.png "Windows 10")
+![Windows 10]({{site.cdn_path}}/img/posts/2015-06-31-first-look-at-windows-10/windows10.png "Windows 10")
 
 I was hoping for a new, clean, deliberate, minimalistic OS with a modern look, so I don't have to feel like I am using an outdated, oldschool system. I was expecting real good ideas over forcing something doesn't work. I was hoping for a direction and consistency. Were my expectations too high, you say? Maybe they were, and the truth is, alongside with excitement, fear came as well, because if the new OS had failed the really last drop of faith in Microsoft would have gone.
 
@@ -32,8 +32,6 @@ Apparently someone has told Microsoft that if someone needs to google how to cha
 
 ### Window management.
 This is one of the (very) few things I have always loved in Windows and missed as a Mac user. Throwing a window to one of the sides to make it half screen size is a very useful gesture in my opinion, I am really using it a lot, and now they took it further. When we do that, the system automatically recognizes, that we would like to see and use 2 windows at the same time, so it offers the rest of the windows letting us to pick the one we wish to enlarge to the other side. Original, useful.
-
-![Windows management](http://codencoffee.gaborpinter.net/wp-content/uploads/2015/07/windows_screen3-1024x576.png "Windows management")
 
 ### Minimalistic, clean and consistent U
 One of the best part of Windows 10 is that it's not Windows 8. They have removed all the visual clutter, all the useless panels which come from the top, from the left side, from the right side and from nowhere. It doesn't feel like 2 products merged together any more.

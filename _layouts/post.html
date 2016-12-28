@@ -29,7 +29,14 @@ layout: default
 	<!-- Disqus comment section -->
 	{% if page.comments %}
 	<div class="divider divider--bottom"></div>
-	<p class="comment-label"><span class="o-text--bold">Congrats, you have read the post!</span> Leave a comment if you like and I will reply as soon as I can, thanks — Gábor</p>
+	<div class="o-grid">
+		<div class="o-grid">
+			<i class="fa fa-hand-peace-o thanks-icon" aria-hidden="true"></i>
+		</div>
+		<div>
+			<p class="comment-label"><span class="o-text--bold">Congrats, you have read the post!</span> Leave a comment if you like and I will reply as soon as I can. Thanks — Gábor</p>
+		</div>
+	</div>
 	<div id="disqus_thread"></div>
 	<script>
 		var disqus_config = function () {

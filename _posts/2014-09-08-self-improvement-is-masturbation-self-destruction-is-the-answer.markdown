@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Self improvement is masturbation, self destruction is the answer"
+title:  '"Self improvement is masturbation, self destruction is the answer"'
 date:   2014-09-8 16:38:16 +0200
 categories: posts
 comments: true
@@ -8,7 +8,13 @@ tags: things
 ---
 Let me tell you my opinion about how can
 
-chasing success, fame, getting your ass in shape, learning how to become a photoshop ninja, working out to get six pack, learning all night long flexing your brain, making as much money as you are able to, working on getting the best grades at school (and more…)
+  - chasing success, fame 
+  - getting your ass in shape
+  - learning how to become a photoshop ninja
+  - working out to get six pack
+  - learning all night long flexing your brain
+  - making as much money as you are able to
+  - working on getting the best grades at school (and more…)
 
 be the biggest weakness and failure of your life.
 
@@ -16,15 +22,13 @@ be the biggest weakness and failure of your life.
 
 One of the most baffling quote in one of my (and I’m sure many other people’s) all time favorite movie, the Fight Club is:
 
-Self-developement is masturbation, now self destruction…(is the answer)
+> Self-developement is masturbation, now self destruction…(is the answer)
 
 At first sight it seems to exceptionally destructive, and drives us on the wrong way easily without any explanation, so let’s have a look at it. Of course, nobody might know what the writer / director meant exactly (maybe not even they), but here is my solution related to my experiences.
 
 Since I have changed my viewpoints about time management and personal development (be harder better faster stronger…with actions not plans), my eyes have opened wider to spot more and more people in my environment more accurately, who are eager to develop themselves in any aspects with passion and who are seem to be someones who found their way. Maybe the world is changing, maybe I just used to be blind, or maybe it’s a pink fog around me but as I see giving shit about your own potential and talent is getting more popular among people, which fondles my soul.
 
-BUT!
-
-Productivity does not equal happiness. Sure, it’s a nice thing, but definitely not enough. I should say it is necessary but not satisfactory. Doing the right workout plan to get in shape and stay super sexy may not particularly mean happiness to everyone. Neither having good grades, having much money, nor making a nice family.
+However, productivity does not equal happiness. Sure, it’s a nice thing, but definitely not enough. I should say it is necessary but not satisfactory. Doing the right workout plan to get in shape and stay super sexy may not particularly mean happiness to everyone. Neither having good grades, having much money, nor making a nice family.
 
 Have you ever met people who were working so hard on something and at the end they didn’t end up satisfied? Have you ever met students (with good grades for instance) who had no idea when they were doing on their courses? Or student athletes who have been doing some sports for years and having nice body because of that, but still not being happy? Have you seen men with good salary and suspiciously idealistic family, who definitely didn’t seem one who found what he was looking for?
 

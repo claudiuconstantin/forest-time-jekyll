@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 <noscript>
 	<style>
 
@@ -11,6 +12,8 @@ layout: default
 
 	</style>
 </noscript>
+
+
 
 <article>
 
@@ -27,28 +30,21 @@ layout: default
 	{% if page.comments %}
 		<div id="disqus_thread"></div>
 			<script>
-					/**
-						*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-						*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-						*/
-					
+
 					var disqus_config = function () {
-							this.page.url = "http://gaboratorium.com" +  "notes/{{page.url | json}}";  // Replace PAGE_URL with your page's canonical URL variable
-							// console.log(this.page.url);
-							this.page.identifier = "{{page.id | json}}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+							var disqus_developer = 1;
+							// this.page.url = "{{ page.url }}";  // Replace PAGE_URL with your page's canonical URL variable
+							// this.page.identifier = "{{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 					};
 					
-					(function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
-							var d = document, s = d.createElement('script');
-							
-							s.src = '//gaboratorium.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
-							
-							s.setAttribute('data-timestamp', +new Date());
-							(d.head || d.body).appendChild(s);
-					})();
+						// (function() { // DON'T EDIT BELOW THIS LINE
+						// 	var d = document, s = d.createElement('script');
+						// 	s.src = '//gaboratorium.disqus.com/embed.js';
+						// 	s.setAttribute('data-timestamp', +new Date());
+						// 	(d.head || d.body).appendChild(s);
+						// })();
 			</script>
 			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 	{% endif %}
-
 </article>
 

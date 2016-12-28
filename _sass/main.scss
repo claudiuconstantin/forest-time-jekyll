@@ -192,8 +192,8 @@ ol {
   padding-left: 50px;
   li {
     word-wrap: break-word;
-    line-height: 1.7em;
-    margin-bottom: .85em;
+    line-height: 1.2em;
+    margin-bottom: 1em;
   }
   img {
     margin: 40px 0;
@@ -424,7 +424,7 @@ section {
 
 .comment-label {
   font-style: italic;
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 0rem;
   color: #5cb767;
 }
@@ -436,6 +436,10 @@ section {
     background: linear-gradient(to right,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
     height: 1px;
     margin: 2em 0;
+  }
+
+  .divider--bottom {
+    margin: 2.5rem 0;
   }
 
 h3 {

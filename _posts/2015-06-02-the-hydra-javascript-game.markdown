@@ -12,8 +12,8 @@ So just to make the #100DaysOfCode challenge a bit more fun I have came out with
 
 After reading a lot about "Should I learn JS first, or jump right into jQuery" I decided to start with pure JavaScript before I master the wonderful power of jQuery.
 
-Being a good designer, I couldn't resist to start working the on the graphics.
+Being a good designer, I couldn't resist to start working the on the graphics *(an image has been removed from here)*.
 
-![Hydra](http://codencoffee.gaborpinter.net/wp-content/uploads/2015/06/hydra_screen-1024x550.png "Hydra")
+~~Here is the code from the first day, and of course you can follow the development process in the 100DaysOfCode folder.~~
 
-Here is the code from the first day, and of course you can follow the development process in the 100DaysOfCode folder.
+Edit: [click here to play](http://gaborpinter.net/webapps/hydra/).

@@ -8,6 +8,6 @@ tags: illustration design project
 ---
 At school, we had to create a a logo / illustration using Adobe Illustrator. Here is my result.
 
-![Hipster Penguin](https://d13yacurqjgara.cloudfront.net/users/583841/screenshots/1936662/penguin_dribbble.png "Hipster Penguin")
+![Hipster Penguin]({{site.cdn_path}}/img/posts/2014-09-08-hipster-penguin-illustrator-assignment/hipsterpenguin-01.png "Hipster Penguin")
 
-As always, [here you can find the PDF](https://drive.google.com/file/d/0B4vZ8mV5VTD9d1g1eTBOZ0E5d0U/edit) ("documentation").
+~~As always, [here you can find the PDF](https://drive.google.com/file/d/0B4vZ8mV5VTD9d1g1eTBOZ0E5d0U/edit) ("documentation").~~

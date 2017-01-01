@@ -42,7 +42,7 @@ But don’t take those shit. You have to define yourself, don’t let others do.
 
 At some point you have to make a decision, and think over turning 180 degrees. You have to consider that all the things you have been thinking about yourself, all the things you have been heard from parents, friends and everyone might be wrong and false. Everything. You should consider to start over from zero, like you were just born.
 
-It’s only after we’ve lost everything that we’re free to do anything…
+> It’s only after we’ve lost everything that we’re free to do anything…
 
 Fortunately, you don’t (necessarily) have to get your house exploded, or burn your skin to start thinking over from your deep core identity. This is when traveling comes into play.
 
@@ -52,7 +52,7 @@ Specially when traveling a lot, because it is a little bit like dying and being 
 
 Being away from your friends, parents, and redefining yourself does not necessarily mean that everything you used to have or know before was wrong, so please don’t get the message wrong. It is not about changing every single aspect of your life, but to consider it as a possible option.
 
-That’s what traveling helps in. To think it over, to start it over. To step back and see the whole picture by yourself.
+## That’s what traveling helps in. To think it over, to start it over. To step back and see the whole picture by yourself.
 
 Thats why travelers are so open minded. Girls and boys, everyone I have met who has been traveling around was so inspirational and motivating because of their self confidence. When somebody stops trying to impress others, he/she stops being selfish as well.
 
@@ -70,5 +70,5 @@ Sooner or later people just stop giving shit about the plastic and decoration, a
 
 And if you succeed you might end up not being afraid to show and share yourself including your tries, failures and your vulnerabilities as well because you know that it is only your effort what matters, nothing else.
 
-The entire life is a fucking beauty contest. We go to school, then college, then work. Fuck them! Do what you love, fuck the rest!
+> The entire life is a fucking beauty contest. We go to school, then college, then work. Fuck them! Do what you love, fuck the rest!
 

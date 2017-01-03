@@ -4,7 +4,7 @@ title:  '"Self improvement is masturbation, self destruction is the answer"'
 date:   2014-09-8 16:38:16 +0200
 categories: posts
 comments: true
-tags: things
+tags: life
 ---
 Let me tell you my opinion about how can
 

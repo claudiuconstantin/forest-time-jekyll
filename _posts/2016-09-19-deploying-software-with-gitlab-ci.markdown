@@ -4,7 +4,7 @@ title: "Deploying software with GitLab CI"
 date: 2016-09-19 14:10:19
 categories: posts
 comments: true
-tags: gitlab nodejs ci
+tags: random
 ---
 I am working currently on setting up an automated deployment. Since my current project's repo is located on [GitLab](https://gitlab.com/), I decided to go with [GitLab Continous Integration](https://about.gitlab.com/gitlab-ci/).
 

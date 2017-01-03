@@ -4,7 +4,7 @@ title:  "How to change the world?"
 date:   2014-06-11 15:25:16 +0200
 categories: posts
 comments: true
-tags: things
+tags: life
 ---
 We may think that we are so small, so tiny compared to the big world, or to the big world’s big people, that we have absolutely no power over it, and our actions are mostly irrelevant. Because does it matter if I skip today’s workout or not? Does one vote make any sense? Does it make any sense if I say my opinion or should I just avoid argument and save time instead? Or if you take more food than you actually can consume because "it is going to be thrown out anyway...".
 

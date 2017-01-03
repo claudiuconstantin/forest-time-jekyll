@@ -4,7 +4,7 @@ title:  "Jekyll plugins part 1"
 date:   2016-07-31 10:45:16 +0200
 categories: posts
 comments: true
-tags: jekyll ruby 
+tags: random 
 ---
 ## 1. Installing a plugin
 I wanted to fire up the [jekyll-seo-tag plugin](https://github.com/jekyll/jekyll-seo-tag). It is a plugin which generates the header for you having some SEO in it.

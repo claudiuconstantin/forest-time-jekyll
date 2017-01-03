@@ -4,7 +4,7 @@ title:  "App review: Wunderlist"
 date:   2014-08-20 23:05:16 +0200
 categories: posts
 comments: true
-tags: review app
+tags: review
 ---
 Organization is the key to success.
 Quite possibly one of those easy-but-useful proverbs, which are so easy to remember and may bring you actual results. Funny, that I heard it for the first time as a 22-year-old glass collector of a bar from a bartender, who tried to help me to organize the glasses in the right way. Poor Glyn probably didn’t know that with his sentence he’s gonna make a prelude for an app review.

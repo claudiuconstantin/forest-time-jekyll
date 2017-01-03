@@ -4,7 +4,7 @@ title: "Deploying Nodejs application on DigitalOcean droplet"
 date: 2016-09-15 16:30:29
 categories: posts
 comments: true
-tags: nodejs digitalocean ubuntu
+tags: nodejs javascript
 ---
 Tutorials I have went through during deployment:
 

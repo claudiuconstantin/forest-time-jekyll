@@ -4,7 +4,7 @@ title:  "The Best Café in Copenhagen"
 date:   2015-06-10 20:17:53 +0200
 categories: posts
 comments: true
-tags: denmark copenhagen places
+tags: denmark travelling
 ---
 A couple of months ago, we have discovered probably one of the coolest places of Copenhagen, called Bastard Café. The place is absolutely amazing, it offers more than 800 different board games, including old and new, classic, party games and nerd ones (Game of Thrones, Star Wars, Witcher, Bioshock, Magic etc.) and all-stars as well (Catan, Carcassonne, Cards Against Humanity,  Dixit, Arkham Horror etc.).
 

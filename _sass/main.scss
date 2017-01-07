@@ -193,7 +193,7 @@ ol {
   padding-left: 50px;
   li {
     word-wrap: break-word;
-    line-height: 1.2em;
+    line-height: 1.7em;
     margin-bottom: 1em;
   }
   img {
@@ -423,6 +423,14 @@ section {
   font-weight: bold;
 }
 
+.o-text--center {
+  text-align: center;
+}
+
+.o-text--block {
+  display: block;
+}
+
 .comment-label {
   font-style: italic;
   margin-top: 0rem;
@@ -459,6 +467,18 @@ article img {
   flex-flow: row nowrap;
 }
 
+.o-grid--align-center {
+  justify-content: center;
+}
+
+.c-bio {
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem 1rem;
+}
+
 .thanks-icon {
   margin: auto;
   font-size: 1.5rem !important;
@@ -474,5 +494,8 @@ article img {
       transform: none;
       margin-left: -20px;
     }
-    
+}
+
+.c-post-list-elem {
+  line-height: 1.2rem;
 }

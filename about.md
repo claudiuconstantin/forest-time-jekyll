@@ -3,20 +3,31 @@ layout: page
 title: About
 permalink: /about/
 ---
-Hi, I am Gábor Pintér, front end developer [@SimpleSite](http://simplesite.com). I live in Copenhagen and study web development [@KEA](http://kea.dk).
+Hi, my name is Gábor Pintér, I am a Front End Developer [@SimpleSite](http://simplesite.com). I live in Copenhagen and study Web Development [@KEA](http://kea.dk).
 
 You can find me on [Twitter](http://twitter.com/{{site.twitter_username}}) and [GitHub](http://github.com/{{site.github_username}}).
 
 ![Me!]({{ site.cdn_path }}/img/about.jpg)
 
 ## Why blogging?
-I have started writing when I moved to Denmark in 2014, since then the blog went through several changes regarding content, context and platform. Today it mainly serves as a devlog and reference base. I have two goals with it:
 
-- to share what I know, what I do, and why I do
-- to learn how to consciously formulate problems and solutions thoroughly
+I have started writing when I moved to Denmark in 2014, since then the blog went through several changes regarding content, context and platform. Today I have 2 goals with it:
 
-Therefore during composition, simplicity and straight-to-the-point approach is preferred over 	
-elegance. Raw facts, commands and steps in guidance may play.
+  - to share what I know, what I do, and why I do with people who are eager to learn
+  - to learn how to consciously formulate problems and solutions thoroughly
+
+Therefore during composition, simplicity and straight-to-the-point approach may be preferred over 	
+elegance.
+
+Feel free to subscribe to [RSS]({{site.url}}/feed.xml) (using [Blogtrottr](https://blogtrottr.com/) for example).
+
+## Personal projects
+
+  - **Foobarbot** - Snippet manager and search engine written in NodeJS and VueJS (*currently on hiatus*) - [Live](http://foobarbot.com)
+  - **Keaproject** - Exercises and source code shared by students of Web Development 1st semester - 2016 KEA. - [GitHub](https://github.com/gaboratorium/keaproject)
+  - **Sassup** - A full set yet lightweight SASS boilerplate for scalable projects - [GitHub](https://github.com/gaboratorium/Sassup)
+  - **AlmaMater** - E-textbook library designed for public schools written in AngularJs - [Live](http://gaboratorium.github.io/AlmaMater/#/), [GitHub](https://github.com/gaboratorium/AlmaMater)
+
 
 ## Under the hood
-The blog currently is built on [Jekyll](https://jekyllrb.com/). The site is hosted by [GitHub Pages](https://pages.github.com/), and posts from WordPress have been migrated. The [beautiful theme was designed by Heiswayi Nrird](https://github.com/heiswayi/the-plain).
+The blog currently is built on [Jekyll](https://jekyllrb.com/). The site is hosted by [GitHub Pages](https://pages.github.com/), and posts from WordPress have been migrated. The site is using a [beautiful theme designed by Heiswayi Nrird](https://github.com/heiswayi/the-plain) with minor custom modifications.

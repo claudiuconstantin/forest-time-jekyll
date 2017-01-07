@@ -22,7 +22,7 @@ layout: default
 		{% endunless %}
 
 		<ul>
-			<li>
+			<li class="c-post-list-elem">
 				<div class="post-date">
 					<span>{{ post.date | date: "%b %d" }}</span>
 				</div>
@@ -74,7 +74,7 @@ layout: default
 	<h3 id="{{ t | downcase }}" class="list-title">{{ t | downcase }} &#172;</h3>
 	{% for post in posts %}
 		{% if post.tags contains t %}
-		<li>
+		<li class="c-post-list-elem">
 			<div class="post-date">
 				<span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
 			</div>

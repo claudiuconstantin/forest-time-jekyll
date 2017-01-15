@@ -10,7 +10,7 @@ tags:  life
 It has been more than 2 weeks since I have requested my account deletion from the [Dark Side](https://medium.com/@hargup/leaving-the-evil-empire-of-facebook-7f7b1955bb37#.tc82crkhl), which means the detox period is over and my decision irreversibly came into force. [I have quit Facebook](https://www.youtube.com/watch?v=mGcHNnI2mh4).
 
 
-I've recieved various responses and questions from friends I've talked to about it, so let's go through the details and look at the whys and hows.
+I've received various responses and questions from friends I've talked to about it, so let's go through the details and look at the whys and hows.
 
 ![There is no spoon - The Matrix]({{site.cdn_path}}/img/posts/2017-01-14-i-am-leaving-facebook/neo-spoon.jpg)
 
@@ -157,7 +157,7 @@ If we use WhatsApp the same way as Messenger (with hundreds of contacts, being o
 
 *Please don't get me wrong, I am not trying to sell Skype (it's quite a shitty product sofware-wise), I just tried to highlight the cultural differences. Anything else can do the same job.*
 
-I am not expecting important messages on Sype because I don't have a lot of contacts there, and if something is so urgent, I get called anyway. Anything else can wait.
+I am not expecting important messages on Skype because I don't have a lot of contacts there, and if something is so urgent, I get called anyway. Anything else can wait.
 
 ## Farewell "friends"
 
@@ -171,19 +171,19 @@ So how did it go so far?
 
 The first few days were indeed interesting. I realized that in many case of my friends the only contact information I had ... was their names. No e-mail, no phone numbers, nothing. So I had to call up a common friend to ask for this given person's phone number. I think it was something I haven't done in years.
 
-I certainly communicate with less people; I don't know what is up with who besides that few people I talk to regularly. I recieve less music and cat videos, and I don't know who is watching which movie and who's having what for breakfast.
+I certainly communicate with less people; I don't know what is up with who besides that few people I talk to regularly. I receive less music and cat videos, and I don't know who is watching which movie and who's having what for breakfast.
 
 However, on the other hand I receive way more sms messages and phone calls. I am no longer participated in any group conversations, so I don't feel the urge of staying updated. Instead, I get informed directly by someone. 
 
 If something is hosting a party let's say, everyone gets invited on Messenger and of course not one by one, but in one group message. Except me, because I get called on the phone directly. 
 
-The chitchat about exams, meetup arrangements, or the how-are-you-talks shifted from online chatting to phone calls. I am writing e-mails, long ones. Plus, whenever I get one, it feels like a package from eBay, which always feel like a little bit of Christmas. Furthermore, I just simply check and maintain one less thing day-by-day.
+The chitchat about exams, meetup arrangements, or the how-are-you-talks shifted from online chatting to phone calls. I am writing e-mails, long ones. Plus, whenever I get one, it feels like a package from eBay, which always feels a little bit like Christmas. Furthermore, I just simply check and maintain one less thing day-by-day.
 
 ### Vincent, we happy?
 
 Quitting Facebook does feel good, and I can only recommend to give it a shot. However I don't want to be aggressive or too smart about it; it was a decision of mine which I am happy for, and which I wanted to write about.
 
-I know it sounds cheesy but truth is I actually do feel less lonely since I left. Because when I am alone, it is only me, nobody else. I am not hooked on being connected all the time; I don't get continously reminded that others are living their lives right now; I don't know what others are doing or what they have done recently; which helps me to stay in the moment and disconnect from the happiness-race. 
+I know it sounds cheesy but truth is I actually do feel less lonely since I left. Because when I am alone, it is only me, nobody else. I am not hooked on being connected all the time; I don't get continuously  reminded that others are living their lives right now; I don't know what others are doing or what they have done recently; which helps me to stay in the moment and disconnect from the happiness-race. 
 
 
 

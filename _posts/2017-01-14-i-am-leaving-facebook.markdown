@@ -175,7 +175,7 @@ I certainly communicate with less people; I don't know what is up with who besid
 
 However, on the other hand I receive way more sms messages and phone calls. I am no longer participated in any group conversations, so I don't feel the urge of staying updated. Instead, I get informed directly by someone. 
 
-If something is hosting a party let's say, everyone gets invited on Messenger and of course not one by one, but in one group message. Except me, because I get called on the phone directly. 
+If someone is hosting a party let's say, everyone gets invited on Messenger and of course not one by one, but in one group message. Except me, because I get called on the phone directly. 
 
 The chitchat about exams, meetup arrangements, or the how-are-you-talks shifted from online chatting to phone calls. I am writing e-mails, long ones. Plus, whenever I get one, it feels like a package from eBay, which always feels a little bit like Christmas. Furthermore, I just simply check and maintain one less thing day-by-day.
 

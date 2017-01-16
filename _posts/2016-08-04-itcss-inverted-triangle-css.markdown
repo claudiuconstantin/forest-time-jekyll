@@ -58,29 +58,29 @@ Recommended way of conversion:
 #### 3. One block element, one file
 Always apply [BEM methodology](https://en.bem.info/) (`block-name`, `block-name__element`, `block-name--modifier`). One file should always contain only one block, its elements and modifiers, and should follow the following pattern:
 
-```
-// Block
+```css
+/*  Block */
 c-component-name {
-	...
+	/* ... */
 }
 
-// Modifiers
-c-component-name--modifier1 { ... }
-c-component-name--modifier2 { ... }
+/*  Modifiers */
+c-component-name--modifier1 { /* ... */ }
+c-component-name--modifier2 { /* ... */ }
 
-// Elements
-c-component-name__element1 { ... }
-c-component-name__element1--modifier1 { ... }
-c-component-name__element2 { ... }
-c-component-name__element1--modifier2 { ... }
+/*  Elements */
+c-component-name__element1 { /* ... */ }
+c-component-name__element1--modifier1 { /* ... */ }
+c-component-name__element2 { /* ... */ }
+c-component-name__element1--modifier2 { /* ... */ }
 
-// Original - block
+/*  Original - block */
 .component { @extend c-component-name }
 
-// Original modifiers
+/*  Original modifiers */
 .component.modified { @extend c-component-name--modifier1 }
 
-// Original elements
+/*  Original elements */
 component > ul > li { @extend c-component-name__element1 }
 component > ul.modified > li { @extend c-component-name__element1--modifier1 }
 
@@ -104,7 +104,7 @@ ITCSS prefixing means prefixing our classnames with either `c-` or `o-` dependin
 
 The transition from original class name to the new one can be easily achieved without touching the markup and javascript with `extend`s:
 
-```
+```css
 .o-panel {
     display: block;
     position: absolute;
@@ -117,7 +117,7 @@ The transition from original class name to the new one can be easily achieved wi
 	display:block;
 }
 
-//Foundation references (as is in HTML and JS)
+/* Foundation references (as is in HTML and JS) */
 .panel { @extend .o-panel; }
 .panel.is-active { @extend .o-panel--active; }
 ```

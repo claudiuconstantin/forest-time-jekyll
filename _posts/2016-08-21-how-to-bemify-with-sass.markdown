@@ -24,58 +24,58 @@ With this technique we can **refactor our CSS and apply BEM without touching any
 
 In the following example let's assume we have a **login screen**, with a **login box** and a **signup box**.
 
-```
+```css
 .login {
-	...
-	h1 { ... }
-	h1.warning { ... }
-	.email-field { ... }
-	&.condensed { ... }
-	&.condensed .email-field { ... }
+	/* ... */
+	h1 { /* ... */ }
+	h1.warning { /* ... */ }
+	.email-field { /* ... */ }
+	&.condensed { /* ... */ }
+	&.condensed .email-field { /* ... */ }
 }
 
 .signup {
-	.signup h1 { ... }
-	.signup h2 { ... }
+	.signup h1 { /* ... */ }
+	.signup h2 { /* ... */ }
 }
 ```
 
 
 ## Steps:
   1. Create a BEM structured, individual file
-  2. Create an alias to remove nesting eg.: `.login > h1 { ... }`
-  3. Create BEM compatible element eg.: `.login__headline { ... } ` with the properties
+  2. Create an alias to remove nesting eg.: `.login > h1 { /* ... */ }`
+  3. Create BEM compatible element eg.: `.login__headline { /* ... */ } ` with the properties
   4. Extend alias with BEM elem eg.: `.login > h1 { @extend .login__headline; }`
 
 ### 1. Create a BEM structured, individual file
 
 I recommend to have 1 UI component / file. Therefore I would split the code above into 2 different files, as they are 2 different components: something like `c-login-box.scss` and `c-signup-box.scss` ([Why prefix it with `c-`?](http://gaboratorium.xyz/2016/08/04/itcss-inverted-triangle-css/)) Each of these files containing UI components should follow an easy to understand and standardized format. Start up with the following:
 
-```
-// Block
-  // you will insert code here
+```css
+/* Block */
+  /* you will insert code here */
 
-// Modifiers
-  // you will insert code here
+/* Modifiers */
+  /* you will insert code here */
 
-// Elements
-  // you will insert code here
+/* Elements */
+  /* you will insert code here */
 
-// Original - block
+/* Original - block */
   .login {
-    ...
-    h1 { ... }
-    h1.warning { ... }
-    .email-field { ... }
-    &.condensed { ... }
-    &.condensed .email-field { ... }
-}
+      /* ... */
+      h1 { /* ... */ }
+      h1.warning { /* ... */ }
+      .email-field { /* ... */ }
+      &.condensed { /* ... */ }
+      &.condensed .email-field { /* ... */ }
+    }
 
-// Original - modifiers
-  // you will insert code here
+/* Original - modifiers */
+  /* you will insert code here */
 
-// Original - elements
-  // you will insert code here
+/* Original - elements */
+  /* you will insert code here */
 ```
 
 
@@ -83,12 +83,12 @@ I recommend to have 1 UI component / file. Therefore I would split the code abov
 
 Our `.login` element is our block element, so it is in its place (--> no need for creating an alias). But `h1` element is nested, so it should be a Bem element. Our code becomes:
 
-```
-// Block
-// Modifiers
-// Elements
+```css
+/* Block */
+/* Modifiers */
+/* Elements */
 
-// Original - block
+/* Original - block */
   .login {
     ...
     h1.warning { ... }
@@ -97,10 +97,10 @@ Our `.login` element is our block element, so it is in its place (--> no need fo
     &.condensed .email-field { ... }
   }
 
-// Original - modifiers
+/* Original - modifiers */
 
-// Original - elements
-  .login > h1 { ... }
+/* Original - elements */
+  .login > h1 { /* ... */ }
 
 ```
 
@@ -108,27 +108,26 @@ Our `.login` element is our block element, so it is in its place (--> no need fo
 
 Move the properties to a BEM compatible element.
 
-```
-// Block
-  .c-login { ... }
+```css
+/* Block */
+  .c-login { /* ... */ }
 
-// Modifiers
+/* Modifiers */
 
-// Elements
-  .c-login__headline { ... }
+/* Elements */
+  .c-login__headline { /* ... */ }
 
-// Original - block
+/* Original - block */
   .login {
-    
-    h1.warning { ... }
-    .email-field { ... }
-    &.condensed { ... }
-    &.condensed .email-field { ... }
+    h1.warning { /* ... */ }
+    .email-field { /* ... */ }
+    &.condensed { /* ... */ }
+    &.condensed .email-field { /* ... */ }
   }
 
-// Original - modifiers
+/* Original - modifiers */
 
-// Original - elements
+/* Original - elements */
   .login > h1 { }
 ```
 
@@ -138,27 +137,27 @@ At this point we have no relation between our old (`.login` and `.login > h1`) a
 
 This happens with the [`@extend` Sass command.](http://sass-lang.com/guide).
 
-```
-// Block
-  .c-login { ... }
+```css
+/* Block */
+  .c-login { /* ... */ }
 
-// Modifiers
-  .c-login__headline { ... }
-// Elements
+/* Modifiers */
+  .c-login__headline { /* ... */ }
+/* Elements */
 
-// Original - block
+/* Original - block */
   .login {
     @extend .c-login;
 
-    h1.warning { ... }
-    .email-field { ... }
-    &.condensed { ... }
-    &.condensed .email-field { ... }
+    h1.warning { /* ... */ }
+    .email-field { /* ... */ }
+    &.condensed { /* ... */ }
+    &.condensed .email-field { /* ... */ }
   }
 
-// Original - modifiers
+/* Original - modifiers */
 
-// Original - elements
+/* Original - elements */
   .login > h1 { @extend .c-login__headline; }
 
 
@@ -168,26 +167,26 @@ This happens with the [`@extend` Sass command.](http://sass-lang.com/guide).
 
 After going through all the elements and modifiers, our code should look like this:
 
-```
-// Block
-  .c-login { ... }
+```css
+/* Block */
+  .c-login { /* ... */ }
 
-// Modifiers
-  .c-login--condensed { ... }
+/* Modifiers */
+  .c-login--condensed { /* ... */ }
 
-// Elements
-  .c-login__headline { ... }
-  .c-login__headline--warning { ... }
-  .c-login__email-field { ... }
-  .c-login__email-field--condensed { ... }
+/* Elements */
+  .c-login__headline { /* ... */ }
+  .c-login__headline--warning { /* ... */ }
+  .c-login__email-field { /* ... */ }
+  .c-login__email-field--condensed { /* ... */ }
 
-// Original - block
+/* Original - block */
   .login { @extend .c-login; }
 
-// Original - modifiers
+/* Original - modifiers */
   .login.condensed { @extend .c-login--condensed; }
 
-// Original - elements
+/* Original - elements */
   .login > h1 { @extend .c-login__headline; }
   .login > h1.warning { @extend .c-login__headline--warning; }
   .login > .email-field { @extend .c-login__email-field; }
@@ -202,27 +201,27 @@ After succesfully refactoring our HTML and JS files, we can remove the *original
 
 ## Bemifying template
 
-```
-// Block
-	.block { ... }
+```css
+/* Block */
+	.block { /* ... */ }
 
-// Modifiers
-	.block--modifier01 { ... }
-	.block--modifier02 { ... }
+/* Modifiers */
+	.block--modifier01 { /* ... */ }
+	.block--modifier02 { /* ... */ }
 
-// Elements
-	.block__element01 { ... }
-	.block__element02 { ... }
-	.block__element02--modifier01 { ... }
+/* Elements */
+	.block__element01 { /* ... */ }
+	.block__element02 { /* ... */ }
+	.block__element02--modifier01 { /* ... */ }
 
-// Original - block
+/* Original - block */
 	.login { @extend .block }
 
-// Original - modifiers
+/* Original - modifiers */
 	.login.green { @extend .block--modifier01 }
 	.login.rounded { @extend .block--modifier02 }
 
-// Original - elements
+/* Original - elements */
 	.login > ul > li { @extend .block__element01 }
 	.login > .greenLine > div { @extend .block__element02 }
 	.login.condensed > .greenLine > div { @extend .block__element02--modifier01 }

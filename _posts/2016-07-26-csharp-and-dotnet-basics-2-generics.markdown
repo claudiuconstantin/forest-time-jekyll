@@ -14,7 +14,7 @@ In the following example we would like to compare objects to each other with the
 ## The issue
 Probably the easiest approach to write such a comparison could be something like this:
 
-```
+```csharp
 public class Calculator
 {
   public static bool areEqual(object value1, object value2)
@@ -26,7 +26,7 @@ public class Calculator
 
 And then, simply using this class:
 
-```
+```csharp
 bool Equal = Calculator.areEqual(10,10);
 ```
 
@@ -36,7 +36,7 @@ However this also means that at runtime, the value types will have to be convert
 
 Another issue with this approach, is that it lets us do things like:
 
-```
+```csharp
 bool Equal = Calculator.areEqual(10, “banana”)
 ```
 
@@ -46,7 +46,7 @@ With generics we can easily get around these 2 problems.
 ## Creating a generic class
 Let’s create a generic class.
 
-```
+```csharp
 public class Calculator
 {
   public static bool areEqualL<T>(T value1, T value2)
@@ -59,7 +59,7 @@ public class Calculator
 Inside angle-brackets we indicate the type our parameters will have. T can be basically anything, using T is a common naming convention as it can stand for Type or Template. Our parameters will have this type, which can be anything, integer or string for instance.
 When calling this generic method, we have to specify with angle-brackets again the type we are going to use:
 
-```
+```csharp
 bool Equal = Calculator.areEqual<int>(10, 10)
 ```
 
@@ -68,5 +68,5 @@ As soon as we do this, IntelliSense will guide us and give us hints, when provid
 This way we reset the strongly-typed nature of our application. Furthermore we avoided boxing and the performance loss which comes along with it.
 
 ## References
-  -Part 56 C# Tutorial Generics in C# by kudvenkat: [https://www.youtube.com/watch?v=-zHRmXkJ5Bw](https://www.youtube.com/watch?v=-zHRmXkJ5Bw)
-  -C# Generics Tutorial: Whats and Whys by Programming with Mosh: [https://www.youtube.com/watch?v=gyal6TbgmSU&index=4&list=PLF697Yv1UIHoCJdqJyTVMikRzXV5h_6ve](https://www.youtube.com/watch?v=gyal6TbgmSU&index=4&list=PLF697Yv1UIHoCJdqJyTVMikRzXV5h_6ve)
+  - Part 56 C# Tutorial Generics in C# by kudvenkat: [https://www.youtube.com/watch?v=-zHRmXkJ5Bw](https://www.youtube.com/watch?v=-zHRmXkJ5Bw)
+  - C# Generics Tutorial: Whats and Whys by Programming with Mosh: [https://www.youtube.com/watch?v=gyal6TbgmSU&index=4&list=PLF697Yv1UIHoCJdqJyTVMikRzXV5h_6ve](https://www.youtube.com/watch?v=gyal6TbgmSU&index=4&list=PLF697Yv1UIHoCJdqJyTVMikRzXV5h_6ve)

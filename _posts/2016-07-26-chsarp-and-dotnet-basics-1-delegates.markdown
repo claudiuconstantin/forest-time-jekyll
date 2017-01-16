@@ -40,7 +40,7 @@ We will also organize our namespaces and put them into Assemblies (DLL or EXE). 
 ### Implicit type conversion
 Implicit type conversation happens when the compiler is positive about the data types being compatible and no data loss will happen. Values will be able to be converted to a different type implicitly.
 
-```
+```csharp
 // Example 1
 byte b = 1;
 int i = b;
@@ -53,7 +53,7 @@ The size of an integer is compiler dependent, nowadays usually 4 or 8 bytes. It 
 Explicit type conversion (casting)
 Let’s try the other way around and see if it works (spoiler alert: it won’t).
 
-```
+```csharp
 // Example 1
 int i = 1;
 byte b = i;
@@ -68,7 +68,7 @@ However the number 300 is beyond the capacity of a byte (255), cannot be stored 
 When the compiler notices that there is a chance of data loss, it will not allow implicit type conversation. That’s when we can use explicit type conversation, and use casting.
 What we need to do, is to prefix the target variable with the target type.
 
-```
+```csharp
 int i = 300;
 byte b = (byte)i;
 ```
@@ -76,7 +76,7 @@ byte b = (byte)i;
 ## Conversation between non-compatible types
 It may happen that we want to convert types which are not compatible with each other. Explicit type conversation won’t help us here, so we will have to use the Convert class, or use the Parse method.
 
-```
+```csharp
 string s = "1";
 int i = Convert.ToInt32(s);
 int j = int.Parse(s);
@@ -85,7 +85,7 @@ int j = int.Parse(s);
 ## Exception handling
 Exception is .NET error reporting mechanism. Let’s have a look how to handle exceptions. In the following example we are trying to assign a value to a byte, which will overflow, as 1245 is to big to be stored in a byte.
 
-```
+```csharp
 var number = "1234";
 byte b = Convert.ToByte(number);
 Console.WriteLine(b);
@@ -93,7 +93,7 @@ Console.WriteLine(b);
 
 We will get a System.OverflowException error, whichactually happens during conversion. What we can do, is to wrap the script with a try-catch block.
 
-```
+```csharp
 try {
   var number = "1234";
   byte b = Convert.ToByte(number);
@@ -110,7 +110,7 @@ This way we can prevent the .NET runtime application to stop our application, an
 Delegates are similar to function pointers. As you may assume from the name, delegates are message carriers; they let communication happen between different components. To be more precise, a delicate is a representative to communicate between to parties. First, let’s see how they work and how can we create them, and then we will have a look at their benefits and handful usage.
 First, let’s define a method, which we will use to represent the usage of the delegate.
 
-```
+```csharp
 // 1. Create a regular method
 static void SomeMethod()
 {
@@ -121,7 +121,7 @@ static void SomeMethod()
 
 Then we will create a delegate, and then an object of it (inside our Main function).
 
-```
+```csharp
 // 2. First create a delegate
 public delegate void SomeMethodDelegate();
 // 3. Then create an object
@@ -145,7 +145,7 @@ And no matter what weighting scales we put our bowl at the beginning, we have on
 Well, one approach is using delegates of course.
 Let’s code our 3 weighting scales first, they can look like something like this:
 
-```
+```csharp
 static void DisplayWaterLevel(int i)
 {
   Console.WriteLine(i);
@@ -162,7 +162,7 @@ static void DisplayIfFull(bool m)
 
 As you can see, all these function do is they print whatever they get, nothing fancy. Our bowl will be quite simple as well.
 
-```
+```csharp
 class Bowl
 {
   public void PouringWater()
@@ -177,7 +177,7 @@ class Bowl
 
 Our bowl class has one method which when is called, fills up our bowl ml by ml. We of course call this method in our Main function:
 
-```
+```csharp
 static void Main(string[] args)
 {
   Bowl obj = new Bowl();
@@ -188,7 +188,7 @@ static void Main(string[] args)
 Now, if we wanted to measure this bowl, we could call any of the predefined methods (weighting scales) inside the loop, however this approach would let us to use DisplayIfFull as well, which we want to avoid, as we would like to see only a number, bool is not allowed.
 This is where delegates come into play. Let’s create one inside our Bowl class:
 
-```
+```csharp
 class Bowl
 {
   public delegate void Scale(int i);
@@ -210,7 +210,7 @@ And inside the loop we are simply referring to that.
 
 Now, we have to change our PouringWater call, as it expects a method as parameter:
 
-```
+```csharp
 static void Main(string[] args)
 {
   Bowl obj = new Bowl();
@@ -233,6 +233,6 @@ Eventually our scales (=methods) became callback functions of our PouringWater f
   -…can be chained together, and multiple methods can be called on a single event
 
 ## References
-  -This article was written mainly based on one of Mosh Hamedani’s tutorial which I highly recommend to watch: C# Tutorial for Beginners: Learn C# from Scratch by Programming with Mosh: [https://www.youtube.com/watch?v=gfkTfcpWqAY](https://www.youtube.com/watch?v=gfkTfcpWqAY)
-  -Delegates (C# Programming Guide) by MSDN: [https://msdn.microsoft.com/en-us/library/ms173171.aspx](https://msdn.microsoft.com/en-us/library/ms173171.aspx)
-  -C# delegates explained by .NET Interview Preparation videos: [https://www.youtube.com/watch?v=ifbYA8hyvjc](https://www.youtube.com/watch?v=ifbYA8hyvjc)
+  - This article was written mainly based on one of Mosh Hamedani’s tutorial which I highly recommend to watch: C# Tutorial for Beginners: Learn C# from Scratch by Programming with Mosh: [https://www.youtube.com/watch?v=gfkTfcpWqAY](https://www.youtube.com/watch?v=gfkTfcpWqAY)
+  - Delegates (C# Programming Guide) by MSDN: [https://msdn.microsoft.com/en-us/library/ms173171.aspx](https://msdn.microsoft.com/en-us/library/ms173171.aspx)
+  - C# delegates explained by .NET Interview Preparation videos: [https://www.youtube.com/watch?v=ifbYA8hyvjc](https://www.youtube.com/watch?v=ifbYA8hyvjc)

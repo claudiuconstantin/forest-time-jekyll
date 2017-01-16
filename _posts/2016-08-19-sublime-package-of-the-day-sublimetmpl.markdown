@@ -14,7 +14,7 @@ With this package we can easily create file templates with some *dynamic* conten
 
 ### 1. Create a new command in `Default.sublime-commands`: 
 
-```
+```json
 {
   "caption": "Tmpl: Create post", "command": "sublime_tmpl",
   "args": {"type": "post"}
@@ -23,7 +23,7 @@ With this package we can easily create file templates with some *dynamic* conten
 
 ### 2. Create a caption in `Main.sublime-menu`:
 
-```
+```json
 {
   "caption": "post",
   "command": "sublime_tmpl",
@@ -35,7 +35,7 @@ With this package we can easily create file templates with some *dynamic* conten
 
 ### 3. Assign extension and syntax highlighting to your new type in `SublimeTmpl.sublime-settings` (User):
 
-```
+```json
 {
   "post": {
     "syntax": "Packages/Markdown/Markdown.tmLanguage",
@@ -46,7 +46,7 @@ With this package we can easily create file templates with some *dynamic* conten
 
 ### 4. Create the template in `SublimeTmpl/templates`:
 
-```
+```yaml
 ---
 layout: post
 title: "${1:Post title}"

@@ -123,7 +123,7 @@ Messenger has been always the number one reason for checking my Facebook, [Messe
 
 The fact that there is place where *might be something delivered specifically for me*, made me want to know about that place **all the time**. I even wanted to know if there was nothing. I needed that nothing. Multiple times a day.
 
-Sure thing it was just a look at the screen of my phone. Or just a new tab in Chrome then "F" then Enter. But my mind get addicted to it. The real payoff lay not in the time it took; but the in clarity and independence of my mind.
+Sure thing it was just a look at the screen of my phone. Or just a new tab in Chrome then "F" then Enter. But my mind get addicted to it. The real payoff lay not in the time it took; but in the clarity and independence of my mind.
 
 Besides the fact that I became terrifyingly addicted, I had another concern which does not leak from Messenger but takes shape in it, and that was *online chatting itself*.
 

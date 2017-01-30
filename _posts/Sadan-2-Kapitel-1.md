@@ -62,3 +62,41 @@ Hun møder også tit med hendes venner så går de på cafe eller i biografen og
 Hun virker ikke så meget sport her i Danmark. 
 
 Når hun har tid, går hun til svømmehallen. Hun løber også en eller to gange om ugen.
+
+## 6.5 Lytteøvelse (6.12)
+
+Kan du huske Majbritt fra mit arbejde?
+
+Hun er gift med en mand fra Madrid, og hun er helt vildt med byen.
+
+Madrid... Hvorfor varede de vil der? Vi har været bade i Rom, Prag, Niese, Budapest, vi har aldrig vaeret i Madrid.
+
+Skal vi ikke taler ned til sommer?
+
+Jeg har været i Madrid. Kan du ikke huske det? Jeg var der med Marie Cahtrine i Sommeren 99. Der var en fantastisk tur. De har besogte mange rigtig gode kunst museer, og hun var vild med Prado museet. Hun synes at spanske mad var fantastisk, hun var vild med tapas og den gode rødvin.
+
+"Men du kan jo godt spansk mad..."
+
+"Ja, det gøre jeg". De spist den bedste tapas i Barcelona da de var på bryllupsrejse. 
+
+"Kan du huske det?"
+
+"Selvfølgelig kan jeg huske vores bryllupsrejse. Det var så romantisk, også selvom det regner en hel uge.
+
+"Regner det? Det kan jeg ikke huske. " Men han kan huske så FC Barcelona spillet på Camp Nou. Barcelona vandt fire - et over Real Madrid. Det var en fantastisk fodboldkamp. 
+
+"Jeg var hjemme på hotellet hele aftenen. Det regnede og det var hundekoldt." Hun ser spansk TV hel aften.
+
+De var i Paris i 2004. Det var en rigtig fin tur. De var op Eiffeltårnet, de besogte Luvr og Champs Elyse. De spist masse lækker fransk mad. De shoppede vil hele tiden. 
+
+"Du shoppede" Han kun købte billige brune sko.
+
+Birthe betale ikke noget på hele rejsen. 
+
+"Ja ok, vi brugt mit credit kord. Men alle de ting vi købt bare til Birthe." Kjole, jakke, solbriller, smykker.
+
+"Jeg har fået en god ide! Skal vi ikke tage tilbage til Paris i vores sommerferie? Tilbage til byernes by." 
+
+"Jeg var så hælder til Madrid. Jeg har aldrig set Real Madrid spille på deres hjemmebane"  
+
+"Nej nej, Paris er vores by Søren. Det bliver fantastisk."

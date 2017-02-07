@@ -4,7 +4,7 @@ title: "Installing XAMPP (LAMPP) on Ubuntu 16.04 LTS"
 date: 2017-02-04 09:48:29
 categories: posts
 comments: true
-tags:  random
+tags:  linux
 ---
 
 Installing XAMPP on Linux can be a bit tricky. First, let's download the package from [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html).

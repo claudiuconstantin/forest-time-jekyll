@@ -1,4 +1,4 @@
-### Danish numbers
+## Danish numbers
 
 | Cardinals       | Ordinals                     |
 | --------------- | ---------------------------- |
@@ -21,7 +21,29 @@
 | 80 - firs       | 80. -  firsindstyvende       |
 | 90 - halvfems   | 90. -  halvfemsindstyvende   |
 
-## 5. Lytteøvelse
+## Konjunktioner
+
+- når
+
+- som
+
+- hvis
+
+- fordi
+
+- da
+
+- at
+
+- og
+
+- men
+
+- der
+
+  ​
+
+## 1.5 Lytteøvelse (1.17)
 
 Hun hedder Dalia Jensen og hun er to og tredive år.
 
@@ -100,3 +122,23 @@ Birthe betale ikke noget på hele rejsen.
 "Jeg var så hælder til Madrid. Jeg har aldrig set Real Madrid spille på deres hjemmebane"  
 
 "Nej nej, Paris er vores by Søren. Det bliver fantastisk."
+
+## 8.5 Lytteøvelse (8.15)
+
+1. **Hvor har Ludmilla været på ferie?**  Min mand og jeg har været på ferie i Portugal.
+
+2. **Hvor har Giovanni været på ferie?** Jeg har bare været i Danmark. Jeg har været på Bornholm i 3 uger og vejret var rigtig dårligt i ferien.
+
+3. **Hvad lavede Ludmilla i ferien?**  Først var vi en uge i Lissabon og bagefter kørte vi sydpå. Det var en af de bedste ferie jeg har haft. Vi boede lide i centrum, så de var masse spændende butikker hvor vi shoppede, og der var også rigtig mange gode restauranter hvor vi spist lækker mad, og druk hvid vin. Det var meget romantisk. 
+
+4. **Hvad skete der på restauranten?** En aften da vi spiste på en restaurant fik jeg pludselig en masse blomster og en stor diamantring. De var en gave fra min mand Christopher.
+
+5. Er Ludmillas mand italianer?, Nej det er han ikke, han er fra Rødovre.
+
+6. **Hvor vil Ludmilla gerne hen på sin bryllupsrejse?** Ja, men jeg tror måske vi tager til Norge. Jeg er helt vild med den norske natur.
+
+
+## Skriftligt hjemmearbejde: En god ferie
+
+jeg tog et sabbatår da jeg var færdige med gymnasiet. I 2014 fik jeg et job i USA, så rejste jeg der.
+

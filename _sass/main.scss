@@ -15,7 +15,7 @@ h3,
 h4,
 h5 {
   margin: 45px 0 25px;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 2rem;
 }
 img {
@@ -275,7 +275,7 @@ article {
   }
   h1 {
     font-family: 'Noto Serif', serif;
-    font-weight: normal;
+    font-weight: bold;
   }
   hr {
     border: 0;
@@ -454,6 +454,8 @@ section {
 
 h3 {
   text-transform: uppercase;
+  color: #888;
+  font-weight: 300;
 }
 
 article img {

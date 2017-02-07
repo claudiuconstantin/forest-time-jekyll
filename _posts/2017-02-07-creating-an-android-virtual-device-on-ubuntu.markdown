@@ -18,3 +18,11 @@ sudo apt-get install lib32stdc++6
 ```
 
 Ta-da!
+
+Edit: A [quick solution](http://stackoverflow.com/questions/36258908/cannot-launch-avd-in-emulator-output-sh-1-glxinfo#36316787) for the missing `glxinfo` issue:
+
+```python
+sudo apt-get update && sudo apt-get install mesa-utils
+```
+
+Also, a note to myself: don't forget to run Android Studio as a super user, otherwise the builds will fail due to insufficient user permissions!

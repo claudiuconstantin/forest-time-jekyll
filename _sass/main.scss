@@ -242,16 +242,22 @@ table {
   width: 100%;
   table-layout: fixed;
   margin: 45px 0;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  border-collapse: collapse;
   thead {
     background: #f2f2f2;
   }
   th {
     text-align: left;
     padding: 8px 10px;
-    border-bottom: 15px solid #fff;
   }
   td {
     padding: 4px 0;
+    padding: .75rem;
+  }
+  tr {
+    border-bottom: 1px solid lightgray;
   }
 }
 iframe {

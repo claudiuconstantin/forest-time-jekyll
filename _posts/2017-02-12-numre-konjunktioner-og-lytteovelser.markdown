@@ -32,7 +32,17 @@ tags:  dansk
 
 ## Konjunktioner
 
-Når, som, hvis, fordi, da, at, og, men, der.
+| Konjunktion	| Eksempel                     |
+| ----------- | ---------------------------- |
+| når					| Jeg ser tit film, når jeg har fri. |
+| hvis  			| Hvis vejret bliver dårligt, tager vi til Spanien.  |
+| da    			| Da jeg var barn, kunne jeg ikke fisk.  |
+| og    			| Vi var der i sytten dage, og vejret var rigtig dejligt.  |
+| der   			| Der er mange københavnere, der aldrig har været i Jylland.  |
+| som   			| Jeg har nogle kolleger, som kun kan tale engelsk. Jeg fik det gennem en pige, som jeg kender.  |
+| fordi 			| Claus går til portugisisk, fordi måske han skal flytte til Brasilien  |
+| at   				| Han siger, at han kan godt lide dansk mad.  |
+| men   			| Foråret begynder officielt 1. marts, men normalt springer træerne ikke ud før i begyndelsen af maj.  |
 
 ## Lytteøvelser
 

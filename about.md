@@ -7,7 +7,7 @@ Hi, my name is Gábor Pintér, I am a Front End Developer [@SimpleSite](http://s
 
 You can find me on [Twitter](http://twitter.com/{{site.twitter_username}}) and [GitHub](http://github.com/{{site.github_username}}).
 
-![Me!]({{ site.cdn_path }}/img/about.jpg)
+<!--![Me!]({{ site.cdn_path }}/img/about.jpg)-->
 
 ## Why blogging?
 

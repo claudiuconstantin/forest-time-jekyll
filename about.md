@@ -30,4 +30,4 @@ Feel free to subscribe to [RSS]({{site.url}}/feed.xml) (using [Blogtrottr](https
 
 
 ## Under the hood
-The blog currently is built on [Jekyll](https://jekyllrb.com/). The site is hosted by [GitHub Pages](https://pages.github.com/), and posts from WordPress have been migrated. The site is using a [beautiful theme designed by Heiswayi Nrird](https://github.com/heiswayi/the-plain) with minor custom modifications.
+The blog currently is built on [Jekyll](https://jekyllrb.com/). The site is hosted by [GitHub Pages](https://pages.github.com/), and posts from WordPress have been migrated. The site is using a [beautiful theme designed by Heiswayi Nrird](https://github.com/heiswayi/the-plain) with minor custom modifications. The little guy on the top was designed by [Joanna Nielubiewatrobki](https://www.behance.net/user/?username=nielubiewatrobki).

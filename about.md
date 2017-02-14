@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title:  About the blog
 permalink: /about/
 ---
 Hi, my name is Gábor Pintér, I am a Front End Developer [@SimpleSite](http://simplesite.com). I live in Copenhagen and study Web Development [@KEA](http://kea.dk).

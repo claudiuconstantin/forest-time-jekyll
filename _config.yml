@@ -58,3 +58,7 @@ defaults:
 
 # path
 cdn_path: http://gaborpinter.net/gaboratorium-notes
+
+# kramdown
+kramdown:
+  input: GFM

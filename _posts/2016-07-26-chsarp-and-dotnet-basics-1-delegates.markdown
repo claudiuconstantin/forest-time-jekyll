@@ -37,7 +37,9 @@ which is a default .NET namespace for default built in utility classes and primi
 We will also organize our namespaces and put them into Assemblies (DLL or EXE). An assembly is a container of related namespaces. Our application will consist of assemblies.
 
 ## Type conversion
+
 ### Implicit type conversion
+
 Implicit type conversation happens when the compiler is positive about the data types being compatible and no data loss will happen. Values will be able to be converted to a different type implicitly.
 
 ```csharp

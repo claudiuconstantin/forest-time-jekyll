@@ -27,7 +27,7 @@ layout: default
 					<span>{{ post.date | date: "%b %d" }}</span>
 				</div>
 				<div class="title">
-					<i class="fa fa-file-text-o fa-fw" aria-hidden="true"></i>
+					<i class="fa fa-book fa-fw" aria-hidden="true"></i>
 					<!--<i class="fa fa-hashtag fa-fw" aria-hidden="true"></i>-->
 					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 				</div>
@@ -41,7 +41,7 @@ layout: default
 <!-- Jump to tag -->
 <ul class="inline-list">
 	{% for tag in site.tags %}
-	<li><span><a href="#{{tag | first}}"><i class="fa fa-tag fa-fw" style="color: gray; margin-right: .25rem;" aria-hidden="true"></i>{{tag | first}}</a></span></li>
+	<li><span><a href="#{{tag | first}}"><i class="fa fa-hashtag fa-fw" style="color: gray; margin-right: .25rem;" aria-hidden="true"></i>{{tag | first}}</a></span></li>
 	{% endfor %}
 </ul>
 
@@ -52,7 +52,7 @@ layout: default
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-	<h3 id="{{ t | downcase }}" class="list-title"><i class="fa fa-tag fa-fw" style="color: gray; margin-right: .25rem;" aria-hidden="true"></i> {{ t | downcase }} &#172;</h3>
+	<h3 id="{{ t | downcase }}" class="list-title"><i class="fa fa-hashtag fa-fw" style="color: gray; margin-right: .25rem;" aria-hidden="true"></i> {{ t | downcase }} &#172;</h3>
 	{% for post in posts %}
 		{% if post.tags contains t %}
 		<ul class="postt-title-ul">
@@ -61,7 +61,7 @@ layout: default
 					<span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
 				</div>
 				<div class="title">
-					<i class="fa fa-file-text-o fa-fw" aria-hidden="true"></i>
+					<i class="fa fa-book fa-fw" aria-hidden="true"></i>
 					<a href="{{ post.url }}">{{ post.title }}</a>
 				</div>
 			</li>

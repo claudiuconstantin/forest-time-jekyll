@@ -8,17 +8,16 @@
 	<title>{{ site.title }}</title>
 {% endif %}
 
+<!-- Twitter card -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@{{ site.twitter_username }}" />
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
 
+<!-- Site description -->
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-{% if site.google_verify %}
-	<meta name="google-site-verification" content="{{ site.google_verify }}">
-{% endif %}
-
+<!-- Favicons -->
 <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/assets/apple-touch-icon.png?v=dLBYq4a3J6">
 <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/favicon-32x32.png?v=dLBYq4a3J6" sizes="32x32">
 <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/favicon-16x16.png?v=dLBYq4a3J6" sizes="16x16">
@@ -27,24 +26,20 @@
 <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon.ico?v=dLBYq4a3J6">
 <meta name="theme-color" content="#ffffff">
 
-<!---->
-
-
-<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/core.css">
-<link rel="canonical" href="{{ page.url | prepend: site.baseurl }}">
-
-
+<!-- XML -->
 <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml" />
 
-<!--Scrolltop-->
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/material-scrolltop.css" sizes="32x32">
+<!-- CSS -->
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/core.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/material-scrolltop.css" sizes="32x32">
 
+<!-- Canonical -->
+<link rel="canonical" href="{{ page.url | prepend: site.baseurl }}">
+
+<!-- Roboto and Roboto Slab fonts -->
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,700" rel="stylesheet">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
 
 {% if jekyll.environment == 'production' %}
 

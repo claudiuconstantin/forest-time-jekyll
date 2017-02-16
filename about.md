@@ -21,6 +21,17 @@ elegance.
 
 Feel free to subscribe to [RSS]({{site.url}}/feed.xml) (using [Blogtrottr](https://blogtrottr.com/) for example).
 
+<!-- Tags -->
+<div class="divider hide-for-small"></div>
+<section>
+  <ul class="inline-list">
+    {% for tag in site.tags %}
+    <li><span><a href="/#{{tag | first}}"><i class="fa fa-hashtag fa-fw" style="color: gray; margin-right: .25rem;" aria-hidden="true"></i>{{tag | first}}</a></span></li>
+    {% endfor %}
+  </ul>
+</section>
+<div class="divider hide-for-small"></div>
+
 ## Personal projects
 
   - **Foobarbot** - Snippet manager and search engine written in NodeJS and VueJS (*currently on hiatus*) - [Live](http://foobarbot.com)

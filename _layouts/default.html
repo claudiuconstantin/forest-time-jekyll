@@ -28,20 +28,17 @@ layout: compress
 
 		{% endif %}
 
-
- 		<!--  jQuery 1.7+  -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
     <!-- Material button -->
     <button class="material-scrolltop" type="button"></button>
 
-    <!-- Include js plugin -->
+    <!-- jQuery and scrolltop.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/assets/material-scrolltop.js"></script>
 
-    <!-- Initialize -->
-	<script>
-			$('body').materialScrollTop();
-	</script>
+		<!-- Scrolltop button init -->
+		<script>
+				$('body').materialScrollTop();
+		</script>
 
 	</body>
 

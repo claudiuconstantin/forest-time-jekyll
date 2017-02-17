@@ -647,3 +647,13 @@ article img {
 .c-author-bio__line--title {
   font-weight: bold;
 }
+
+.c-author-bio__line--unstyled-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.c-author-bio__line--unstyled-link:hover {
+  text-decoration: underline;
+  color: #1565C0;
+}

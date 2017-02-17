@@ -26,6 +26,22 @@ layout: default
 
 	{{ content }}
 
+	<div class="divider"></div>
+
+	<!-- Author bio -->
+	<div class="c-author-bio">
+		<img src="{{ site.baseurl }}/assets/avatar.jpg" alt="" class="c-author-bio__avatar">
+		<div>
+			<!--<p>-->
+			<span class="c-author-bio__line c-author-bio__line--title">Gábor Pintér</span>
+			<span class="c-author-bio__line">Web developer, hobby blogger, decent guy</span>
+			<a href="http://gaboratorium.com" class="c-author-bio__line">http://gaboratorium.com</a>
+			<!--</p>-->
+		</div>
+	</div>
+
+	<div class="divider"></div>
+
 	<!-- Disqus comment section -->
 	{% if page.comments %}
 	<div id="disqus_thread"></div>

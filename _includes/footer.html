@@ -1,6 +1,6 @@
 <div class="footer">
   {% assign link = '/about' %}
-  <span class="block">&copy gaboratorium notes 2014-{{ site.time | date: '%Y' }}</span>
+  <span class="block">&copy {{site.title}} 2014-{{ site.time | date: '%Y' }}</span>
   <span class="block"><a href="{{ link | prepend: site.baseurl }}">About</a> · 
   <a href="{{ site.url }}/feed.xml">RSS</a> · 
   <a href="https://twitter.com/{{site.twitter_username}}" target="_blank">Twitter</a> · 

@@ -5,6 +5,7 @@ date:   2016-08-02 14:01:16 +0200
 categories: posts
 comments: true
 tags: csharp
+icon: code-fork
 ---
 
 ## The issue

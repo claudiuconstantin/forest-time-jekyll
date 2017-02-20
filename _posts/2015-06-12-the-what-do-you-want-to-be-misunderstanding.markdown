@@ -5,6 +5,7 @@ date:   2015-06-12 11:26:16 +0200
 categories: posts
 comments: true
 tags: life
+icon: lightbulb-o
 ---
 This article is a sequel and extension of one of the previous articles named 'Self improvement is masturbation, self destruction is the answer', you may check it out.
 

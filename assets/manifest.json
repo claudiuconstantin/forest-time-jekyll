@@ -2,12 +2,12 @@
     "name": "Notes",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png?v=qAqpNnm60K",
+            "src": "/android-chrome-192x192.png?v=dLBYq4a3J6",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-384x384.png?v=qAqpNnm60K",
+            "src": "/android-chrome-384x384.png?v=dLBYq4a3J6",
             "sizes": "384x384",
             "type": "image/png"
         }

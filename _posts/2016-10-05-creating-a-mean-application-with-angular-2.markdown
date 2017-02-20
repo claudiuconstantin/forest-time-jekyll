@@ -5,6 +5,7 @@ date: 2016-10-05 20:51:29
 categories: posts
 comments: true
 tags:  javascript nodejs angular typescript
+icon: code-fork
 ---
 With a friend of mine I have decided to create a MEAN application just for fun. To make it interesting we are going to build it with **Angular 2**. Here are the list of tutorials I have went through so far:
 

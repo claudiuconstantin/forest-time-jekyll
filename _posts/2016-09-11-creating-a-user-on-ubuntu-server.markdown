@@ -5,6 +5,7 @@ date: 2016-09-11 17:04:45
 categories: posts
 comments: true
 tags: random
+icon: code-fork
 ---
   1. Connect as root `ssh root@9IP_ADDRESS`
   2. New user: `adduser username`

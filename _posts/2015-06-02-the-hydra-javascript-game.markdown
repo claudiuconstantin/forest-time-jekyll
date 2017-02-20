@@ -5,6 +5,7 @@ date:   2015-06-02 21:28:53 +0200
 categories: posts
 comments: true
 tags: javascript project
+icon: code-fork
 ---
 Learning new skills either via books, tutorials, videos or from school is always nice, but my personal experience is that the most beneficial way of learning happens when the need is present. Making small projects which entertain you only by making them.
 

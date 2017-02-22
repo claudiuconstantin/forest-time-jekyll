@@ -5,8 +5,15 @@ date: 2017-02-12 19:11:29
 categories: posts
 comments: true
 tags:  life
+icon: lightbulb-o
 published: false
 ---
+
+From time to time, I try to come up with various formulas for living a life at its fullest. It might be easy to get some inspiration from [here](https://www.ted.com/talks/robert_waldinger_what_makes_a_good_life_lessons_from_the_longest_study_on_happiness) and [there](), but for some reason I always liked to come up with optimal systems. 
+
+Casey Neistat american vlogger about maximalism, talks about his time management [video](https://youtu.be/ZexvTZ1sV8U?t=3m17s). His motto is work harder, productivity over all. What productivity drives: **growth**. He manages to accomplish things, like his huge YouTube channel, but he is cutting time on family and sleep!
+
+> Organization is the key to success.
 
 Some try to come up with a formula of life (Mark Manson, guy from Ted Talk with that table, Zsofi sent me), this is my solution.
 

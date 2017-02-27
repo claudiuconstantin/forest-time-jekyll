@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Øve dansk: E-mail til en gammel ven"
-date: 2017-02-20 18:11:29
+date: 2017-02-26 18:11:29
 categories: posts
 comments: true
 tags:  dansk

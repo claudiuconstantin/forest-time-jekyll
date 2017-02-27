@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Øve dansk: Lidt om mig..."
+title: "Homokóra"
 date: 2017-02-18 18:11:29
 categories: posts
 comments: true
@@ -8,16 +8,15 @@ tags:  dansk
 published: false
 ---
 
-Dette er en lille essay jeg har skrift for at øve det følgende:
+Vasárnap este, tíz óra. A laptopom előtt ülök, mely mellett egy pizzamaradványokat tartó tányér fenyegetően les reám. Rátekintek az Inbox-omra, és megkönnyebbültséggel nyugtázom hogy minden teendőt elvégeztem mára s a hétre, készen állok a hétfőre.
 
-- **Modalverber** (kunne/skulle/ville/måtte)
-- **Konjunktion** (så/fordi/at/hvis/om/når/da/som/der/eller/men/og)
-- **Tid** (i/for/på)
-- Forskelle mellem **synes/tror**
+Pár órával ezelőtt még a hetemet értékeltem ki. Megcsináltam a könyvelést, átfutottam mit tettem a kapcsolataimért és a céljaim eléréséért. Fanyar lelkesedéssel konstatálom, hogy a blogomban gyűlnek a piszkozatok, Google Photos-ban gyűlnek a vágásra váró anyagok.
 
-## Lidt om mig
+Szívás, de ezt osztotta a gép. Harcolok az idő elleni harccal, és lám mégis időről időre engem is utolér az emberi telhetetlenség. Bár a dán házifeladatokat megcsináltam, minden beadandóval időben elkészültem, a héten nem is egy hanem kettő ismerőssel Skype-oltam akikkel már nagyon rég nem beszéltünk, mégis sajnálom hogy a blog piszkozatai gyűlnek.
 
-Hej, jeg hedder Gábor og jeg kommer fra Ungarn. Jeg har boede i Danmark i 2 og halv år, men jeg er begyndt at lære dansk kun 2 måneder siden. Jeg synes, (at) dansk er en rigtig svært sprog, men jeg vil gerne lide at lære det, fordi jeg planlægning at bo her i mindst et par år.
+Vendégek Magyarországról, akik nálam töltik a hétvégét.
 
+## Koncentráció
 
+A monton kötelességvégrehajtással járó kemény munkát, a kreatív éhség. Két dán feladat közé be-be csúszik egy-egy blogpost megírása. La la land egy jó film, Emma Stone pedig jó csaj.
 

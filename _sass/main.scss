@@ -230,6 +230,7 @@ pre {
   margin-bottom: 1rem;
   font-size: 0.8rem;
   line-height: 1.4;
+  border: 1px solid lightgray;
   white-space: pre;
   overflow-x: auto;
   background-color: #f0f0f0;
@@ -364,7 +365,7 @@ article {
   }
 }
 section {
-  max-width: 500px;
+  max-width: 520px;
   margin: 0 auto 50px auto;
   ul {
     list-style: none;
@@ -515,6 +516,10 @@ article img {
 @media only screen 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+
+    .categories {
+      justify-content: space-around !important;
+    }
 
     .logo {
       margin-bottom: 10px;

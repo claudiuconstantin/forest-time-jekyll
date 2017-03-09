@@ -7,6 +7,8 @@ Hi, my name is Gábor Pintér, I am a Front End Developer [@SimpleSite](http://s
 
 You can find me on [Twitter](http://twitter.com/{{site.twitter_username}}) and [GitHub](http://github.com/{{site.github_username}}).
 
+![asd]({{ site.baseurl }}/assets/about.jpg)
+
 <!--![Me!]({{ site.cdn_path }}/img/about.jpg)-->
 
 ## Why blogging?
@@ -20,17 +22,6 @@ Therefore during composition, simplicity and straight-to-the-point approach may 
 elegance.
 
 Feel free to subscribe to [RSS]({{site.url}}/feed.xml) (using [Blogtrottr](https://blogtrottr.com/) for example).
-
-<!-- Tags -->
-<div class="divider hide-for-small"></div>
-<section>
-  <ul class="inline-list">
-    {% for tag in site.tags %}
-    <li><span><a href="/#{{tag | first}}"><i class="fa fa-hashtag fa-fw" style="color: gray; margin-right: .25rem;" aria-hidden="true"></i>{{tag | first}}</a></span></li>
-    {% endfor %}
-  </ul>
-</section>
-<div class="divider hide-for-small"></div>
 
 ## Personal projects
 

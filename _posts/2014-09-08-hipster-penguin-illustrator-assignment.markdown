@@ -5,7 +5,7 @@ date:   2014-09-8 06:49:16 +0200
 categories: posts
 comments: true
 tags: random
-icon: paint-brush
+icon: hashtag
 ---
 At school, we had to create a a logo / illustration using Adobe Illustrator. Here is my result.
 

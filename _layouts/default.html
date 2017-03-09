@@ -38,6 +38,40 @@ layout: compress
 		<!-- Scrolltop button init -->
 		<script>
 				$('body').materialScrollTop();
+
+				$("#webdevButton").on("click", function(){
+					scrollToContent("#webdev");
+				});
+
+				$("#androidButton").on("click", function(){
+					scrollToContent("#android");
+				});
+
+				$("#linuxButton").on("click", function(){
+					scrollToContent("#linux");
+				});
+
+				$("#danishButton").on("click", function(){
+					scrollToContent("#danish");
+				});
+
+				$("#philosophyButton").on("click", function(){
+					scrollToContent("#philosophy");
+				});
+
+				$("#randomButton").on("click", function(){
+					scrollToContent("#random");
+				});
+
+				function scrollToContent(myContent) {
+					$(document).ready(function () {
+						$("html, body").animate({
+								scrollTop: $(myContent).offset().top
+						}, 800);
+					});
+				}
+
+
 		</script>
 
 	</body>

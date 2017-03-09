@@ -5,7 +5,7 @@ date: 2017-02-04 09:48:29
 categories: posts
 comments: true
 tags:  linux
-icon: code-fork
+icon: linux
 ---
 
 Installing XAMPP on Linux can be a bit tricky. First, let's download the package from [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html).

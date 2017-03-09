@@ -4,7 +4,7 @@ title: "My Life Compass"
 date: 2017-02-12 19:11:29
 categories: posts
 comments: true
-tags:  life
+tags:  philosophy
 icon: lightbulb-o
 published: false
 ---

@@ -4,8 +4,8 @@ title: "Deploying Nodejs application on DigitalOcean droplet"
 date: 2016-09-15 16:30:29
 categories: posts
 comments: true
-tags: nodejs javascript
-icon: code-fork
+tags: webdev
+icon: html5
 ---
 Tutorials I have went through during deployment:
 

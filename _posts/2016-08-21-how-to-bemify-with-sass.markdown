@@ -4,8 +4,8 @@ title:  "How to Bemify with Sass?"
 date:   2016-08-21 13:43:16 +0200
 categories: posts
 comments: true
-tags: css
-icon: code-fork
+tags: webdev
+icon: html5
 ---
 ## What is BEM?
 

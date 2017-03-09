@@ -4,7 +4,7 @@ title: "I am leaving Facebook"
 date: 2017-01-14 21:48:29
 categories: posts
 comments: true
-tags:  life
+tags:  philosophy
 icon: lightbulb-o
 ---
 

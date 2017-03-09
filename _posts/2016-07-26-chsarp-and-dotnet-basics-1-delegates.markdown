@@ -4,8 +4,8 @@ title:  "C# and .NET basics 1.: Delegates"
 date:   2016-07-26 19:23:16 +0200
 categories: posts
 comments: true
-tags: csharp
-icon: code-fork
+tags: webdev
+icon: html5
 ---
 The other day I got encouraged to start documenting my learning process, as it helps to summarize and clarify new things I have read about and also, some may find it helpful.
 

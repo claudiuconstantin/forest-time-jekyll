@@ -5,7 +5,7 @@ date: 2017-02-04 10:48:29
 categories: posts
 comments: true
 tags:  linux
-icon: code-fork
+icon: linux
 ---
 
 After juggling around with Ruby and Jekyll installation packages on Linux, I found a [comment being more helpful](http://askubuntu.com/questions/305884/how-to-install-jekyll#306177) than the official documentation.

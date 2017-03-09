@@ -4,8 +4,9 @@ title: "Sådan 2: Kapitel 1 - Mit liv før og nu"
 date: 2017-01-10 13:48:29
 categories: posts
 comments: true
-tags:  dansk
+tags:  danish
 published: false
+icon: language
 ---
 
 ### Danish numbers

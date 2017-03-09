@@ -4,7 +4,7 @@ title:  "Affinity Designer - the designer's new best friend"
 date:   2014-09-13 19:25:16 +0200
 categories: posts
 comments: true
-tags: design
+tags: random
 icon: star
 ---
 When a nicely designed application comes out, it always warms up my heart. And when it’s a designer application at the same time it’s a straight orgaaass....it is nice to see.

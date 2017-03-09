@@ -4,7 +4,8 @@ title: "Homokóra"
 date: 2017-02-18 18:11:29
 categories: posts
 comments: true
-tags:  dansk
+tags:  danish
+icon: language
 published: false
 ---
 

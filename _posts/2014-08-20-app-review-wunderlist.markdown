@@ -4,7 +4,7 @@ title:  "App review: Wunderlist"
 date:   2014-08-20 23:05:16 +0200
 categories: posts
 comments: true
-tags: review
+tags: philosophy
 icon: star
 ---
 Organization is the key to success.

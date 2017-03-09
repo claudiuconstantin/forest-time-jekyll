@@ -10,17 +10,8 @@ layout: default
 
 <section>
 
-	{% for post in site.posts %}
-		{% unless post.next %}
-			<h3 class="list-title">{{ post.date | date: '%Y' }} &#172;</h3>
-		{% else %}
-			{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-			{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-			{% if year != nyear %}
-				<h3 class="list-title">{{ post.date | date: '%Y' }} &#172;</h3>
-			{% endif %}
-		{% endunless %}
-
+	<h3>Recent entries</h3>
+	{% for post in site.posts limit:6 %}
 		<ul class="postt-title-ul">
 			<li class="c-post-list-elem">
 				<div class="post-date">
@@ -38,26 +29,139 @@ layout: default
 				</div>
 			</li>
 		</ul>
-
 	{% endfor %}
 
-<div class="divider hide-for-small"></div>
+	<style>
+		.categories {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-between;
+			/*margin-top: 4rem;*/
+			/*margin-bottom: 4rem;*/
+		}
 
-<!-- Jump to tag -->
-<ul class="inline-list">
-	{% for tag in site.tags %}
-	<li><span><a href="#{{tag | first}}"><i class="fa fa-hashtag fa-fw" style="color: gray; margin-right: .25rem;" aria-hidden="true"></i>{{tag | first}}</a></span></li>
-	{% endfor %}
-</ul>
+		.categories__item {
+			width: 46%;
+			display: flex;
+			height: 125px;
+			background-color: white;
+			border-radius: 3px;
+			color: #fff;
+			margin-bottom: 1.5rem;
+			box-shadow: none;
+			transition: box-shadow 250ms;
+		}
 
-<div class="divider hide-for-small"></div>
+		.categories__item:hover {
+			cursor: pointer;
+			box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25), 0 3px 13px rgba(0, 0, 0, 0.25);
+		}
+
+		.categories__item i {
+			color: inherit;
+			font-size: 2rem;
+			margin: 0;
+			margin-bottom: 0.5rem;			
+		}
+
+		.categories__item-title {
+			margin: auto;
+			display: flex;
+			flex-flow: column nowrap;
+			font-weight: bold;
+			text-transform: uppercase;
+			align-items: center;
+			font-size: .9rem;
+		}
+
+		.categories__item--blue {
+			border: 1px solid #1A237E;
+			background-color: #1976D2;
+		}
+
+		.categories__item--green {
+
+			border: 1px solid #33691E;
+			background-color: #689F38;
+		}
+
+		.categories__item--black {
+			background-color: #455A64;
+			border: 1px solid #263238;
+		}
+
+		.categories__item--red {
+			border: 1px solid #880E4F;
+			background-color: #E64A19;
+		}
+
+		.categories__item--yellow {
+			background-color: #FFA000;
+			border: 1px solid #FF6F00;
+		}
+
+		.categories__item--transparent {
+			color: #757575;
+			border: 1px solid lightgray;
+			background-color: #fafafa;
+			/*background-color: rgba(255,255,255,0);*/
+		}
+		
+
+	</style>
+
+	<h3>Categories</h3>
+	<div class="categories">
+		<div class="categories__item categories__item--blue">
+			<span class="categories__item-title"><i class="fa fa-html5"></i><span>Webdev<span></span>
+		</div>
+		<div class="categories__item categories__item--green">
+			<span class="categories__item-title"><i class="fa fa-android"></i>Android</span>
+		</div>
+		<div class="categories__item categories__item--black">
+			<span class="categories__item-title"><i class="fa fa-linux"></i>Linux</span>
+		</div>
+		<div class="categories__item categories__item--red">
+			<span class="categories__item-title"><i class="fa fa-language"></i>Danish</span>
+		</div>
+		<div class="categories__item categories__item--yellow">
+			<span class="categories__item-title"><i class="fa fa-lightbulb-o"></i>Philosophy</span>
+		</div>
+		<div class="categories__item categories__item--transparent">
+			<span class="categories__item-title"><i class="fa fa-random"></i>I'm feeling lucky</span>
+		</div>	
+	</div>
+
+	<style>
+		#philosophy {
+			color: #FF6F00;
+		}
+
+		#linux {
+			color: #263238;
+		}
+
+		#webdev {
+			color: #1A237E;
+		}
+
+		#android {
+			color: #33691E;
+		}
+
+		#danish {
+			color: #880E4F;
+		}
+	</style>
+	
+	<h3>All entries</h3>
 
 <!--Posts by tag-->
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-	<h3 id="{{ t | downcase }}" class="list-title"><i class="fa fa-hashtag fa-fw" style="color: gray; margin-right: .25rem;" aria-hidden="true"></i> {{ t | downcase }} &#172;</h3>
+	<h4 id="{{ t | downcase }}" class="list-title">{{ t | capitalize }}</h4>
 	{% for post in posts %}
 		{% if post.tags contains t %}
 		<ul class="postt-title-ul">

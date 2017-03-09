@@ -4,7 +4,7 @@ title:  "Building a Creative Career Mind Map"
 date:   2015-05-14 19:13:16 +0200
 categories: posts
 comments: true
-tags: project
+tags: philosophy
 icon: lightbulb-o
 ---
 I like to organize my thoughts and write them down either to post-its, or to text documents. Time to time I tend to spend much time on gathering all the information bouncing in my head and converting them into clean lists, posters or charts which clarify the steps I have to take towards my goals. We could say I like to design my thoughts.

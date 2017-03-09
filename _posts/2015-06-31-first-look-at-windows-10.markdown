@@ -4,7 +4,7 @@ title:  "First look at Windows 10"
 date:   2015-06-31 22:05:16 +0200
 categories: posts
 comments: true
-tags: review
+tags: random
 icon: hourglass-half
 ---
 I have been away for a while due to preparations for my exam in Denmark and travelling back to Hungary (then travelling back to Hungary and from then on preparations for Transylvania then travelling to Transylvania, then preparations for my sister's wedding then going to the wedding, which was freaking awesome by the way, and the list goes on and on...).

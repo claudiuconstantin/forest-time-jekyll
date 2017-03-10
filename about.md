@@ -7,7 +7,7 @@ Hi, my name is Gábor Pintér, I am a Front End Developer [@SimpleSite](http://s
 
 You can find me on [Twitter](http://twitter.com/{{site.twitter_username}}) and [GitHub](http://github.com/{{site.github_username}}).
 
-![asd]({{ site.baseurl }}/assets/about.jpg)
+![asd]({{ site.baseurl }}/assets/about_bw.jpg)
 
 <!--![Me!]({{ site.cdn_path }}/img/about.jpg)-->
 
@@ -25,10 +25,11 @@ Feel free to subscribe to [RSS]({{site.url}}/feed.xml) (using [Blogtrottr](https
 
 ## Personal projects
 
-  - **Foobarbot** - Snippet manager and search engine written in NodeJS and VueJS (*currently on hiatus*) - [Live](http://foobarbot.com)
-  - **Keaproject** - Exercises and source code shared by students of Web Development 1st semester - 2016 KEA. - [GitHub](https://github.com/gaboratorium/keaproject)
-  - **Sassup** - A full set yet lightweight SASS boilerplate for scalable projects - [GitHub](https://github.com/gaboratorium/Sassup)
+  - **Foobarbot** - A fullstack JavaScript application with RESTful API. Foobarbot is a snippet manager and search engine written in NodeJS and VueJS - [Live](http://foobarbot.com), [GitHub](https://github.com/gaboratorium/foobarbot)
   - **AlmaMater** - E-textbook library designed for public schools written in AngularJs - [Live](http://gaboratorium.github.io/AlmaMater/#/), [GitHub](https://github.com/gaboratorium/AlmaMater)
+  - **Games**: [Star Wars Card Game](http://gaborpinter.net/webapps/swcg/), [Star Wars Typeshooter](http://gaborpinter.net/webapps/starwars/), [Space Invaders](http://gaborpinter.net/webapps/spaceinvaders/), [Hydra](http://gaborpinter.net/webapps/hydra/) - [GitHub](https://github.com/gaboratorium/Completed-Tutorials)
+  - **Keaproject** - Exercises and source code shared by students of Web Development 1st semester - 2016 KEA. Courses: **Web development, Databases, Development environments**- [GitHub](https://github.com/gaboratorium/keaproject)
+  - **Keaproject2** - Exercises and source code shared by students of Web Development 2st semester - 2017 KEA. Courses: **Web security, Android development, Interface design**- [GitHub](https://github.com/gaboratorium/keaproject2)
 
 
 ## Under the hood

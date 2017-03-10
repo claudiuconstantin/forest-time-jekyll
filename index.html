@@ -10,7 +10,7 @@ layout: default
 
 <section>
 
-	<h3>Recent entries</h3>
+	<h3>Recent entries <span id="notification"></span></h3>
 	{% for post in site.posts limit:6 %}
 		<ul class="postt-title-ul">
 			<li class="c-post-list-elem">
@@ -158,7 +158,8 @@ layout: default
 
 	<!-- Author bio -->
 	<div class="c-author-bio">
-		<img src="{{ site.baseurl }}/assets/androidorium.png" alt="" class="c-author-bio__avatar">
+		<img src="{{ site.baseurl }}/assets/androidorium_waving.gif" alt="" class="c-author-bio__avatar c-author-bio__avatar--androidorium">
+		<!--<img src="{{site.baseurl}}/assets/androidorium_waving.gif" style="display:none">-->
 		<!--<img src="{{ site.baseurl }}/assets/avatar.jpg" alt="" class="c-author-bio__avatar">-->
 		<div>
 			<span class="c-author-bio__line">Hi, I am <span class="o-text--bold">gaboratorium</span> and this is my blog. If you'd like to say hello to me or have a look at my apps and projects, make sure to check out the <a href="/about">About page</a>.</span>
@@ -360,3 +361,18 @@ layout: default
 </style>
 
 </section>
+
+<script>
+		var postNumber = {{ site.posts.size }};
+		var seenPostNumber = localStorage.getItem("seenPostNumber");
+
+		if (seenPostNumber) {
+			if (postNumber - seenPostNumber > 0 && postNumber - seenPostNumber < postNumber) {
+				var notificationOutput = postNumber - seenPostNumber + " new";
+				document.getElementById("notification").className += " c-notification";
+				document.getElementById("notification").innerHTML = notificationOutput;
+			}
+		}
+		
+		localStorage.setItem("seenPostNumber", postNumber);
+</script>

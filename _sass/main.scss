@@ -135,7 +135,7 @@ span[data-note] {
     }
     .gravatar {
       margin-top: 5px;
-      height: 58px;
+      height: 52px;
 
       // @media only screen 
       //   and (max-device-width: 667px) 
@@ -354,6 +354,8 @@ article {
 .footer {
   margin-top: 50px;
   margin-bottom: 25px;
+  font-size: 13px;
+  line-height: 1.2rem;
   color: #777;
   a {
     border: none;
@@ -519,6 +521,7 @@ article img {
 
     .categories {
       justify-content: space-around !important;
+      padding: .5rem;
     }
 
     .logo {
@@ -633,6 +636,7 @@ article img {
   and (-webkit-min-device-pixel-ratio: 2) {
     flex-flow: column nowrap;
     text-align: center;
+    padding: 1rem;
    }
   
 }
@@ -663,4 +667,20 @@ article img {
 
 .c-author-bio__line--title {
   font-weight: bold;
+}
+
+.c-notification {
+  text-transform: uppercase;
+  font-weight: 300;
+  background-color: #e5e5e5;
+  color: #757575;
+  padding: .25rem;
+  border-radius: 3px;
+  font-size: .75rem;
+  vertical-align: middle;
+  margin-left: .25rem;
+}
+
+.c-notification:hover {
+  cursor: default;
 }

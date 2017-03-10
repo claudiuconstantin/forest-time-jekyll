@@ -6,6 +6,7 @@ categories: posts
 comments: true
 icon: lightbulb-o
 tags:  philosophy
+published: false
 ---
 
 The other day I had a discussion with Bálint about the different forms of communication, where we compared texting to real world or phone conversations, and I realized something: one thing that has been definitely changed is the nature of the mutual agreement's base case (default case).

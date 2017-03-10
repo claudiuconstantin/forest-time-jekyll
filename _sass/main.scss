@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: arial,sans-serif;
   padding: 20px;
   margin: 0;
   color: #212121;
@@ -274,7 +274,7 @@ article {
     line-height: 1.4em;
     text-align: center;
     // font-family: 'Noto Serif', serif;
-    font-family: 'Roboto Slab', serif;
+    // font-family: 'Roboto Slab', serif;
     margin-bottom: .6rem;
     font-weight: bold;
     // color: #1565C0;
@@ -290,7 +290,7 @@ article {
   }
   h1 {
     // font-family: 'Noto Serif', serif;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', arial, sans-serif;
     font-weight: 300;
   }
   hr {

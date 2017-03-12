@@ -8,7 +8,7 @@ icon: hashtag
 tags: random
 ---
 
-A couple of weeks ago, András and Bálind have invited Bánk, Dorka and me over, so we had the wonderful chance of trying out the HTC Vive VR headset.
+A couple of weeks ago, András and Bálint have invited Bánk, Dorka and me over, so we had the wonderful chance of trying out the HTC Vive VR headset.
 
 A lot of footage has been made, so I decided to create a movie. It took way longer than I expected, but at least I could taste the flavour of movie editing, even if just a little bit. 
 

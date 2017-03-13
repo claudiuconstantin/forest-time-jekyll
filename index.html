@@ -154,20 +154,7 @@ layout: default
 		</div>	
 	</div>
 
-	<div class="divider"></div>
 
-	<!-- Author bio -->
-	<div class="c-author-bio">
-		<img src="{{ site.baseurl }}/assets/androidorium_waving.gif" alt="" class="c-author-bio__avatar c-author-bio__avatar--androidorium">
-		<!--<img src="{{site.baseurl}}/assets/androidorium_waving.gif" style="display:none">-->
-		<!--<img src="{{ site.baseurl }}/assets/avatar.jpg" alt="" class="c-author-bio__avatar">-->
-		<div>
-			<span class="c-author-bio__line">Hi, I am <span class="o-text--bold">gaboratorium</span> and this is my blog. If you'd like to say hello to me or have a look at my apps and projects, make sure to check out the <a href="/about">About page</a>.</span>
-			<!--<a href="http://gaboratorium.com" class="c-author-bio__line">http://gaboratorium.com</a>-->
-		</div>
-	</div>
-
-	<div class="divider"></div>
 
 	<style>
 		#philosophy {
@@ -193,7 +180,107 @@ layout: default
 		#random {
 			color: #5D4037;
 		}
+
+		.fa {
+			color: #757575;
+			margin-right: .5rem;
+		}
+
+		.c-hero {
+			background-color: #FAFAFA;
+			background: url("https://www.toptal.com/designers/subtlepatterns/patterns/foggy_birds.png");
+			border-radius: 3px;
+			display: flex;
+			flex-flow: column nowrap;
+			align-items: center;
+			text-align: center;
+			padding: 1.5rem;
+			border: 1px solid #E0E0E0;
+		}
+		
+
+		.c-hero__title {
+			margin: 0;
+			margin-top: .75rem;
+			/*color: #FF5722;*/
+			font-size: 1rem;
+			text-transform: uppercase;
+
+			/*padding-bottom: 1rem;*/
+			/*border-bottom: 3px solid #FF5722;*/
+		}
+
+		.c-hero__icon {
+			color: #FF5722;
+			margin-bottom: 1rem;
+		}
+
+		.c-hero__text {
+			line-height: 1.5rem;
+		}
+
+		.c-hero__icon--background {
+			color: #fff;
+		}
+
+		.o-form--text {
+			padding: .65rem;
+			border: 1px solid lightgray;
+		}
+
+		.o-form--inline {
+			display: flex;
+		}
+
+		.o-form--inline-button {
+			border-top-right-radius: 3px;
+			border-bottom-right-radius: 3px;
+			border-left: none;
+		}
+
+		.o-form--inline-text {
+			border-top-left-radius: 3px;
+			border-bottom-left-radius: 3px;
+			border-right: none;
+		}
+
+		.c-button {
+			background-color: #1976D2;
+			border: 1px solid #1565C0;
+			color: #fff;
+		}
+
 	</style>
+	
+<!--
+
+		<div class="c-hero">
+		<i class="fa fa-paper-plane fa-2x"></i>
+		<h3 class="c-hero__title">gaboratorium notes weekly</h3>
+		<p class="c-hero__text">Recieve a weekly summary every Monday.<span class="o-text--block">which I do once or twice a week. Unsubscribe anytime.</span></p>
+		<hr>
+		<form action="https://tinyletter.com/gaboratorium" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/gaboratorium', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true" class="o-form--inline">
+			<input type="text " class="o-form--text o-form--inline-text" placeholder="Your e-mail address..." name="email" id="tlemail">
+			<button class="c-button o-form--inline-button">Subscribe</button>
+		</form>
+	</div>-->
+
+
+		<div class="divider"></div>
+
+	<!-- Author bio -->
+	<div class="c-author-bio">
+		<img src="{{ site.baseurl }}/assets/androidorium_waving.gif" alt="" class="c-author-bio__avatar c-author-bio__avatar--androidorium">
+		<!--<img src="{{site.baseurl}}/assets/androidorium_waving.gif" 2style="display:none">-->
+		<!--<img src="{{ site.baseurl }}/assets/avatar.jpg" alt="" class="c-author-bio__avatar">-->
+		<div>
+			<span class="c-author-bio__line">Hi, I am <span class="o-text--bold">gaboratorium</span> and I write about things I learn or create. If you'd like to say hello, make sure to check out the <a href="/about">About page</a>.</span>
+			<!--<a href="http://gaboratorium.com" class="c-author-bio__line">http://gaboratorium.com</a>-->
+		</div>
+	</div>
+
+	<div class="divider"></div>
+
 	
 	<h3 class="list-title" id="webdev">Webdev</h3>
 	{% for tag in site.tags %}
@@ -352,13 +439,7 @@ layout: default
 	{% endfor %}
 
 
-<style>
-	.fa {
-		color: #757575;
-		margin-right: .5rem;
-		/*color: #1565C0;*/
-	}
-</style>
+
 
 </section>
 

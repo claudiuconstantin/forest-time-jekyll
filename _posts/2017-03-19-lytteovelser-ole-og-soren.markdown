@@ -23,6 +23,6 @@ Du kan finder filen [her](http://guga.gyldendal.dk/~/media/Sprog/dsa/Saadan/lyd_
 - **Hvad laver Ole?** Han arbejder som sportsjournalist på Politiken.
 
 
-- **Kan han godt lide sit arbejde?** Han kan rigtig godt lide sit arbejde, men det er også lidt hårdt, fordi han er aldrig hjemme om søndagen, fordi der der er altid nogle fodboldkampe han skal se.
+- **Kan han godt lide sit arbejde?** Han kan rigtig godt lide sit arbejde, men det er også lidt hårdt, fordi han er aldrig hjemme om søndagen, fordi det der er altid nogle fodboldkampe han skal se.
 
 - **Hvad laver Ole, når han har fri?** Ole spiller badminton med sin kone, når han har fri, og så går de ofte til danse.

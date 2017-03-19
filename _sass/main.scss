@@ -263,6 +263,10 @@ table {
   tr {
     border-bottom: 1px solid lightgray;
   }
+
+  tr:nth-child(even) {
+    background: #eff5f2;
+  }
 }
 iframe {
   width: 100%;

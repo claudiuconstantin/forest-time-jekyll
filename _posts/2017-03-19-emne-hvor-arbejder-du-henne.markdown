@@ -61,7 +61,7 @@ icon: language
 
 Jeg vil taler lidt om mit arbejde.
 
-1. Jeg arbejder som webingeniør på et firma, som hedder SimpleSite. Det betyder, jeg er programmør.
+1. Jeg arbejder som webingeniør på et firma, som hedder SimpleSite. Det betyder, jeg er programmør og jeg arbejder med computere.
 2. Jeg fik jobbet gennem en ven. Vi har arbejdede sammen på vores tidligere job.
 3. Jeg er rigtig glad for mit job. Jeg får mange spændende arbejdsopgaver, og jeg gør noget jeg elsker.
 4. Jeg har arbejdet der i otte måneder. I begyndelsen arbejdede jeg i fuld tid, men da min skole startede, begyndte jeg at arbejde kun i deltid.

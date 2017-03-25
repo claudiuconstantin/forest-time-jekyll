@@ -89,9 +89,9 @@ icon: language
 
 Jeg vil taler lidt om min barndom.
 
-1. Jeg husker at jeg kunne ikke lide frugt og grøntsager, da jeg var barn. Men i dag, kan jeg godt lide dem. Faktisk jeg prøver at spise noget frugt hver dage.
-2. Jeg skulle altid hjælpe min forældre med at dække bord og at vaske op efter maden. Jeg skulle også rydde op min værelse hver weekend.
-3. Jeg måtte ikke spille computerspil før jeg havde lavet min hjemmearbejde. Jeg måtte heller ikke gå i seng for sent, og før jeg havde børstede mine tænder.
+1. Jeg husker at jeg kunne ikke lide frugt og grøntsager, da jeg var barn. Men i dag, kan jeg godt lide dem. Faktisk jeg prøver at spise noget frugt hver dag.
+2. Jeg husker også, at jeg skulle altid hjælpe min forældre med at dække bord og at vaske op efter maden. Jeg skulle også rydde op min værelse hver weekend.
+3. Jeg måtte ikke spille computerspil før jeg havde lavet min hjemmearbejde. Jeg måtte heller ikke gå i seng for sent, eller før jeg havde børstede mine tænder.
 4. Jeg ofte spillede fodbold med mine venner efter skole. Men når vejr var dårligt, inviterede jeg en ven over.
 5. Da jeg var barn, drømte jeg altid om at blive en dyrlæge fordi jeg elskede dyre. Men min forældre ville have mig at blive en advokat, fordi advokater	har god løn. 
 

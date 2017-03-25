@@ -54,7 +54,7 @@ icon: language
 | En lommepenge | A pocket money		|
 | Et godnatkys 	| A Goodnight kiss	|
 | Pligter			 	| Chores						|
-| Grønsager		| Vegetables				|
+| Grøntsager		| Vegetables				|
 
 
 ### Verber og udtryk
@@ -89,7 +89,7 @@ icon: language
 
 Jeg vil taler lidt om min barndom.
 
-1. Jeg husker at jeg kunne ikke lide frugt og grønsager, da jeg var barn. Men idag, kan jeg godt lide dem. Faktisk jeg prøver at spise noget frugt hver dage.
+1. Jeg husker at jeg kunne ikke lide frugt og grøntsager, da jeg var barn. Men idag, kan jeg godt lide dem. Faktisk jeg prøver at spise noget frugt hver dage.
 2. Jeg skulle altid hjælpe min forældre med at dække bord og at vaske op efter maden. Jeg skulle også rydde op min værelse hver weekend.
 3. Jeg måtte ikke spille computerspil før jeg havde lavet min hjemmearbejde. Jeg måtte heller ikke gå i seng for sent, og før jeg havde børstede mine tænder.
 4. Jeg ofte spillede fodbold med mine venner efter skole. Men når vejr var dårligt, inviterede jeg en ven over.

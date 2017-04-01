@@ -12,7 +12,7 @@ tags: android
 2. The Main Class should be the `Desktop Launcher`.
 3. Working directory should be `android/assets`. By default LibGDX looks for all of its resources in `android/assets`, so we are going to make that a working directory.
 
-![Config](http://gaborpinter.net/gaboratorium-notes/img/posts/2017-03-10-desktop-run-configuration-for-libgdx/desktop_libgdx.png)
+![Config]({{site.cdn_path}}/img/posts/2017-03-10-desktop-run-configuration-for-libgdx/desktop_libgdx.png)
 
 ## Reference
 

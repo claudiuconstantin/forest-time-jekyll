@@ -16,7 +16,7 @@ I am not in the mood to study Danish today. I could **spend the entire tomorrow 
 
 *But I do it anyway.*
 
-I am not in the mood for reading a book. [**The internet is more fun**](https://www.youtube.com/watch?v=_CMHixb0KSI). 
+I am not in the mood for reading a book. **The internet is more fun**. 
 
 *But I do it anyway.*
 

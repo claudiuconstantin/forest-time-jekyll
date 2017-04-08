@@ -8,11 +8,11 @@ tags:  philosophy
 icon: lightbulb-o
 ---
 
-I am not in the mood for cooking today. It takes much time, and I could  **do something productive** instead. 
+I am not in the mood to cook today. It takes much time, and I could  **do something productive** instead. 
 
 *But I do it anyway.*
 
-I am not in the mood for studying Danish today. I could **spend the entire tomorrow to do all** the assignments at once. 
+I am not in the mood to study Danish today. I could **spend the entire tomorrow to do all** the assignments at once. 
 
 *But I do it anyway.*
 
@@ -28,7 +28,7 @@ I am not in the mood for small-talking. **I don't know anything about this perso
 
 *But I do it anyway.*
 
-I am not in the mood for initiating a conversation. Often times it is not appreciated, people are sometimes mean, and **I could look stupid**. 
+I am not in the mood to initiate a conversation. Often times it is not appreciated, people are sometimes mean, and **I could look stupid**. 
 
 *But hell, I do it anyway.*
 

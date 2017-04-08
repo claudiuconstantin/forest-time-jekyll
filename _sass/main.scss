@@ -698,3 +698,10 @@ article img {
 .o-index__title {
   color: inherit;
 }
+
+img + em, a + em {
+  font-size: .85rem;
+  text-align: center;
+  display: block;
+  color: #777;
+}

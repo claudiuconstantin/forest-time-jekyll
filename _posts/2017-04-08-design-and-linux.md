@@ -61,7 +61,25 @@ And last but not least, let me show my apprecation for [elementary Icons](https:
 Of course, this setup comes at a cost. What if one of the extensions gets deprecated meanwhile the OS pulls a new update? It might happen and we are on our own; at this point apparently the only way of working in an appealing environment for those who care about design is either by paying for it in the shape of let's say Apple products, or by maintaining it ourselves. The good thing is that both options are available, and it's up to us which path we choose.
 
 
-## Some other tweaks
+## References
+
+### Basics
+
+1. [Gnome Desktop](https://www.gnome.org/)
+2. [Docky](http://wiki.go-docky.com/index.php?title=Welcome_to_the_Docky_wiki)
+3. [Flat-Plat: material theme](https://github.com/nana-4/Flat-Plat)
+4. [elementary/icons](https://github.com/elementary/icons)
+5. [elementary/wallpapers](https://github.com/elementary/wallpapers)
+
+### Gnome extensions
+
+- [Hide dash x](https://extensions.gnome.org/extension/805/hide-dash/)
+- [Hide Workspace Thumbnails](https://extensions.gnome.org/extension/808/hide-workspace-thumbnails/)
+- [Pixel saver](https://extensions.gnome.org/extension/723/pixel-saver/)
+- [TopIcons Plus](https://extensions.gnome.org/extension/1031/topicons/)
+- [Transparent gnome panel](https://extensions.gnome.org/extension/1099/transparent-gnome-panel/)
+
+### Other
 
 - Path for custom themes and icons: `/usr/share/themes/`, `/usr/share/icons`. Use the (Gnome) Tweak Tool to apply these styles.
 - [Removing Anchor icon in Docky](http://askubuntu.com/questions/4942/remove-the-anchor-icon-in-docky)

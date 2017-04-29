@@ -4,8 +4,8 @@ title: "Øve dansk: Agnieszkav siger, at hun..."
 date: 2017-04-29 11:11:29
 categories: posts
 comments: true
-icon: hashtag
-tags:  random
+icon: danish
+tags:  language
 ---
 
 Agnieszkav siger at hun har lært dansk siden november, så lært hun det i 6 måned. Hun siger også at hun har begyndt at lære dansk fordi hun skal bo i Danmark for længe og fordi hun har mange dansk kolleger på arbejde. Hun fortælte mig at hun besluttet at lære på Studieskolen fordi hendes mand studerer her, og hun hørt at Studieskolen er en rigtig godt skole. Agnieszkav synes at der er meget svært at lære dansk, især at lære udtalen. 

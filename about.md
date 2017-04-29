@@ -5,7 +5,7 @@ permalink: /about/
 ---
 Hi, my name is Gábor Pintér, I am a Front End Developer [@SimpleSite](http://simplesite.com). I live in Copenhagen and study Web Development [@KEA](http://kea.dk).
 
-You can find me on [Twitter](http://twitter.com/{{site.twitter_username}}) and [GitHub](http://github.com/{{site.github_username}}).
+You can find me on [LinkedIn](https://www.linkedin.com/in/gaboratorium/), [Mastodon](https://mastodon.technology/@gaboratorium) and [GitHub](http://github.com/{{site.github_username}}).
 
 ![asd]({{ site.baseurl }}/assets/about_bw.jpg)
 

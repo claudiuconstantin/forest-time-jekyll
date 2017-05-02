@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building MVC structure with PHP"
-date: 2017-04-29 12:11:29
+date: 2017-05-01 12:11:29
 categories: posts
 comments: true
 tags:  webdev

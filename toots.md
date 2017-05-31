@@ -6,7 +6,8 @@ permalink: /home/
 
 ## Hi, I am Gábor
 
-I am a web developer and I believe in documented learning and knowledge-sharing. That's why I have created this site, where I share my thoughts, learnings and open-source projects. Feel free to say hello at [mastodon.technology/@gaboratorium](https://mastodon.technology/@gaboratorium).
+I am a web developer and I believe in documented learning and knowledge-sharing. That's why I have created this site, where [I write about things I learn](#), and share the [open-source projects I work on](#).
+
 
 <iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="800" height="2450" src="https://www.mastofeed.com/api/feed?url=https%3A%2F%2Fmastodon.technology%2Fusers%2Fgaboratorium.atom&theme=light&size=80&header=false" scrolling="no"></iframe>
 <div style="border: 1px solid #8494ab; color: #fafafa; padding: 2rem; margin-top: -0.5rem; text-align: center; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; display:flex; justify-content: center; background-color: #fafafa">
@@ -19,8 +20,9 @@ I am a web developer and I believe in documented learning and knowledge-sharing.
         border-radius: 4px;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
-        border-top: none;
+        border-top: 0px;
         box-sizing: border-box;
+        background-color: #8494ab;
         margin-bottom: 0rem !important;
     }
     

@@ -5,9 +5,9 @@ layout: default
 <section>
 
 	<!--<h3 class="o-index__title">Recent entries <span id="notification"></span></h3>-->
-	<ul class="postt-title-ul" style="font-weight: bold; background-color: #FAFAFA;">
+	<ul class="postt-title-ul" style="background-color: #FAFAFA;">
 		<li class="c-post-list-elem">
-			<div clsas="title"><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i> Newest articles</div>
+			<div clsas="title">Newest articles</div>
 		</li>
 	</ul>
 	{% for post in site.posts limit:6 %}
@@ -267,6 +267,7 @@ layout: default
 			margin: 0rem;
 			padding: 15px 10px;
 			border: #E5E5E5 1px solid;
+			font-weight: 400;
 			border-bottom: none;
 		}
 
@@ -287,9 +288,9 @@ layout: default
 </section>
 <section>		
 
-	<ul class="postt-title-ul" style="font-weight: bold; background-color: #FAFAFA;" id="webdev">
+	<ul class="postt-title-ul" style="background-color: #FAFAFA;" id="webdev">
 		<li class="c-post-list-elem">
-			<div clsas="title"><i class="fa fa-html5 fa-fw" aria-hidden="true"></i>Web development</div>
+			<div clsas="title">Web Development</div>
 		</li>
 	</ul>
 	{% for tag in site.tags %}
@@ -320,7 +321,12 @@ layout: default
 </section>
 <section>
 
-	<h3 class="list-title" id="android">Android Development</h3>
+
+	<ul class="postt-title-ul" style="background-color: #FAFAFA;" id="android">
+		<li class="c-post-list-elem">
+			<div clsas="title">Android Development</div>
+		</li>
+	</ul>
 	{% for tag in site.tags %}
 		{% assign t = tag | first %}
 		{% if t == 'android' %}
@@ -349,7 +355,11 @@ layout: default
 </section>
 <section>
 
-	<h3 class="list-title" id="linux">Linux</h3>
+	<ul class="postt-title-ul" style="background-color: #FAFAFA;" id="linux">
+		<li class="c-post-list-elem">
+			<div clsas="title">Linux</div>
+		</li>
+	</ul>
 	{% for tag in site.tags %}
 		{% assign t = tag | first %}
 		{% if t == 'linux' %}
@@ -378,7 +388,11 @@ layout: default
 </section>
 <section>
 
-	<h3 class="list-title" id="danish">Danish Essays</h3>
+	<ul class="postt-title-ul" style="background-color: #FAFAFA;" id="danish">
+		<li class="c-post-list-elem">
+			<div clsas="title">Danish Essays</div>
+		</li>
+	</ul>
 	{% for tag in site.tags %}
 		{% assign t = tag | first %}
 		{% if t == 'danish' %}
@@ -407,7 +421,11 @@ layout: default
 </section>
 <section>
 
-	<h3 class="list-title" id="philosophy">Kitchen Philosophy</h3>
+	<ul class="postt-title-ul" style="background-color: #FAFAFA;" id="philosophy">
+		<li class="c-post-list-elem">
+			<div clsas="title">Kitchen Philosophy</div>
+		</li>
+	</ul>
 	{% for tag in site.tags %}
 		{% assign t = tag | first %}
 		{% if t == 'philosophy' %}
@@ -436,7 +454,11 @@ layout: default
 </section>
 <section>
 
-	<h3 class="list-title" id="random">Random</h3>
+	<ul class="postt-title-ul" style="background-color: #FAFAFA;" id="random">
+		<li class="c-post-list-elem">
+			<div clsas="title">Random</div>
+		</li>
+	</ul>
 	{% for tag in site.tags %}
 		{% assign t = tag | first %}
 		{% if t == 'random' %}

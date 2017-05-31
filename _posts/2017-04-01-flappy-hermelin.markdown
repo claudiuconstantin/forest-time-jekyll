@@ -1,11 +1,12 @@
 ---
-layout: post
-title: "My first Android game"
+layout: project
+title: "Flappy Hermelin"
 date: 2017-04-01 06:11:29
 categories: posts
-comments: true
+comments: false
 tags:  android
 icon: android
+logo: https://lh3.googleusercontent.com/AOwFOFaKQAQzRKU4B71q_1uziX5suQULh4eulOs6tOrVB5nd3QBGg2yUmIOIDZoHFu0=w300-rw
 ---
 
 I have created my first Android game called [Flappy Hermelin](https://play.google.com/store/apps/details?id=com.gaboratorium.mytestgame), and published it on the Google Play store.
@@ -18,6 +19,4 @@ To learn from sketch, I have went through the tutorials of [Brent Aureli](https:
 
 To save time on game design, I have bought my assets on [Gamedevmarket](https://www.gamedevmarket.net/), which seems like a really good source for indie game developers.
 
-The game is of course open-source, and can be found on my [GitHub](https://github.com/gaboratorium/flappy-hermelin).
-
-<a href='https://play.google.com/store/apps/details?id=com.gaboratorium.mytestgame&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="c-google-play" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+The game is of course open-source, and can be found on my [GitHub](https://github.com/gaboratorium/flappy-hermelin). It can be also downloaded directly from [Google Play](https://play.google.com/store/apps/details?id=com.gaboratorium.mytestgame&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1).

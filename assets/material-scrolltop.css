@@ -24,7 +24,7 @@
     cursor: hand;
     border-radius: 50%;
     /*background: #F44336;*/
-    background-color: rgba(0,0,0, .25);
+    background-color: #2F80ED;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
     -ms-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
@@ -34,7 +34,7 @@
 }
 
 .material-scrolltop:hover {
-    background-color: #E53935;
+    background-color: #2F80ED;
     cursor: pointer;
     text-decoration: none;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25), 0 3px 13px rgba(0, 0, 0, 0.25);

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "VR FOR THE FIRST TIME"
 date: 2017-03-10 06:11:29
 categories: posts

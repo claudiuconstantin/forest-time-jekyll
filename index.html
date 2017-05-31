@@ -1,16 +1,15 @@
 ---
 layout: default
 ---
-<article>
-	<div class="center">
-		<h1 class="title">{{ site.title }}</h1>
-		<time>{{ site.description }}<a href="/about" class="block-for-small"></a></time>
-	</div>
-</article>
 
 <section>
 
-	<h3 class="o-index__title">Recent entries <span id="notification"></span></h3>
+	<!--<h3 class="o-index__title">Recent entries <span id="notification"></span></h3>-->
+	<ul class="postt-title-ul" style="font-weight: bold; background-color: #FAFAFA;">
+		<li class="c-post-list-elem">
+			<div clsas="title"><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i> Newest articles</div>
+		</li>
+	</ul>
 	{% for post in site.posts limit:6 %}
 		<ul class="postt-title-ul">
 			<li class="c-post-list-elem">
@@ -30,6 +29,8 @@ layout: default
 			</li>
 		</ul>
 	{% endfor %}
+</section>
+<section>
 
 	<style>
 		.categories {
@@ -41,12 +42,12 @@ layout: default
 		}
 
 		.categories__item {
-			width: 46%;
+			width: 30%;
 			display: flex;
 			height: 125px;
-			background-color: white;
+			background-color: #4F4F4F;
 			border-radius: 3px;
-			color: #fff;
+			color: #fafafa;
 			margin-bottom: 1.5rem;
 			box-shadow: none;
 			transition: box-shadow 250ms;
@@ -68,64 +69,61 @@ layout: default
 			margin: auto;
 			display: flex;
 			flex-flow: column nowrap;
-			font-weight: bold;
-			text-transform: uppercase;
+			font-weight: 300;
+			/*text-transform: uppercase;*/
 			align-items: center;
 			font-size: .9rem;
 		}
 
 		.categories__item--blue {
-			border: 1px solid #1A237E;
 			background-color: #1976D2;
-			color: #E1F5FE;
 		}
 
 		.categories__item--green {
 
-			border: 1px solid #1B5E20;
-			color: #F1F8E9;
+			/*border: 1px solid #1B5E20;*/
+			/*color: #F1F8E9;*/
 			background-color: #689F38;
 		}
-
+		
 		.categories__item--black {
 			background-color: #455A64;
-			color: #ECEFF1;
-			border: 1px solid #263238;
+			
+			
 		}
 
 		.categories__item--red {
-			border: 1px solid #880E4F;
-			color: #FFEBEE;
+			
+			
 			background-color: #D32F2F;
 		}
 
 		.categories__item--yellow {
 			background-color: #F57C00;
-			border: 1px solid #E65100;
-			color: #FFF3E0;
+			
+			
 		}
 
 		.categories__item--brown {
 			background-color: #5D4037;
-			border: 1px solid #3E2723;
-			color: #EFEBE9;
+			
+			
 		}
 
 		.categories__item--transparent {
-			color: #757575;
-			border: 1px solid lightgray;
-			background-color: #fafafa;
+			background-color: #757575;
+			
+			
 			/*background-color: rgba(255,255,255,0);*/
 		}
 		
 
 	</style>
 
-	<h3 class="o-index__title">Topics</h3>
 	<div class="categories">
 		<div class="categories__item categories__item--blue" id="webdevButton">
 			<span class="categories__item-title">
-				<i class="fa fa-html5"></i>Webdev
+				<i class="fa fa-html5"></i>Web Development
 					{% for tag in site.tags %}
 						{% assign t = tag | first %}
 						{% if t == 'webdev' %}
@@ -138,16 +136,16 @@ layout: default
 				</span>
 		</div>
 		<div class="categories__item categories__item--green" id="androidButton">
-			<span class="categories__item-title"><i class="fa fa-android"></i>Android</span>
+			<span class="categories__item-title"><i class="fa fa-android"></i>Android Development</span>
 		</div>
 		<div class="categories__item categories__item--black" id="linuxButton">
 			<span class="categories__item-title"><i class="fa fa-linux"></i>Linux</span>
 		</div>
 		<div class="categories__item categories__item--red" id="danishButton">
-			<span class="categories__item-title"><i class="fa fa-language"></i>Danish</span>
+			<span class="categories__item-title"><i class="fa fa-language"></i>Danish Essays</span>
 		</div>
 		<div class="categories__item categories__item--yellow" id="philosophyButton">
-			<span class="categories__item-title"><i class="fa fa-lightbulb-o"></i>Philosophy</span>
+			<span class="categories__item-title"><i class="fa fa-lightbulb-o"></i>Kitchen Philosophy</span>
 		</div>
 		<div class="categories__item categories__item--brown" id="randomButton">
 			<span class="categories__item-title"><i class="fa fa-hashtag"></i>Random</span>
@@ -157,29 +155,35 @@ layout: default
 
 
 	<style>
-		#philosophy {
-			color: #FFA000;
+		/*#philosophy {
+			border-bottom: 2px solid #FFA000;
+			padding-bottom: .5rem;
 		}
 
 		#linux {
-			color: #455A64;
+			border-bottom: 2px solid #455A64;
+			padding-bottom: .5rem;
 		}
 
 		#webdev {
-			color: #1976D2;
+			border-bottom: 2px solid #1976D2;
+			padding-bottom: .5rem;
 		}
 
 		#android {
-			color: #689F38;
+			border-bottom: 2px solid #689F38;
+			padding-bottom: .5rem;
 		}
 
 		#danish {
-			color: #D32F2F;
+			border-bottom: 2px solid #D32F2F;
+			padding-bottom: .5rem;
 		}
 
 		#random {
-			color: #5D4037;
-		}
+			border-bottom: 2px solid #5D4037;
+			padding-bottom: .5rem;
+		}*/
 
 		.fa {
 			color: #757575;
@@ -250,39 +254,44 @@ layout: default
 			color: #fff;
 		}
 
+		.c-post-list-elem {
+			margin: 0rem;
+		}
+
+		.postt-title-ul:hover {
+			background-color: #f4f9ff;
+		}
+
+		.postt-title-ul {
+			/*background-color: blue;*/
+			margin: 0rem;
+			padding: 15px 10px;
+			border: #E5E5E5 1px solid;
+			border-bottom: none;
+		}
+
+		.postt-title-ul:first-child {
+			border-top-left-radius: 3px;
+			border-top-right-radius: 3px;
+		}
+
+		.postt-title-ul:last-child {
+			border-bottom: #E5E5E5 1px solid;
+			border-bottom-left-radius: 3px;
+			border-bottom-right-radius: 3px;
+		}
+
 	</style>
 	
-<!--
 
-		<div class="c-hero">
-		<i class="fa fa-paper-plane fa-2x"></i>
-		<h3 class="c-hero__title">gaboratorium notes weekly</h3>
-		<p class="c-hero__text">Recieve a weekly summary every Monday.<span class="o-text--block">which I do once or twice a week. Unsubscribe anytime.</span></p>
-		<hr>
-		<form action="https://tinyletter.com/gaboratorium" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/gaboratorium', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true" class="o-form--inline">
-			<input type="text " class="o-form--text o-form--inline-text" placeholder="Your e-mail address..." name="email" id="tlemail">
-			<button class="c-button o-form--inline-button">Subscribe</button>
-		</form>
-	</div>-->
+</section>
+<section>		
 
-
-		<div class="divider"></div>
-
-	<!-- Author bio -->
-	<div class="c-author-bio">
-		<img src="{{ site.baseurl }}/assets/androidorium_waving.gif" alt="" class="c-author-bio__avatar c-author-bio__avatar--androidorium">
-		<!--<img src="{{site.baseurl}}/assets/androidorium_waving.gif" 2style="display:none">-->
-		<!--<img src="{{ site.baseurl }}/assets/avatar.jpg" alt="" class="c-author-bio__avatar">-->
-		<div>
-			<span class="c-author-bio__line">Hi, I am <span class="o-text--bold">gaboratorium</span> and I write about things I learn. If you'd like to say hello or have a look at my projects, make sure to check out the <a href="/about">About page</a>.</span>
-			<!--<a href="http://gaboratorium.com" class="c-author-bio__line">http://gaboratorium.com</a>-->
-		</div>
-	</div>
-
-	<div class="divider"></div>
-
-	
-	<h3 class="list-title" id="webdev">Webdev</h3>
+	<ul class="postt-title-ul" style="font-weight: bold; background-color: #FAFAFA;" id="webdev">
+		<li class="c-post-list-elem">
+			<div clsas="title"><i class="fa fa-html5 fa-fw" aria-hidden="true"></i>Web development</div>
+		</li>
+	</ul>
 	{% for tag in site.tags %}
 		{% assign t = tag | first %}
 		{% if t == 'webdev' %}
@@ -308,7 +317,10 @@ layout: default
 		{% endif %}
 	{% endfor %}
 
-	<h3 class="list-title" id="android">Android</h3>
+</section>
+<section>
+
+	<h3 class="list-title" id="android">Android Development</h3>
 	{% for tag in site.tags %}
 		{% assign t = tag | first %}
 		{% if t == 'android' %}
@@ -333,6 +345,9 @@ layout: default
 			{% endfor %}
 		{% endif %}
 	{% endfor %}
+
+</section>
+<section>
 
 	<h3 class="list-title" id="linux">Linux</h3>
 	{% for tag in site.tags %}
@@ -360,7 +375,10 @@ layout: default
 		{% endif %}
 	{% endfor %}
 
-	<h3 class="list-title" id="danish">Danish</h3>
+</section>
+<section>
+
+	<h3 class="list-title" id="danish">Danish Essays</h3>
 	{% for tag in site.tags %}
 		{% assign t = tag | first %}
 		{% if t == 'danish' %}
@@ -386,7 +404,10 @@ layout: default
 		{% endif %}
 	{% endfor %}
 
-	<h3 class="list-title" id="philosophy">Philosophy</h3>
+</section>
+<section>
+
+	<h3 class="list-title" id="philosophy">Kitchen Philosophy</h3>
 	{% for tag in site.tags %}
 		{% assign t = tag | first %}
 		{% if t == 'philosophy' %}
@@ -411,6 +432,9 @@ layout: default
 			{% endfor %}
 		{% endif %}
 	{% endfor %}
+
+</section>
+<section>
 
 	<h3 class="list-title" id="random">Random</h3>
 	{% for tag in site.tags %}

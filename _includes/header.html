@@ -1,4 +1,127 @@
-<aside class="logo">
+<style>
+
+	@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+	body {
+		padding: 0;
+		font-family: 'Roboto', sans-serif;
+		
+	}
+
+	.c-header {
+		background-color: #FAFAFA;
+		display: flex;
+		justify-content: center;
+		border-bottom: #E5E5E5 solid 1px;
+		padding-top: 1rem;
+		font-family: 'Roboto', sans-serif;
+		margin-bottom: 3rem;
+	}
+
+	.c-header__content {
+		display: flex;
+		flex-flow: column nowrap;
+	}
+
+	.c-header__title {
+		margin: 0;
+		color: #4F4F4F;
+		font-size: 1.35rem;
+		font-weight: 300;
+		margin: 1rem 0rem;
+		text-align: center;
+		transition: color 300ms;
+	}
+
+	.c-header__title > a, .c-header__title > a:hover, .c-header__title > a:focus {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.c-header__title:hover {
+		color: #2F80ED;
+		cursor: pointer;
+	}
+
+	.c-header__menu {
+		list-style: none;
+		display: flex;
+		flex-flow: row nowrap;
+		margin-bottom: 0;
+		padding: 0;
+		justify-content: space-between;
+	}
+
+	.c-header__menu-item {
+		margin: 0;
+		padding: 0 1rem;
+		padding-bottom: .5rem;
+		color: #A5A5A5;
+	}
+
+	.c-header__menu-item > a, .c-header__menu-item > a:hover, .c-header__menu-item > a:focus {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.c-header__menu-item--selected {
+		color: #2F80ED;
+		border-bottom: 2px solid #2F80ED;
+	}
+</style>
+
+<div class="c-header">
+	<div class="c-header__content">
+		<h1 class="c-header__title"><a href="{{site.baseurl}}/">gaboratorium web development</a></h1>
+		<ul class="c-header__menu">
+
+			{% assign current = page.url | downcase | split: '/' %}
+
+			<li 
+				{% if current[1] == 'home' %} 
+					class='c-header__menu-item c-header__menu-item--selected' 
+				{% else  %} 
+					class="c-header__menu-item"
+				{% endif %}>
+				<a href="{{ '/home' | prepend: site.baseurl }}">Home</a>
+			</li>
+
+			<li 
+				{% if current[1] == null %} 
+					class='c-header__menu-item c-header__menu-item--selected' 
+				{% else  %} 
+					class="c-header__menu-item"
+				{% endif %}>
+				<a href="{{site.baseurl}}/">Articles</a>
+			</li>
+
+
+			<li 
+				{% if current[1] == 'projects' %} 
+					class='c-header__menu-item c-header__menu-item--selected' 
+				{% else  %} 
+					class="c-header__menu-item"
+				{% endif %}>
+				<a href="{{ '/projects' | prepend: site.baseurl }}">Projects</a>
+			</li>
+
+
+
+			<li 
+				{% if current[1] == 'about' %} 
+					class='c-header__menu-item c-header__menu-item--selected' 
+				{% else  %} 
+					class="c-header__menu-item"
+				{% endif %}>
+				<a href="{{ '/about' | prepend: site.baseurl }}">About</a>
+			</li>
+
+		</ul>
+
+	</div>
+</div>
+
+<!--<aside class="logo">
 
 	{% if page.url == '/index.html' or page.url == '/' %}
 		{% assign link = '/about' %}
@@ -9,11 +132,11 @@
 	{% endif %}
 
 	<a href="{{ link | prepend: site.baseurl }}">
-		<!--<img src="https://camo.githubusercontent.com/1244e17b91011c92dc56b112ff8f2d4054dacee7/68747470733a2f2f7261772e6769746875622e636f6d2f656c61646e6176612f6d6174657269616c2d6c65747465722d69636f6e732f6d61737465722f646973742f706e672f4c2e706e67" class="gravatar">-->
+		<img src="https://camo.githubusercontent.com/1244e17b91011c92dc56b112ff8f2d4054dacee7/68747470733a2f2f7261772e6769746875622e636f6d2f656c61646e6176612f6d6174657269616c2d6c65747465722d69636f6e732f6d61737465722f646973742f706e672f4c2e706e67" class="gravatar">
 		<img src="{{ site.baseurl }}/assets/logo_android_cropped.png" class="gravatar">
-		<!--<img src="{{ site.baseurl }}/assets/android_head.png" class="gravatar">-->
-		<!--<img src="{{ site.cdn_path }}/img/logo.png" class="gravatar">-->
+		<img src="{{ site.baseurl }}/assets/android_head.png" class="gravatar">
+		<img src="{{ site.cdn_path }}/img/logo.png" class="gravatar">
 	</a>
 	<span class="logo-prompt">{{ prompt }}</span>
 
-</aside>
+</aside>-->

@@ -14,7 +14,7 @@ A lot of footage has been made, so I decided to create a movie. It took way long
 
 I also added English subtitles, so anyone can enjoy watching our clumsiness.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/qXOoJwANvMk?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="450" src="https://www.youtube.com/embed/qXOoJwANvMk?rel=0" frameborder="0" allowfullscreen></iframe>
 
 If you prefer you can also [watch the movie on YouTube](https://www.youtube.com/watch?v=qXOoJwANvMk).
 

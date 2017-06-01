@@ -22,8 +22,22 @@ I am a web developer and I believe in documented learning and knowledge-sharing.
         border-bottom-right-radius: 0px;
         border-top: 0px;
         box-sizing: border-box;
-        background-color: #8494ab;
         margin-bottom: 0rem !important;
+        animation-name: slideUp;
+        animation-duration: 500ms;
+        animation-delay: 1s;
+    }
+
+    @keyframes slideUp {
+        from {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+        
+        to {
+            transform: translateY(0%); 
+            opacity: 1;
+        }
     }
     
 </style>

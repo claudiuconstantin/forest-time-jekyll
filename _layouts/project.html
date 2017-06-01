@@ -27,30 +27,14 @@ layout: default
 </noscript>
 
 <div class="center" style="text-align: center; margin-bottom: 2rem; padding-bottom: 2rem; border: 1px solid #E5E5E5; border-radius: 3px; border-top: none;">
-	<img src="https://lh3.googleusercontent.com/AOwFOFaKQAQzRKU4B71q_1uziX5suQULh4eulOs6tOrVB5nd3QBGg2yUmIOIDZoHFu0=w300-rw" style="width: 8rem; margin: 0rem;" alt="">
+	<img src="{{page.icon}}" style="width: 8rem; margin: 0rem;" alt="">
 	<h1 style="margin: .5rem; font-family: 'Roboto', sans-serif;">{{ page.title }}</h1>
 	<time>Platform: Android</time>
 </div>
 
 <article style="max-width: 800px">
 
-
-
 	{{ content }}
-
-	<!-- Author bio -->
-	<!--<div class="c-author-bio">
-		<img src="{{ site.baseurl }}/assets/avatar.jpg" alt="" class="c-author-bio__avatar">
-		<div>-->
-			<!--<p>-->
-			<!--<span class="c-author-bio__line c-author-bio__line--title">Gábor Pintér</span>
-			<span class="c-author-bio__line">Web developer, hobby blogger, decent guy</span>
-			<a href="http://gaboratorium.com" class="c-author-bio__line">http://gaboratorium.com</a>-->
-			<!--</p>-->
-		<!--</div>
-	</div>-->
-
-	<!--<div class="divider"></div>-->
 
 	<!-- Disqus comment section -->
 	{% if page.comments %}

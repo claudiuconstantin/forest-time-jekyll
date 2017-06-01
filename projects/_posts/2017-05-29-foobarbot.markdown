@@ -1,11 +1,10 @@
 ---
-layout: post
-title: "My first Android application"
+layout: project
+title: "Foobarbot"
 date: 2017-05-25 09:11:29
-categories: posts
-comments: true
-tags:  android
-icon: android
+category: projects
+permalink: projects/:title
+icon: http://www.myiconfinder.com/uploads/iconsets/256-256-25d19272bc58056226f77270b80e3cf7.png
 ---
 
 I have published my first Android app called **Octodo** in [Google Play](https://play.google.com/store/apps/details?id=com.gaboratorium.octodo). The application was built for my Android Development class as a final project, at [KEA](http://www.kea.dk/da/). It is a simple todo managemenet app, in which users can label their tasks as "important", "someday" or both. The purpose of the project was to learn about the Android SDK, its Views, Layout possibilities, Android Studio and SQLite.

@@ -72,32 +72,32 @@
 
 <div class="c-header">
 	<div class="c-header__content">
-		<h1 class="c-header__title"><a href="{{site.baseurl}}/">gaboratorium web development</a></h1>
+		<h1 class="c-header__title"><a href="{{site.baseurl}}/">{{site.title}}</a></h1>
 		<ul class="c-header__menu">
 
-			{% assign current = page.url | downcase | split: '/' %}
+			{% assign url = page.url | downcase  %}
 
 			<li 
-				{% if current[1] == 'home' %} 
+				{% if url == '/' %} 
 					class='c-header__menu-item c-header__menu-item--selected' 
 				{% else  %} 
 					class="c-header__menu-item"
 				{% endif %}>
-				<a href="{{ '/home' | prepend: site.baseurl }}">Home</a>
+				<a href="{{ '/' | prepend: site.baseurl }}">Home</a>
 			</li>
 
 			<li 
-				{% if current[1] == null %} 
+				{% if url contains '/articles' %} 
 					class='c-header__menu-item c-header__menu-item--selected' 
 				{% else  %} 
 					class="c-header__menu-item"
 				{% endif %}>
-				<a href="{{site.baseurl}}/">Articles</a>
+				<a href="{{'/articles' | prepend: site.baseurl}}/">Articles</a>
 			</li>
 
 
 			<li 
-				{% if current[1] == 'projects' %} 
+				{% if url contains '/projects' %} 
 					class='c-header__menu-item c-header__menu-item--selected' 
 				{% else  %} 
 					class="c-header__menu-item"
@@ -108,7 +108,7 @@
 
 
 			<li 
-				{% if current[1] == 'about' %} 
+				{% if url contains '/about' %} 
 					class='c-header__menu-item c-header__menu-item--selected' 
 				{% else  %} 
 					class="c-header__menu-item"

@@ -2,11 +2,9 @@
 layout: project
 title: "Flappy Hermelin"
 date: 2017-04-01 06:11:29
-categories: posts
-comments: false
-tags:  android
-icon: android
-logo: https://lh3.googleusercontent.com/AOwFOFaKQAQzRKU4B71q_1uziX5suQULh4eulOs6tOrVB5nd3QBGg2yUmIOIDZoHFu0=w300-rw
+category: projects
+permalink: projects/:title
+icon: https://lh3.googleusercontent.com/AOwFOFaKQAQzRKU4B71q_1uziX5suQULh4eulOs6tOrVB5nd3QBGg2yUmIOIDZoHFu0=w300-rw
 ---
 
 I have created my first Android game called [Flappy Hermelin](https://play.google.com/store/apps/details?id=com.gaboratorium.mytestgame), and published it on the Google Play store.

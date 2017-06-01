@@ -4,6 +4,7 @@ title: "Foobarbot"
 date: 2017-05-25 09:11:29
 category: projects
 permalink: projects/:title
+platform: Web
 icon: http://www.myiconfinder.com/uploads/iconsets/256-256-25d19272bc58056226f77270b80e3cf7.png
 ---
 

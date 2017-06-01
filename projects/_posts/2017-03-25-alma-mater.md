@@ -1,11 +1,11 @@
 ---
 layout: project
-title: "Octodo"
+title: "Alma Mater"
 date: 2017-05-25 09:11:29
 category: projects
 permalink: projects/:title
-platform: Android
-icon: https://lh3.googleusercontent.com/7wWhvkRRy8OnWTQpwVBBMyU8Yr_7q-dHrWph-mJ_uDSzsGzG5gjw5XTVCQUaCLrW6w=w300-rw
+platform: Web
+icon: https://material.angularjs.org/latest/img/logo.svg
 ---
 
 I have published my first Android app called **Octodo** in [Google Play](https://play.google.com/store/apps/details?id=com.gaboratorium.octodo). The application was built for my Android Development class as a final project, at [KEA](http://www.kea.dk/da/). It is a simple todo managemenet app, in which users can label their tasks as "important", "someday" or both. The purpose of the project was to learn about the Android SDK, its Views, Layout possibilities, Android Studio and SQLite.

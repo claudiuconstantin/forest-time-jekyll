@@ -12,7 +12,10 @@ permalink: /articles/
 			<div clsas="title">Newest articles</div>
 		</li>
 	</ul>
-	{% for post in site.posts limit:6 %}
+	
+	{% assign articles = site.posts | where: 'categories', 'posts' %}
+	{% for post in articles limit: 5 %}
+		{% if post.category != 'projects' %}
 		<ul class="postt-title-ul">
 			<li class="c-post-list-elem">
 				<div class="post-date">
@@ -30,6 +33,7 @@ permalink: /articles/
 				</div>
 			</li>
 		</ul>
+		{% endif %}
 	{% endfor %}
 </section>
 <section>
@@ -57,7 +61,6 @@ permalink: /articles/
 
 		.categories__item:hover {
 			cursor: pointer;
-			box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25), 0 3px 13px rgba(0, 0, 0, 0.25);
 		}
 
 		.categories__item i {
@@ -124,18 +127,7 @@ permalink: /articles/
 
 	<div class="categories">
 		<div class="categories__item categories__item--blue" id="webdevButton">
-			<span class="categories__item-title">
-				<i class="fa fa-html5"></i>Web Development
-					{% for tag in site.tags %}
-						{% assign t = tag | first %}
-						{% if t == 'webdev' %}
-							{% for post in site.posts %}
-								{% if post.tags contains t %}
-								{% endif %}
-							{% endfor %}
-						{% endif %}
-					{% endfor %}
-				</span>
+			<span class="categories__item-title"><i class="fa fa-html5"></i>Web Development</span>
 		</div>
 		<div class="categories__item categories__item--green" id="androidButton">
 			<span class="categories__item-title"><i class="fa fa-android"></i>Android Development</span>
@@ -157,36 +149,6 @@ permalink: /articles/
 
 
 	<style>
-		/*#philosophy {
-			border-bottom: 2px solid #FFA000;
-			padding-bottom: .5rem;
-		}
-
-		#linux {
-			border-bottom: 2px solid #455A64;
-			padding-bottom: .5rem;
-		}
-
-		#webdev {
-			border-bottom: 2px solid #1976D2;
-			padding-bottom: .5rem;
-		}
-
-		#android {
-			border-bottom: 2px solid #689F38;
-			padding-bottom: .5rem;
-		}
-
-		#danish {
-			border-bottom: 2px solid #D32F2F;
-			padding-bottom: .5rem;
-		}
-
-		#random {
-			border-bottom: 2px solid #5D4037;
-			padding-bottom: .5rem;
-		}*/
-
 		.fa {
 			color: #757575;
 			margin-right: .5rem;
@@ -262,6 +224,11 @@ permalink: /articles/
 
 		.postt-title-ul:hover {
 			background-color: #f4f9ff;
+			/*cursor: pointer;*/
+		}
+
+		.postt-title-ul:hover a, .postt-title-ul:hover i.fa {
+			/*color: #2F80ED;*/
 		}
 
 		.postt-title-ul {
@@ -282,6 +249,10 @@ permalink: /articles/
 			border-bottom: #E5E5E5 1px solid;
 			border-bottom-left-radius: 3px;
 			border-bottom-right-radius: 3px;
+		}
+
+		section ul li span {
+			text-transform: none;
 		}
 
 	</style>

@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+@import 'components.navigation';
+
 body {
   font-family: arial,sans-serif;
-  padding: 20px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   color: #212121;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
-  @media (min-width: 992px) {
-    padding: 35px 50px;
-  }
 }
 h2,
 h3,
@@ -190,7 +192,7 @@ ol {
   li {
     word-wrap: break-word;
     line-height: 1.7em;
-    margin-bottom: 1em;
+    // margin-bottom: 1em;
   }
   img {
     margin: 40px 0;
@@ -356,11 +358,11 @@ article {
   }
 }
 .footer {
-  margin-top: 50px;
-  margin-bottom: 25px;
-  font-size: 13px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  font-size: 14px;
   line-height: 1.2rem;
-  color: #777;
+  color: #A5A5A5;
   a {
     border: none;
     font-weight: bold;
@@ -537,12 +539,6 @@ article img {
       margin-left: -20px;
       border-radius: 0px;
     }
-
-    body {
-      padding-left: 0px;
-      padding-right: 0px;
-    }
-
     article {
       padding-left: 20px;
       padding-right: 20px;

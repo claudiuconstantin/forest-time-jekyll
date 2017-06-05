@@ -1,5 +1,6 @@
 <div class="c-header">
 	<div class="c-header__content">
+		<img src="{{ site.baseurl }}/assets/G11.png" style="width: 4rem;" alt="">
 		<h1 class="c-header__title"><a href="{{site.baseurl}}/">{{site.title}}</a></h1>
 		<ul class="c-header__menu">
 
@@ -48,23 +49,3 @@
 
 	</div>
 </div>
-
-<!--<aside class="logo">
-
-	{% if page.url == '/index.html' or page.url == '/' %}
-		{% assign link = '/about' %}
-		{% assign prompt = 'About the blog' %}
-	{% else %}
-		{% assign link = '/' %}
-		{% assign prompt = 'Back to Home' %}
-	{% endif %}
-
-	<a href="{{ link | prepend: site.baseurl }}">
-		<img src="https://camo.githubusercontent.com/1244e17b91011c92dc56b112ff8f2d4054dacee7/68747470733a2f2f7261772e6769746875622e636f6d2f656c61646e6176612f6d6174657269616c2d6c65747465722d69636f6e732f6d61737465722f646973742f706e672f4c2e706e67" class="gravatar">
-		<img src="{{ site.baseurl }}/assets/logo_android_cropped.png" class="gravatar">
-		<img src="{{ site.baseurl }}/assets/android_head.png" class="gravatar">
-		<img src="{{ site.cdn_path }}/img/logo.png" class="gravatar">
-	</a>
-	<span class="logo-prompt">{{ prompt }}</span>
-
-</aside>-->

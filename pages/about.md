@@ -7,7 +7,9 @@ Hi, my name is Gábor Pintér, I am a Front End Developer [@SimpleSite](http://s
 
 You can find me on [LinkedIn](https://www.linkedin.com/in/gaboratorium/), [Mastodon](https://mastodon.technology/@gaboratorium) and [GitHub](http://github.com/{{site.github_username}}).
 
-![asd]({{ site.baseurl }}/assets/about_bw.jpg)
+![Kullaberg, Sweeden]({{ site.baseurl }}/assets/about.jpg)
+*Kullaberg, Sweeden*
+
 
 <!--![Me!]({{ site.cdn_path }}/img/about.jpg)-->
 

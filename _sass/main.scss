@@ -1,6 +1,9 @@
+$primary-color: #2F80ED;
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
 @import 'components.navigation';
+
 
 body {
   font-family: arial,sans-serif;
@@ -24,7 +27,7 @@ img {
   max-width: 100%;
 }
 a {
-  color: #1565C0;
+  color: $primary-color;
   &.image {
     display: block;
     text-align: center;

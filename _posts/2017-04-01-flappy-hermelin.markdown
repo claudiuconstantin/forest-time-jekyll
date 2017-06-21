@@ -1,18 +1,18 @@
 ---
-layout: project
-title: "Chirip.io"
+layout: post
+title: "Flappy Hermelin"
 date: 2017-04-01 06:11:29
 category: projects
 permalink: projects/:title
-platform: Web
-icon: https://logos.bugcrowdusercontent.com/logos/3c54/1191/e02f2090/e6972790f7078181d7431240a9ac04b7_owasp_logo_icon.png
+platform: Android
+icon: https://lh3.googleusercontent.com/AOwFOFaKQAQzRKU4B71q_1uziX5suQULh4eulOs6tOrVB5nd3QBGg2yUmIOIDZoHFu0=w300-rw
 ---
 
 I have created my first Android game called [Flappy Hermelin](https://play.google.com/store/apps/details?id=com.gaboratorium.mytestgame), and published it on the Google Play store.
 
-![Happy Hermelin]({{site.cdn_path}}/img/posts/2018-04-01-my-first-android-game/flappy_hermelin_small.png)
-
 It was my first take on writing a native game, and what could be easier to experiment with than a Flappy Bird clone? As I already had classes in Android development at school, and my development environment was already set up for this platform, I was looking for something which integrates with it smoothly, and which is preferably open-source. This is how I've found this awesome framework called [LibGDX](https://libgdx.badlogicgames.com/) which seemed and turned out to be very powerful. I strongly recommend it, however it might seem a [little difficult and overwhelming](https://github.com/libgdx/libgdx/wiki) without prior Java experience.
+
+![Happy Hermelin]({{site.cdn_path}}/img/posts/2018-04-01-my-first-android-game/flappy_hermelin_small.png)
 
 To learn from sketch, I have went through the tutorials of [Brent Aureli](https://www.youtube.com/watch?v=rzBVTPaUUDg&list=PLZm85UZQLd2TPXpUJfDEdWTSgszionbJy) and [thenewboston](https://www.youtube.com/watch?v=p_hp6vMeewQ&t=2s), I recommend these whole-heartedly as well.
 

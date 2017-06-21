@@ -1,27 +1,24 @@
 # Site Info
-title:              "gaboratorium web development"
-description:        ""
+title:              "gaboratorium"
+description:        "The Plain is a minimalist Jekyll theme, that's it. Can't say anymore..."
 google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
 google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
 
 # Author Info
-author_name:        "Gábor Pintér"
-author_email:       gaboratorium@gmail.com
-author_gravatar:    2b38b1b0e7e08b69379bd61582adf0c8 # Gravatar md5 hash
-twitter_username:   gaboratorium
-github_username:    gaboratorium # GitHub username
+author_name:        "Gábor Pintér" # Your name here
+author_email:       gaboratorium@gmail.com # Your email here
+author_gravatar:    2b38b1b0e7e08b69379bd61582adf0c8 # Your Gravatar md5 hash here for logo
+twitter_username:   gaboratorium # Your Twitter username here
+github_username:    gaboratorium # Your GitHub username here
 
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
-permalink:          /articles/:title # Post permalink
+permalink:          /notes/:title # Post permalink
 timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-production_url:                "http://gaboratorium.com"
+mathjax:            true  # enables support for mathjax - set to false to disable
 
 # Site Build
 highlighter:        rouge
-#markdown:           redcarpet
-#redcarpet:
-#    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
 markdown:           kramdown
 kramdown:
     input:          GFM
@@ -34,10 +31,7 @@ exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
 gems:
   - jekyll-sitemap
 
-compress_html:
-    clippings:      all
-    ingore:
-        envs:       [ "test" ]
+
 
 defaults:
   -
@@ -55,10 +49,3 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
-
-# path
-cdn_path: http://gaborpinter.net/gaboratorium-notes
-
-# kramdown
-kramdown:
-  input: GFM

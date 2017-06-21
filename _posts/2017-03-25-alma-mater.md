@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: "Alma Mater"
 date: 2017-05-25 09:11:29
 category: projects
@@ -13,5 +13,3 @@ I have published my first Android app called **Octodo** in [Google Play](https:/
 During the development I have followed this [tutorial](https://www.sitepoint.com/starting-android-development-creating-todo-app/) as a guide.
 
 The source code can be found on [GitHub](https://github.com/gaboratorium/octodo). 
-
-<a href='https://play.google.com/store/apps/details?id=com.gaboratorium.octodo&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' class="c-google-play" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>

@@ -2,59 +2,15 @@
 layout: default
 ---
 
+<article>
 
-<noscript>
-	<style>
-
-		article {
-			max-width: 840px;
-		}
-
-		article .footnotes {
-			display: block;
-		}
-
-		article .center {
-			text-align: left;
-			font-family: 'Roboto', arial;
-		}
-
-		article .center h1 {
-			display: none;
-		}
-
-	</style>
-</noscript>
-
-
-
-<article style="max-width: 800px">
-
-	<div class="center" style="text-align: left; margin-bottom: 2rem;">
-		<h1 style="margin-bottom: .5rem; font-family: 'Roboto', sans-serif;">{{ page.title }}</h1>
+	<div class="center">
+		<h1>{{ page.title }}</h1>
 		<time>{{ page.date | date: '%B %-d, %Y' }}</time>
 	</div>
 
+	<div class="divider"></div>
+
 	{{ content }}
 
-	<!-- Disqus comment section -->
-	{% if page.comments %}
-	<div id="disqus_thread"></div>
-	<script>
-		var disqus_config = function () {
-		this.page.url = "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.production_url }}";
-		this.page.identifier = "{{ page.id }}";
-
-		};
-		
-		(function() {
-			var d = document, s = d.createElement('script');
-			s.src = '//gaboratorium-notes.disqus.com/embed.js';
-			s.setAttribute('data-timestamp', +new Date());
-			(d.head || d.body).appendChild(s);
-		})();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-									
-	{% endif %}
 </article>

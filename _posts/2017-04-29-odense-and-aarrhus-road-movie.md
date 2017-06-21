@@ -1,5 +1,5 @@
 ---
-layout: video
+layout: post
 title: "ODENSE & AARHUS ROAD MOVIE"
 date: 2017-04-29 10:11:29
 categories: posts

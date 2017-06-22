@@ -2,6 +2,8 @@ $max-width: 650px;
 $max-width--home: 500px;
 $text-color: #222;
 
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
 @import 'objects.text';
 @import 'objects.image';
 
@@ -10,7 +12,7 @@ body {
   line-height: 20px;
   font-weight: normal;
   font-style: normal;
-  font-family: sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   color: $text-color;
   padding: 20px;
   margin: 0;

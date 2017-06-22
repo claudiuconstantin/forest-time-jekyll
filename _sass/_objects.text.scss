@@ -5,3 +5,15 @@
 .o-text--block {
 	display: block;
 }
+
+.o-text--align-center {
+	text-align: center;
+}
+
+.o-text--underline {
+	text-decoration: underline;
+}
+
+.o-text--no-border, .o-text--noborder:hover {
+	border: none;
+}

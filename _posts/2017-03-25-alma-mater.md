@@ -8,8 +8,10 @@ platform: Web
 icon: https://material.angularjs.org/latest/img/logo.svg
 ---
 
-I have published my first Android app called **Octodo** in [Google Play](https://play.google.com/store/apps/details?id=com.gaboratorium.octodo). The application was built for my Android Development class as a final project, at [KEA](http://www.kea.dk/da/). It is a simple todo managemenet app, in which users can label their tasks as "important", "someday" or both. The purpose of the project was to learn about the Android SDK, its Views, Layout possibilities, Android Studio and SQLite.
+One of my very first projects using a frontend framework was AlmaMater, which was also a final project assignment for Copenhagen School of Design & Technology's Multimedia Design & Communication AP. 
 
-During the development I have followed this [tutorial](https://www.sitepoint.com/starting-android-development-creating-todo-app/) as a guide.
+The application was build on [Angular.js](https://angularjs.org/) using the npm package manager. The purpose of the project was to create an e-textbook management software, where students can experience their curriculum in a more immerse way using various kinds of media, such as videos, interactive media elements and check tests.
 
-The source code can be found on [GitHub](https://github.com/gaboratorium/octodo). 
+The application's source is available on [GitHub](https://github.com/gaboratorium/AlmaMater) and [a demo can be seen on GitHub Pages](http://gaboratorium.github.io/AlmaMater/#/).
+
+![AlmaMater]({{site.cdn_path}}/img/posts/2017-03-25-almamater/almamater.png){: .o-image--bordered}

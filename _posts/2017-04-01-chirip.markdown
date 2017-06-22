@@ -8,14 +8,8 @@ platform: Web
 icon: https://logos.bugcrowdusercontent.com/logos/3c54/1191/e02f2090/e6972790f7078181d7431240a9ac04b7_owasp_logo_icon.png
 ---
 
-I have created my first Android game called [Flappy Hermelin](https://play.google.com/store/apps/details?id=com.gaboratorium.mytestgame), and published it on the Google Play store.
+Chirip.io was a web application I have created with my team for the course Web security at Copenhagen School of Design & Technology's Web development BA. The application was built with PHP and addresses to implement protection against various kinds of cyber attacks such as mySQL injection, cross-site scripting or cross-site request forgery.
 
-![Happy Hermelin]({{site.cdn_path}}/img/posts/2018-04-01-my-first-android-game/flappy_hermelin_small.png)
+We have not used any kind of frameworks in order to understand and implement the security ourselves. The app is deployed on a Digital Ocean droplet using Apache. We have also implemented SSL connection using a certificate we have issued ourselves. **Because of using a cert which was issued by ourselves, the browser will raise a security warning flag when visiting the site stating that the site is not secure.**
 
-It was my first take on writing a native game, and what could be easier to experiment with than a Flappy Bird clone? As I already had classes in Android development at school, and my development environment was already set up for this platform, I was looking for something which integrates with it smoothly, and which is preferably open-source. This is how I've found this awesome framework called [LibGDX](https://libgdx.badlogicgames.com/) which seemed and turned out to be very powerful. I strongly recommend it, however it might seem a [little difficult and overwhelming](https://github.com/libgdx/libgdx/wiki) without prior Java experience.
-
-To learn from sketch, I have went through the tutorials of [Brent Aureli](https://www.youtube.com/watch?v=rzBVTPaUUDg&list=PLZm85UZQLd2TPXpUJfDEdWTSgszionbJy) and [thenewboston](https://www.youtube.com/watch?v=p_hp6vMeewQ&t=2s), I recommend these whole-heartedly as well.
-
-To save time on game design, I have bought my assets on [Gamedevmarket](https://www.gamedevmarket.net/), which seems like a really good source for indie game developers.
-
-The game is of course open-source, and can be found on my [GitHub](https://github.com/gaboratorium/flappy-hermelin). It can be also downloaded directly from [Google Play](https://play.google.com/store/apps/details?id=com.gaboratorium.mytestgame&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1).
+The app can be fond oun [GitHub](https://github.com/gaboratorium/chirip.io), and a demo can see at [188.226.142.113](https://188.226.142.113/). 

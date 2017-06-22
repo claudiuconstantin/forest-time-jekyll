@@ -12,9 +12,6 @@ For [Web Security class](https://github.com/gaboratorium/keaproject2#web-securit
 
 In this tutorial I am going to write about the project's **structure**, touch upon the **.htaccess** file and talk about some apache configurations.
 
-![PHP7](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/02/1457018224elephpant.jpg)
-*Super PHP Elephant from [SitePoint](https://www.sitepoint.com/re-implementing-the-range-operator-in-php/)*
-
 ## Structure of the project
 
 The main idea behind the architecture was that we wanted to access everything through `index.php` and forbid direct accessibility of any other files and folders.

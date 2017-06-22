@@ -2,6 +2,8 @@ $max-width: 650px;
 $max-width--home: 500px;
 $text-color: #222;
 
+@import 'objects.text';
+
 body {
   font-size: 16px;
   line-height: 20px;

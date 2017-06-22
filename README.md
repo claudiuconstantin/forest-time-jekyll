@@ -1,3 +1,3 @@
-# gaboratorium
+# gaboratorium.github.io
 
-See it live at [http://gaboratorium.com](http://gaboratorium.com).
+A regular jekyll blog. See it live at [gaboratorium.github.io](http://gaboratorium.github.io).

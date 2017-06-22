@@ -2,10 +2,6 @@
 layout: post
 title: "Øve dansk: Mine læsevaner"
 date: 2017-02-28 15:11:29
-categories: posts
-comments: true
-tags:  danish
-icon: language
 ---
 
 > "Husk at bruge **tror/synes** og **ved/kender** korrekt!"

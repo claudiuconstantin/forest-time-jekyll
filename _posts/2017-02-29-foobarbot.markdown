@@ -1,11 +1,7 @@
 ---
 layout: post
 title: "Foobarbot"
-date: 2017-05-25 09:11:29
-category: projects
-permalink: projects/:title
-platform: Web
-icon: http://www.myiconfinder.com/uploads/iconsets/256-256-25d19272bc58056226f77270b80e3cf7.png
+date: 2017-02-29 09:11:29
 ---
 
 Foobarbot is a RESTful application I have written with a cooperation of one of my classmates. The site is built on full-stack JavaScript, using [Vue.js](https://vuejs.org/) on the frontend and [Node.js](https://nodejs.org/en/) on the backend. 

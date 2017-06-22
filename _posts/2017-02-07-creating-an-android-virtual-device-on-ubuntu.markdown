@@ -2,10 +2,6 @@
 layout: post
 title: "Creating an Android Virtual Device on Ubuntu 16.04 LTS"
 date: 2017-02-07 07:28:29
-categories: posts
-comments: true
-tags:  android
-icon: android
 ---
 
 I stumbled upon the [following issue](https://code.google.com/p/android/issues/detail?id=82711) in Android Studio on Ubuntu:

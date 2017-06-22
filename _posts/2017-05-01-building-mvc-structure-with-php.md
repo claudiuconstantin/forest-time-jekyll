@@ -2,10 +2,6 @@
 layout: post
 title: "Building MVC structure with PHP"
 date: 2017-05-01 12:11:29
-categories: posts
-comments: true
-tags:  webdev
-icon: html5
 ---
 
 For [Web Security class](https://github.com/gaboratorium/keaproject2#web-security) we had to write a web application and secure it in any preferred language. Since PHP was showcased and introduced in all of the demos throughout the class, we decided to stick with it for the sake of simplicity. Furthermore, we also set the goal of building a proper MVC sturcture just to give ourselves some extra challenge.

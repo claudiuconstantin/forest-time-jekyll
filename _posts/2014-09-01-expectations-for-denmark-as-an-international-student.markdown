@@ -2,10 +2,6 @@
 layout: post
 title:  "Expectations for Denmark as an international student"
 date:   2014-09-01 12:03:16 +0200
-categories: posts
-comments: true
-tags: philosophy
-icon: lightbulb-o
 ---
 Let me explain why did I choose Denmark after all, and why you should think over following me. Picking the right university / college and finding your own way is never easy and Denmark might be a good choice, but not for everyone.
 

@@ -2,11 +2,6 @@
 layout: post
 title: "VR FOR THE FIRST TIME"
 date: 2017-03-10 06:11:29
-categories: posts
-comments: true
-link: https://www.youtube.com/embed/qXOoJwANvMk?rel=0
-icon: hashtag
-tags: random
 ---
 
 A couple of weeks ago, András and Bálint have invited Bánk, Dorka and me over, so we had the wonderful chance of trying out the HTC Vive VR headset.

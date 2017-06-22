@@ -2,10 +2,6 @@
 layout: post
 title:  "Debugging HpConf"
 date:   2016-08-01 12:15:16 +0200
-categories: posts
-comments: true
-tags: webdev
-icon: html5
 ---
 Today's learning:
  

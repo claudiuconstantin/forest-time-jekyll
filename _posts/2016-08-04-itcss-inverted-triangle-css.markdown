@@ -2,10 +2,6 @@
 layout: post
 title:  "ITCSS - Inverted Triangle CSS"
 date:   2016-08-04 14:13:16 +0200
-categories: posts
-comments: true
-tags: webdev
-icon: html5
 ---
 [Inverted Triangle CSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss) is a technique for developing easily maintainable CSS introduced by [Harry Roberts](http://csswizardry.com/).
 

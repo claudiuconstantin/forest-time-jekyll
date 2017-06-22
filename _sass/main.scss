@@ -3,6 +3,7 @@ $max-width--home: 500px;
 $text-color: #222;
 
 @import 'objects.text';
+@import 'objects.image';
 
 body {
   font-size: 16px;
@@ -130,6 +131,7 @@ ul,
 ol {
   margin: 40px 0;
   padding-left: 50px;
+  line-height: 1.5rem;
   li {
     word-wrap: break-word;
   }

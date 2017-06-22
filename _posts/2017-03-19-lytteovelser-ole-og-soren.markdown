@@ -2,10 +2,6 @@
 layout: post
 title: "Øve dansk: Lytteøvelser: Ole og Søren"
 date: 2017-03-19 06:11:29
-categories: posts
-comments: true
-tags:  danish
-icon: language
 ---
 
 ## Sådan 2: 19.11 - Ole og Søren

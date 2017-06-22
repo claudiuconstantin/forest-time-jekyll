@@ -2,10 +2,6 @@
 layout: post
 title:  "C# and .NET basics 2.: Generics"
 date:   2016-07-26 20:23:16 +0200
-categories: posts
-comments: true
-tags: webdev
-icon: html5
 ---
 I have been doing some refactoring in TypeScript for the last few days, and just started to feel the need, and understand the benefits of writing strongly typed code. Let’s have a look at an approach which can help us to achieve that in C#; the generics.
 

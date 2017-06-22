@@ -2,10 +2,6 @@
 layout: post
 title: "I am leaving Facebook"
 date: 2017-01-14 21:48:29
-categories: posts
-comments: true
-tags:  philosophy
-icon: lightbulb-o
 ---
 
 It has been more than 2 weeks since I have requested my account deletion from the [Dark Side](https://medium.com/@hargup/leaving-the-evil-empire-of-facebook-7f7b1955bb37#.tc82crkhl), which means the detox period is over and my decision irreversibly came into force. [I have quit Facebook](https://www.youtube.com/watch?v=mGcHNnI2mh4).

@@ -9,10 +9,10 @@ Hi, my name is Gábor Pintér, I am a Front End Developer [@SimpleSite](http://s
 ## Timeline
 
 - **Multimedia Design & Communication AP** at Copenhagen School of Design & Technology - 2014 August - 2016 July
-- **Front End Developer intern** at Publia - 2015 December - 2016 May 
-- **Front End Developer** at SimpleSite2016. 2016 May - 2017 August
+- **Front End Developer intern** at [Publia](http://publia.co/) - 2015 December - 2016 May 
+- **Front End Developer** at [SimpleSite](http://www.simplesite.com/) 2016 May - 2017 August
 - **Web Development BA** at Copenhagen School of Design & Technology - 2016 August - 2018 January
-- **Backend Student Developer** at Shape since 2017 August
+- **Backend Student Developer** at [Shape](https://www.shape.dk/) since 2017 August
 
 ## Why blogging?
 

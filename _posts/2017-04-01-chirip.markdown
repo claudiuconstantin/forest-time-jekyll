@@ -2,10 +2,6 @@
 layout: post
 title: "Chirip.io"
 date: 2017-04-01 06:11:29
-category: projects
-permalink: projects/:title
-platform: Web
-icon: https://logos.bugcrowdusercontent.com/logos/3c54/1191/e02f2090/e6972790f7078181d7431240a9ac04b7_owasp_logo_icon.png
 ---
 
 Chirip.io was a web application I have created with my team for the course Web security at Copenhagen School of Design & Technology's Web development BA. The application was built with PHP and addresses to implement protection against various kinds of cyber attacks such as mySQL injection, cross-site scripting or cross-site request forgery.

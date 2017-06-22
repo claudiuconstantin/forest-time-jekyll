@@ -2,10 +2,6 @@
 layout: post
 title: "Design and Linux"
 date: 2017-04-08 10:11:29
-categories: posts
-comments: true
-icon: linux
-tags:  linux
 ---
 
 I always seek for aesthetics. Since I have been using Ubuntu as my main OS I've been fairly happy with it, but let's face it: poor guy is quite ugly by default. I know, I know... Linux is not meant to be for the general consumer market, and most of the Linux guys don't care about how it looks. Design has never been really a priority in this segment of users.

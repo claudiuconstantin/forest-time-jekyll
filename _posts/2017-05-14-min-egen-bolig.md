@@ -2,10 +2,6 @@
 layout: post
 title: "Min egen bolig"
 date: 2017-05-14 09:11:29
-categories: posts
-comments: true
-tags:  danish
-icon: language
 ---
 
 Jeg bor på et **stort** kollegium på Amager. Mit værelse er på den femte etage, som jeg er ret glad for, fordi jeg har en **smuk** udsigt fra min bord. Opgangen er ikke så **praktisk**, fordi det fører gennem balkonen, så jeg ofte tager elevatoren. Jeg har ikke en egen køkken, men jeg deler én med mine etage kammarater. 

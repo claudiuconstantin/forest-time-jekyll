@@ -2,18 +2,11 @@
 layout: post
 title: "Building MVC structure with PHP"
 date: 2017-05-01 12:11:29
-categories: posts
-comments: true
-tags:  webdev
-icon: html5
 ---
 
 For [Web Security class](https://github.com/gaboratorium/keaproject2#web-security) we had to write a web application and secure it in any preferred language. Since PHP was showcased and introduced in all of the demos throughout the class, we decided to stick with it for the sake of simplicity. Furthermore, we also set the goal of building a proper MVC sturcture just to give ourselves some extra challenge.
 
 In this tutorial I am going to write about the project's **structure**, touch upon the **.htaccess** file and talk about some apache configurations.
-
-![PHP7](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/02/1457018224elephpant.jpg)
-*Super PHP Elephant from [SitePoint](https://www.sitepoint.com/re-implementing-the-range-operator-in-php/)*
 
 ## Structure of the project
 

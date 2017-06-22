@@ -2,10 +2,6 @@
 layout: post
 title: "Øve dansk: Lytteøvelser: en fed weekend"
 date: 2017-03-12 06:11:29
-categories: posts
-comments: true
-tags:  danish
-icon: language
 ---
 
 ## Sådan 2: 17.12 - En fed weekend noter

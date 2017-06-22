@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Chirip.io"
+date: 2017-04-01 06:11:29
+---
+
+Chirip.io was a web application I have created with my team for the course Web security at Copenhagen School of Design & Technology's Web development BA. The application was built with PHP and addresses to implement protection against various kinds of cyber attacks such as mySQL injection, cross-site scripting or cross-site request forgery.
+
+We have not used any kind of frameworks in order to understand and implement the security ourselves. The app is deployed on a Digital Ocean droplet using Apache. We have also implemented SSL connection using a certificate we have issued ourselves. **Because of using a cert which was issued by ourselves, the browser will raise a security warning flag when visiting the site stating that the site is not secure.**
+
+The app can be fond oun [GitHub](https://github.com/gaboratorium/chirip.io), and a demo can see at [188.226.142.113](https://188.226.142.113/). 

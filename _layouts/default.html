@@ -1,7 +1,3 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,61 +14,6 @@ layout: compress
 		</main>
 
 		{% include footer.html %}
-
-		{% if page.path contains '_posts' %}
-
-			{% if content contains 'reversefootnote' %}
-				<aside class="note"></aside>
-				<script async src="{{site.baseurl}}/assets/footnotes.js"></script>
-			{% endif %}
-
-		{% endif %}
-
-    <!-- Material button -->
-    <button class="material-scrolltop" type="button"></button>
-
-    <!-- jQuery and scrolltop.js -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/material-scrolltop.js"></script>
-
-		<!-- Scrolltop button init -->
-		<script>
-				$('body').materialScrollTop();
-
-				$("#webdevButton").on("click", function(){
-					scrollToContent("#webdev");
-				});
-
-				$("#androidButton").on("click", function(){
-					scrollToContent("#android");
-				});
-
-				$("#linuxButton").on("click", function(){
-					scrollToContent("#linux");
-				});
-
-				$("#danishButton").on("click", function(){
-					scrollToContent("#danish");
-				});
-
-				$("#philosophyButton").on("click", function(){
-					scrollToContent("#philosophy");
-				});
-
-				$("#randomButton").on("click", function(){
-					scrollToContent("#random");
-				});
-
-				function scrollToContent(myContent) {
-					$(document).ready(function () {
-						$("html, body").animate({
-								scrollTop: $(myContent).offset().top
-						}, 800);
-					});
-				}
-
-
-		</script>
 
 	</body>
 

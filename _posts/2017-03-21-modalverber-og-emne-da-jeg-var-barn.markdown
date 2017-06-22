@@ -2,10 +2,6 @@
 layout: post
 title: "Modalverber og emne: 'da jeg var barn...'"
 date: 2017-03-19 07:11:29
-categories: posts
-comments: true
-tags:  danish
-icon: language
 ---
 
 ## Modalverber

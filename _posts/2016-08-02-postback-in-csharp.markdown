@@ -2,10 +2,6 @@
 layout: post
 title:  "Postback and UpdatePanel in C#"
 date:   2016-08-02 14:01:16 +0200
-categories: posts
-comments: true
-tags: webdev
-icon: html5
 ---
 
 ## The issue

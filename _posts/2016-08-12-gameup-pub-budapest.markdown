@@ -2,10 +2,6 @@
 layout: post
 title:  "GameUp Pub Budapest"
 date:   2016-08-12 10:43:16 +0200
-categories: posts
-comments: true
-tags: random
-icon: hashtag
 ---
 I love boardgames and [boardgame cafés](http://gaboratorium.xyz/2015/06/10/the-best-cafe-in-copenhagen/). Spending my vacation in Budapest couldn't be complete without playing some [Mr. Jack](https://boardgamegeek.com/boardgame/55427/mr-jack-new-york) with a glass of latte in hand.
 

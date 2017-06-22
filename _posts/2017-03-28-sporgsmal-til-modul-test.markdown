@@ -2,10 +2,6 @@
 layout: post
 title: "Øve dansk: Spørgsmål til modul test"
 date: 2017-03-28 06:11:29
-categories: posts
-comments: true
-tags:  danish
-icon: language
 ---
 
 ## Spørgsmål

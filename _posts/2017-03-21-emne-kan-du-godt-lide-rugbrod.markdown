@@ -2,10 +2,6 @@
 layout: post
 title: "Emne: Kan du godt lide rugbrød?"
 date: 2017-03-21 07:11:29
-categories: posts
-comments: true
-tags:  danish
-icon: language
 ---
 
 ## Substantiver

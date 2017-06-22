@@ -1,3 +1,3 @@
-# gaboratorium notes
+# gaboratorium
 
-My personal blog. See it live at [http://gaboratorium.com](http://gaboratorium.com).
+See it live at [http://gaboratorium.com](http://gaboratorium.com).

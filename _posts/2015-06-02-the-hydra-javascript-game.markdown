@@ -2,11 +2,8 @@
 layout: post
 title:  "The Hydra JavaScript Game"
 date:   2015-06-02 21:28:53 +0200
-categories: posts
-comments: true
-tags: webdev
-icon: html5
 ---
+
 Learning new skills either via books, tutorials, videos or from school is always nice, but my personal experience is that the most beneficial way of learning happens when the need is present. Making small projects which entertain you only by making them.
 
 So just to make the #100DaysOfCode challenge a bit more fun I have came out with a small project idea which is going to be a very simple arcade game, called the Hydra.

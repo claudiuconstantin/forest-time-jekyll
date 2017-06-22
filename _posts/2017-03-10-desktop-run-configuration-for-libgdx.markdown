@@ -2,10 +2,6 @@
 layout: post
 title: "Desktop run configuration for LibGDX"
 date: 2017-03-12 06:11:29
-categories: posts
-comments: true
-icon: android
-tags: android
 ---
 
 1. Classpath of the module should be the `desktop` folder.

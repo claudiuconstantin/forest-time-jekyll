@@ -2,10 +2,6 @@
 layout: post
 title: "How to log in to our droplet on DigitalOcean with PuTTY"
 date: 2016-09-10 10:46:31
-categories: posts
-comments: true
-tags: webdev
-icon: html5
 ---
 > PuTTY is an open-source SSH and Telnet client for Windows. It allows you to securely connect to remote servers from a local Windows computer.
 

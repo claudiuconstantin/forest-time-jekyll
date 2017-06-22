@@ -2,64 +2,18 @@
 layout: default
 ---
 
-
-<noscript>
-	<style>
-
-		article .footnotes {
-			display: block;
-		}
-
-	</style>
-</noscript>
-
-
-
 <article>
 
+	<!-- Header -->
 	<div class="center">
 		<h1>{{ page.title }}</h1>
 		<time>{{ page.date | date: '%B %-d, %Y' }}</time>
 	</div>
 
+	<!-- Divider -->
 	<div class="divider"></div>
 
+	<!-- Content -->
 	{{ content }}
 
-	<div class="divider"></div>
-
-	<!-- Author bio -->
-	<div class="c-author-bio">
-		<img src="{{ site.baseurl }}/assets/avatar.jpg" alt="" class="c-author-bio__avatar">
-		<div>
-			<!--<p>-->
-			<span class="c-author-bio__line c-author-bio__line--title">Gábor Pintér</span>
-			<span class="c-author-bio__line">Web developer, hobby blogger, decent guy</span>
-			<a href="http://gaboratorium.com" class="c-author-bio__line">http://gaboratorium.com</a>
-			<!--</p>-->
-		</div>
-	</div>
-
-	<div class="divider"></div>
-
-	<!-- Disqus comment section -->
-	{% if page.comments %}
-	<div id="disqus_thread"></div>
-	<script>
-		var disqus_config = function () {
-		this.page.url = "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.production_url }}";
-		this.page.identifier = "{{ page.id }}";
-
-		};
-		
-		(function() {
-			var d = document, s = d.createElement('script');
-			s.src = '//gaboratorium-notes.disqus.com/embed.js';
-			s.setAttribute('data-timestamp', +new Date());
-			(d.head || d.body).appendChild(s);
-		})();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-									
-	{% endif %}
 </article>

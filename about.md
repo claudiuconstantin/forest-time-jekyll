@@ -16,7 +16,7 @@ Hi, my name is Gábor Pintér, I am a Front End Developer [@SimpleSite](http://s
 
 ## Why blogging?
 
-I have started writing when I moved to Denmark in 2014, since then the blog went through several changes regarding content, context and platform. Today I the main purpose of the blog for me is to learn how to formulate problems consciously and solutions thoroughly.
+I have started writing when I moved to Denmark in 2014, since then the blog went through several changes regarding content, context and platform. Today the main purpose of the blog for me is to learn how to formulate problems consciously and solutions thoroughly.
 
 Therefore during composition, simplicity and straight-to-the-point approach may be preferred over 	
 elegance.

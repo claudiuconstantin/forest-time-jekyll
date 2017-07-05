@@ -6,6 +6,8 @@ date: 2017-06-24 09:11:29
 
 I am completely new to [Nginx](https://www.nginx.com/resources/wiki/), so I decided to read a little about the differences of Apache and Nginx. So I started with [this video](https://www.youtube.com/watch?v=ZhfpYgl8BtQ) by Aleksey Grebeshkov, and the first thing Aleksey says is that approximately 70% of the web traffic is served by either Apache or Nginx, which is pretty impressive. Another video I have went through was [this one](https://www.youtube.com/watch?v=YWvmnRpVbbc) by CarAni Studio.
 
+![Apache vs. Nginx](https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/apache_nginx_tw.png)
+
 ## Connection handling
 
 Apache provides a variety of multi-processing modules (called MPMs) that handle clients' requests. These MPMs provide a flexible architecture for choosing different connection and request handling algorithms, however this flexibility comes at a cost of resource consumption.
@@ -29,3 +31,4 @@ Both Apache and Nginx are extensible through module systems. Apache module syste
 ## Using Apache and Nginx together
 
 It is possible to leverage both Apache's and Nginx's benefits by using both at the same time, by puttin Nginx in front of Apache by using it as a reverse proxy. The benefit of this setup is that Nginx will handle all requests coming from clients, which takes advantage of Nginx's fast processing speed and ability to handle a large number of connections simultaneously. For static content handling Nginx can be responsible, and for dynamic content handling (such as PHP) Nginx can proxy the request to Apache where the content can be processed and rendered.
+

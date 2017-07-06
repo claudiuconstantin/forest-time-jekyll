@@ -77,11 +77,11 @@ However, no matter which language we choose, a backend developer has to be famil
 
 So what's the strategy here? There's much to learn, but as we know organization is the key to success. As far as I am concerned, I have created a Droplet at [DigitalOcean](https://www.digitalocean.com/) using the [GitHub Student Developer Pack](https://education.github.com/pack), which provides us a $50 coupon. I have set up this droplet WITHOUT any preconfiguration so all I had was a bare Ubuntu 16.04. And now, I take it from here, step by step. Here is a rough sketch for what I imagine as a possible path:
 
-1. Set up SSL connection (probably with [Let's Encrypt](https://letsencrypt.org/))
-2. Deploy a simple Node.js application with Git
-3. Run Node.js as a background service (using PM2)
-4. Set up Nginx as a reverse proxy server
-5. Set up a complex continuous integration deployment
+1. [Set up SSL connection (probably with [Let's Encrypt](https://letsencrypt.org/))]({{ site.baseurl }}{% post_url 2017-06-23-how-to-deploy-a-nodejs-app-with-ssl %})
+2. [Deploy a simple Node.js application with Git]({{ site.baseurl }}{% post_url 2017-06-23-how-to-deploy-a-nodejs-app-with-ssl %})
+3. [Run Node.js as a background service (using PM2)]({{ site.baseurl }}{% post_url 2017-06-23-how-to-deploy-a-nodejs-app-with-ssl %})
+4. [ Set up Nginx as a reverse proxy server]({{ site.baseurl }}{% post_url 2017-06-23-how-to-deploy-a-nodejs-app-with-ssl %})
+5. [Set up a complex continuous integration deployment]({{ site.baseurl }}{% post_url 2017-06-24-continuous-integration-with-jenkins %})
 6. Set up a unit / functional testing environment
 7. Set up a databse - Implement ORM / DAO structure
 8. Create an API with RESTful services

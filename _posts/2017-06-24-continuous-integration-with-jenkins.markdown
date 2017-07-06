@@ -2,7 +2,6 @@
 layout: post
 title: Continuous integration with Jenkins
 date: 2017-06-24 09:11:29
-published: false
 ---
 
 In the following post I am going to set up a basic [CI](https://en.wikipedia.org/wiki/Continuous_integration) system using [Jenkins](https://jenkins.io/) to deploy a Node.js application into production. To to that, I am going to follow [this tutorial](https://codeforgeek.com/2016/04/continuous-integration-deployment-jenkins-node-js/) by Shahid Shaikh.
@@ -310,7 +309,26 @@ Go to Jenkins project page, go to **Configure** and scroll down to the **Build s
 
 ## Failing builds
 
-The builds kept failing for me, and I always got the following error:
+### Permissions for Jenkins
+
+Unfortunately, I had several issues with this setup. The first was, that Jenkins could not open and run the `deploy` file due to insufficient permissions. I solved this by copying these commands right into Jenkins in **Configure > Build > Execute shell command**. Then I added `jenkins` users to the sudorers group.
+
+```bash
+# Open /etc/sudoers
+visudo
+```
+
+I appended the following: 
+
+```bash
+jenkins ALL = NOPASSWD: ALL
+```
+
+Then, Jenkins was able to fetch from git, create folders, or run the TypeScript compiler.
+
+## 502 Bad Gateway and "Cannot allocate memory"
+
+I had two issues at this point: first, Nginx kept giving me 502 server error occasionally, which could be only fixed be restarting Jenkins. The next one was that the builds kept failing, and I always got the following error:
 
 ```bash
 Started by GitHub push by gaboratorium
@@ -349,4 +367,55 @@ ERROR: Error fetching remote repo 'origin'
 Finished: FAILURE
 ```
 
-Add sudo permissions to Jenkins
+After some research it turned out that this is a typical OOM error meaning that my server simply ran out memory and therefore could not run Nginx and Jenkins properly. However creating some swap space solved the issue. To do that I have followed [this guide on DigitalOcean written by Justin Ellingwood](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04).
+
+## How to add swap space on Ubuntu 16.04
+
+> Swap is an area on a hard drive that has been designated as a place where the operating system can temporarily store data that it can no longer hold in RAM. Basically, this gives you the ability to increase the amount of information that your server can keep in its working "memory", with some caveats. The swap space on the hard drive will be used mainly when there is no longer sufficient space in RAM to hold in-use application data.
+
+### Check Check the system for swap information
+
+1. Check the system for swap information: `sudo swapon --show`. If we don't get any output, it means we don't have swap space available currently.
+2. Double check it with `free -h`.
+3. Check available space on hard drive partition `df -h`. 
+
+> Although there are many opinions about the appropriate size of a swap space, it really depends on your personal preferences and your application requirements. Generally, an amount equal to or double the amount of RAM on your system is a good starting point. Another good rule of thumb is that anything over 4G of swap is probably unnecessary if you are just using it as a RAM fallback.
+
+### Create a swap file
+
+1. Let's create a 4 gigabyte `swapfile` in our root (`/`) directory: `sudo fallocate -l 4g /swapfile`.
+2. Verify that the correct amount of space was verified: `ls -lh /swapfile`.
+3. Now, the file is created but the system does not know that it is supposed to used for swap. We need to tell our system to format this file as swap and enable it.
+4. But before that, let's adjust the permissions, so that the file is not readable by anyone besides root: `sudo chmod 600 /swapfile`.
+5. Verify that the file has the correct permissions: `ls -lh /swapfile`. We should get: `-rw------- 1 root root 4.0G Apr 28 17:19 /swapfile`.
+6. We can tell our system to set up the swap space: `sudo mkswap /swapfile`.
+7. Our file is now ready to be used as swap space. Let's enable this: `sudo swapon /swapfile`.
+8. Verify that the procedure was succesful by checking the swap space now: `sudo swapon -s`.
+9. Verify it with the `free` utility again: `free -m`.
+
+### Make swap file permanent
+
+1. Our swap file is enabled, but when the server reboots, the file will not be automatically enabled. We can change that by modifying the `fstab` file: `sudo nano /etc/fstab`.
+2. At the bottom of the file, you need to add a line that will tell the operating system to automatically use the file you created: `/swapfile   none    swap    sw    0   0`.
+3. Save and close the file.
+
+### Tweak swap settings
+
+> The `swappiness` parameter configures how often your system swaps data out of RAM to the swap space. This is a value between 0 and 100 that represents a percentage.
+
+1. Check current swappiness: `cat /proc/sys/vm/swappiness`. By default it was `60` for me.
+2. If we want, we can change that: `sudo sysctl vm.swappiness=10`.
+3. This setting will only persist until the next reboot. We can set this value automatically at system restart by adding a line to our `/etc/sysctl.conf` file: `sudo nano /etc/sysctl.conf`.
+4. At the bottom, add the following line: `vm.swappiness=10`.
+5. Save and close.
+
+> Another related value that you might want to modify is the vfs_cache_pressure. This setting configures how much the system will choose to cache inode and dentry information over other data.
+
+1. See current value: `cat /proc/sys/vm/vfs_cache_pressure`.
+2. `100` removes inodes information from the cache too quicly. We can set this to a more conservative setting like 50: `sudo sysctl vm.vfs_cache_pressure=50`.
+3. Again, this is only valid for current session. Let's make it permanent: `sudo nano /etc/sysctl.conf`.
+4. At the bottom add the following line: `vm.vfs_cache_pressure = 50`.
+
+## Conclusion
+
+With this setup I have managed to hook up Jenkins with GitHub, make Jenkins log in to my server and execute operations on it. Upon changes on the `master` branch, it fetches the latest version from GitHub, and builds the solution, resulting in a smooth continous integration system. 

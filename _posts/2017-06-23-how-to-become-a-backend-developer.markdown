@@ -82,7 +82,7 @@ So what's the strategy here? There's much to learn, but as we know organization 
 3. [Run Node.js as a background service (using PM2)]({{ site.baseurl }}{% post_url 2017-06-23-how-to-deploy-a-nodejs-app-with-ssl %})
 4. [ Set up Nginx as a reverse proxy server]({{ site.baseurl }}{% post_url 2017-06-23-how-to-deploy-a-nodejs-app-with-ssl %})
 5. [Set up a complex continuous integration deployment]({{ site.baseurl }}{% post_url 2017-06-24-continuous-integration-with-jenkins %})
-6. Set up a unit / functional testing environment
+6. [Set up a unit / functional testing environment]({{ site.baseurl }}{% post_url 2017-07-06-unit-and-functional-testing-in-nodejs %})
 7. Set up a databse - Implement ORM / DAO structure
 8. Create an API with RESTful services
 9. Create authentication

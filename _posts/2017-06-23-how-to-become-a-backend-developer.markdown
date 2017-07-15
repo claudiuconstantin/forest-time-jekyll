@@ -83,9 +83,10 @@ So what's the strategy here? There's much to learn, but as we know organization 
 4. [ Set up Nginx as a reverse proxy server]({{ site.baseurl }}{% post_url 2017-06-23-how-to-deploy-a-nodejs-app-with-ssl %})
 5. [Set up a complex continuous integration deployment]({{ site.baseurl }}{% post_url 2017-06-24-continuous-integration-with-jenkins %})
 6. [Set up a unit / functional testing environment]({{ site.baseurl }}{% post_url 2017-07-06-unit-and-functional-testing-in-nodejs %})
-7. Set up a databse - Implement ORM / DAO structure
-8. Create an API with RESTful services
-9. Create authentication
+7. [Set up a databse (preferably something we are not experienced with - in my case it's Redis)]({{ site.baseurl }}{% post_url 2017-07-15-redis-setup-with-nodejs %})
+8. Implement ORM / DAO structure
+9. Create an API with RESTful services
+10. Create authentication
 
 Huh, now this seems quite robust. Of course this list may change on the fly as currently I am not entirely clear with what WebSockets and SOA are good for. But it as for a starting point, it does the job perfectly.
 

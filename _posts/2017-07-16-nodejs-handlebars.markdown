@@ -6,6 +6,8 @@ date: 2017-07-15 09:11:29
 
 In this short tutorial I am going to install and implement a simple templating engine called [Handlebars](http://handlebarsjs.com) and I am going to hook it up with Node.js, so we will be able to present our data in nicely formatted HTML documents. For this tutorial I have went throught RisingStack's [Node Hero tutorial (the PDF version)](https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/) and [Academind's video tutorial](https://www.youtube.com/watch?v=1srD3Mdvf50). 
 
+![Handlebars](https://i2.wp.com/keyholesoftware.com/wp-content/uploads/Handlebars.jpg?fit=700%2C400&ssl=1)
+
 First let's install [express-handlebars](https://github.com/ericf/express-handlebars), and its [types](https://www.npmjs.com/package/@types/express-handlebars), which is a version of Handlebars tailored specifically for the express framework. 
 
 ```bash

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Node.js Handlebars
-date: 2017-07-15 09:11:29
+date: 2017-07-16 09:11:29
 ---
 
 In this short tutorial I am going to install and implement a simple templating engine called [Handlebars](http://handlebarsjs.com) and I am going to hook it up with Node.js, so we will be able to present our data in nicely formatted HTML documents. For this tutorial I have went throught RisingStack's [Node Hero tutorial (the PDF version)](https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/) and [Academind's video tutorial](https://www.youtube.com/watch?v=1srD3Mdvf50). 

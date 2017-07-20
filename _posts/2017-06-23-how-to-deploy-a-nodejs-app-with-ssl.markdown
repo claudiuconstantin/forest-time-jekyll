@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to deploy a Node.js app with SSL
-date: 2017-06-23 09:11:29
+date: 2017-06-23 09:12:29
 ---
 
 In this post I am going to deploy a Node.js application to a DigitalOcean droplet with SSL. [This post is a copied and shortened version of the original tutorial written by Jason Lengstorf](https://code.lengstorf.com/deploy-nodejs-ssl-digitalocean/) extended with my comments and remarks, but make sure to check the original post as well.

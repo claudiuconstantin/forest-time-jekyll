@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Continuous integration with Jenkins
-date: 2017-07-05 09:11:29
+date: 2017-06-24 09:12:29
 ---
 
 In the following post I am going to set up a basic [CI](https://en.wikipedia.org/wiki/Continuous_integration) system using [Jenkins](https://jenkins.io/) to deploy a Node.js application into production. To to that, I am going to follow [this tutorial](https://codeforgeek.com/2016/04/continuous-integration-deployment-jenkins-node-js/) by Shahid Shaikh.

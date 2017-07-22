@@ -13,6 +13,7 @@ The official TypeScript documentation about [modules](https://www.typescriptlang
 - We can import modules explicitly using curly brackets e.g.: `import { myModule } from './myModule` and they can be renamed e.g.: `import { myModule as myRenamedModule } from 'myModule'`.
 - We can import all the exported modules using the asterisk (`*`) character, this way all the modules will be nested under the given variable, e.g.: `import * as myImportedModules from './foo/bar/myModule'`.
 - We can export either at declaration, or after declaration using curly brackets e.g.: `export { app };`.
+- If imported module is only used for type annotations and never as an expression, then no require call is emitted for that module. For more info please visit the corresponding [Stack Overflow thread](https://stackoverflow.com/questions/40982927/import-only-type-information-from-module) or the [Typescript Documentation](http://www.typescriptlang.org/docs/handbook/modules.html#optional-module-loading-and-other-advanced-loading-scenarios).
 
 ## Example
 

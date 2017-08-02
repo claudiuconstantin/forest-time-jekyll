@@ -55,3 +55,23 @@ public class HelloWorld {
     }
 }
 ``` 
+
+
+Additionally, this is how we can query the database:
+
+```java
+ResultSet rs;
+
+try {
+	rs = st.executeQuery("SELECT * from animals");
+	while (rs.next()) {
+		System.out.print("Column returned 1:");
+		System.out.print(rs.getString(1));
+	}
+	rs.close();
+	st.close();
+} catch (SQLException e ) {
+	System.out.println("Resultset creation failed!");
+	e.printStackTrace();
+}
+```

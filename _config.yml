@@ -26,12 +26,12 @@ sass:
     style:          :compressed
 
 # Other Params
-include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+include:            [ "robots.txt", "Gemfile" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor" ]
 plugins:
   - jekyll-sitemap
-
-
+  - jemoji
+  - tzinfo
 
 defaults:
   -

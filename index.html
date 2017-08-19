@@ -2,11 +2,10 @@
 layout: default
 ---
 
-<section>
+{% include header.html %}
+{% include navigation.html %}
 
-	<h1 class="o-text--h3-size">{{site.title}} &#172;</h1>
-	<p>Hi, I am Gábor Pintér from Copenhagen, Denmark. You can find me on :octocat: <a href="https://github.com/gaboratorium" target="_blank">GitHub</a>, :trumpet: <a href="https://mastodon/social/@gaboratorium">Mastodon</a> and :briefcase: <a href="https://www.linkedin.com/in/gaboratorium/">LinkedIn</a>.
-	</p>
+<section>
 
 	{% for post in site.posts %}
 		{% unless post.next %}

@@ -2,6 +2,7 @@
 layout: post
 title: "Flappy Hermelin"
 date: 2017-04-01 06:11:29
+categories: project
 ---
 
 I have created my first Android game called [Flappy Hermelin](https://play.google.com/store/apps/details?id=com.gaboratorium.mytestgame), and published it on the Google Play store.

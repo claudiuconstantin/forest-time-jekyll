@@ -2,6 +2,7 @@
 layout: post
 title: "Foobarbot"
 date: 2017-02-29 09:11:29
+categories: project
 ---
 
 Foobarbot is a RESTful application I have written with a cooperation of one of my classmates. The site is built on full-stack JavaScript, using [Vue.js](https://vuejs.org/) on the frontend and [Node.js](https://nodejs.org/en/) on the backend. 

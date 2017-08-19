@@ -2,6 +2,7 @@
 layout: post
 title: "Alma Mater"
 date: 2017-05-25 09:11:29
+categories: project
 ---
 
 One of my very first projects using a frontend framework was AlmaMater, which was also a final project assignment for Copenhagen School of Design & Technology's Multimedia Design & Communication AP. 

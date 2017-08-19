@@ -2,6 +2,7 @@
 layout: post
 title: "Øve dansk: Numre, konjunktioner og lytteøvelser..."
 date: 2017-02-12 07:11:29
+categories: danish
 ---
 
 ## Numre

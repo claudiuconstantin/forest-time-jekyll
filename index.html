@@ -24,7 +24,13 @@ layout: default
 					<span>{{ post.date | date: "%b %d" }}</span>
 				</div>
 				<div class="title">
-					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					<a href="{{ post.url | prepend: site.baseurl }}" {% if post.categories != blank %} class="o-text--bold" {% endif %}>
+						{{ post.title }} 
+						{% if post.categories contains 'project' %} :rocket: {% endif %}
+						{% if post.categories contains 'design' %} :art: {% endif %}
+						{% if post.categories contains 'hungarian' %} :hungary: {% endif %}
+						{% if post.categories contains 'danish' %} :denmark: {% endif %}
+					</a>
 				</div>
 			</li>
 		</ul>

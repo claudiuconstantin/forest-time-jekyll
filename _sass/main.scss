@@ -441,7 +441,19 @@ section {
   display: block;
 }
 
+.o-text--bold {
+  font-weight: 600;
+}
+
 .c-ul-in-default {
   list-style-type: disc;
   margin-left: 4rem;
+}
+
+img.emoji {
+  margin: 0rem;
+}
+
+article .c-post-header {
+  margin-bottom: 3 * $base-margin;
 }

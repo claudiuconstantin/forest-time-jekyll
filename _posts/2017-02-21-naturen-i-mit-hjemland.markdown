@@ -3,6 +3,7 @@ layout: post
 title: "Øve dansk: Naturen i mit hjemland"
 date: 2017-02-20 18:11:29
 categories: danish
+published: false
 ---
 
 Jeg kommer fra Ungarn, der ligger i Europa. Fordi Ungarn er i Østeuropa, har det et kontinentalt klima. Det betyder at vores land har fire årstider: forår, sommer, efterår og vinter. Vejret skrifter rigtig meget: I sommeren kan temperaturen nemt gå over 40 celsius, men i vinteren kan det være endnu minus 15. Jeg synes, den smukkeste årstid er forår; jeg tror også, det er den årstidet, som fleste ungarerne kan bedst lide. 

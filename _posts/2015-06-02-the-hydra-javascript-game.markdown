@@ -2,6 +2,7 @@
 layout: post
 title:  "The Hydra JavaScript Game"
 date:   2015-06-02 21:28:53 +0200
+published: false
 ---
 
 Learning new skills either via books, tutorials, videos or from school is always nice, but my personal experience is that the most beneficial way of learning happens when the need is present. Making small projects which entertain you only by making them.

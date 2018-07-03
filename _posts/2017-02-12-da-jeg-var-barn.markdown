@@ -3,6 +3,7 @@ layout: post
 title: "Øve dansk: Da jeg var barn..."
 date: 2017-02-12 07:28:29
 categories: danish
+published: false
 ---
 
 Jeg er rigtig glad for min barndom og for mine forældre. Jeg synes jeg har ændret sig meget, for eksempel da jeg var barn, **kunne jeg ikke lide** frugt og grøntsager, men i dag kan jeg godt lide begge dele. I dag spiser jeg ikke (så meget) chokolade, selvom jeg var vild med det, da jeg var barn.

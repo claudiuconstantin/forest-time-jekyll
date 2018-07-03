@@ -2,6 +2,7 @@
 layout: post
 title: How to become a Backend developer
 date: 2017-06-23 09:11:29
+published: false
 ---
 
 My new job at [Shape](https://shape.dk) as a Backend Student Developer starts in August, so I decided to refresh and widen my knowledge in this field in advance. Instead of jumping right into a given language, I wanted to learn about the overall infrastructure as much as possible, so I have listed a few things I want to go through before I dive into any specific stack.

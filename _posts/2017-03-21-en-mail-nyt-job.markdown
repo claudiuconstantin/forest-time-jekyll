@@ -3,6 +3,7 @@ layout: post
 title: "Øve dansk: En mail: Nyt job"
 date: 2017-03-21 06:11:29
 categories: danish
+published: false
 ---
 
 > Sådan 19/7A: Du har fået en mail fra en af dine gamle venner. Svar på spørgsmålene i mailen.

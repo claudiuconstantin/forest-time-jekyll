@@ -6,8 +6,6 @@ date: 2017-07-17 09:11:29
 
 This is a perfect example why I completely understand that people tend to be afraid or maybe throw up in their mouths when they enter the JavaScript world. So many modules, and many times, so poor documentations. Tutorials everywhere, doing the exact same complex thing. "Let's implement a fully functioning API with these simple steps." here, "How to build a simple authentication system with my favorite 85 packages" there. Oh, you got stuck? No problem, let's install a package for that. 
 
-![Passport.js](http://www.clixlogix.com/wp-content/uploads/2017/04/passport-blog-inner-image.png)
-
 ## Passport.js
 
 Let's take [Passport.js](http://passportjs.org/docs) for example. In the documentations we can read through small snippets, about things that we **might** have to use. Optional flags, possibilites, but not a single step-by-step guide. Let's try to [google Passport.js tutorial](https://www.google.hu/search?client=opera&q=passport.js+tutorial&sourceid=opera&ie=UTF-8&oe=UTF-8), what do find there? Robust, complex tutorials with sessions, MongoDB, and with very-very custom setups, making us install tons of dependencies we might don't even need.

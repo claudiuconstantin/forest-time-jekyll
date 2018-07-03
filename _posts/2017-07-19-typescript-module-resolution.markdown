@@ -5,8 +5,6 @@ date: 2017-07-19 09:11:29
 ---
 The official TypeScript documentation about [modules](https://www.typescriptlang.org/docs/handbook/modules.html) and [module resolution](https://www.typescriptlang.org/docs/handbook/module-resolution.html) already provide a great set of information, but here are my notes which sums up the most important know-hows.
 
-![TypeScript](https://blog.dashlane.com/wp-content/uploads/2016/04/typescript-cover-image.jpg)
-
 - If you we want to import, we always have to export first.
 - We don't have to specify the filename, this way the compiler will look for the `index.ts` file in the given directory.
 - Imports are either relative (to the current file) or absolute to the `baseUrl` which is either the default value, or passed as an argument when the compiler is called, or defined in `tsconfig.json`, e.g.: `"baseUrl": "./src/"`.

@@ -1,5 +1,5 @@
 $max-width: 725px;
-$max-width--home: 500px;
+$max-width--home: 520px;
 $text-color: #222;
 $primary-color: #4787ed;
 $base-margin: 1rem;
@@ -46,6 +46,7 @@ img {
 a {
   color: $primary-color;  
   text-decoration: none;
+  font-weight: bold;
 
   &:hover {
     text-decoration: underline;
@@ -346,6 +347,7 @@ section {
       }
       a {
         text-decoration: none;
+        font-weight: normal;
         border: 0;
         color: #000;
         box-sizing: border-box;
@@ -436,6 +438,12 @@ section {
   color: gray;
   font-size: 16px;
   line-height: 1.5rem;
+}
+
+.c-header__link {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: underline;
 }
 
 .o-text--block {

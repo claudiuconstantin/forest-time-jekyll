@@ -25,11 +25,10 @@ layout: default
 				</div>
 				<div class="title">
 					<a href="{{ post.url | prepend: site.baseurl }}" {% if post.categories != blank %} class="o-text--bold" {% endif %}>
-						{{ post.title }} 
-						{% if post.categories contains 'project' %} :rocket: {% endif %}
-						{% if post.categories contains 'design' %} :art: {% endif %}
-						{% if post.categories contains 'hungarian' %} :hungary: {% endif %}
-						{% if post.categories contains 'danish' %} :denmark: {% endif %}
+					
+						{% if post.categories contains 'project' %} 👉 Project: {% endif %}
+						{{ post.title }}
+
 					</a>
 				</div>
 			</li>

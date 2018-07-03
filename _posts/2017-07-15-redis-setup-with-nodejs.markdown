@@ -6,8 +6,6 @@ date: 2017-07-15 09:11:29
 
 In this tutorial I am going to set up a Redis server and connect it to a Node.js application. I have watched [this (Redis Crash Course Tutorial)](https://www.youtube.com/watch?v=Hbt56gFj998) and [this (Build A Node.js & Redis App From Scratch)](https://www.youtube.com/watch?v=9S-mphgE5fA&t=349s) tutorials by Traversy Media which I highly recommend.
 
-![Redis](https://datadog-prod.imgix.net/img/blog/how-to-monitor-redis-performance-metrics/redis-blog-1.png?ch=Width&fit=max&fm=png&auto=format&lossless=1)
-
 ## Set up locally
 
 First, we have to download and install Redis server. We can download the linux version from the [official downloads page](https://redis.io/download), or we can get the Windows version from the [MicrosoftArchive GitHub page](https://github.com/MicrosoftArchive/redis).

@@ -3,6 +3,7 @@ layout: post
 title: "Peter og sin ven"
 date: 2017-05-06 09:11:29
 categories: danish
+published: false
 ---
 
 Peter har flyttet til Danmark to år siden med sin godt ven, Martin. Desværre, fundet de ikke nogen lejlighed, hvor de kunne bor sammen, så de flyttet til to forskellige lejligheder. Faktisk, flyttet Peter ind  i en kollegium, og  Martin fundet en billig lejlighed på Nørrebro. 

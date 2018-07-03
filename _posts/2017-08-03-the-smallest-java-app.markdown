@@ -3,6 +3,7 @@ layout: post
 title: The smallest Java app
 date: 2017-08-03 09:11:29
 published: false
+published: false
 ---
 
 Given the following structure:

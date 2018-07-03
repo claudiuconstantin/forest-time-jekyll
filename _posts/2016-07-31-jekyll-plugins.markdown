@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyll plugins part 1"
+title:  "Jekyll plugins"
 date:   2016-07-31 10:45:16 +0200
 ---
 ## 1. Installing a plugin

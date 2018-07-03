@@ -2,6 +2,7 @@
 layout: post
 title: How to connect to PostgreSQL with Java
 date: 2017-08-01 09:11:29
+published: false
 ---
 
 1. Download and start PostgreSQL from [https://www.postgresql.org/](https://www.postgresql.org/)

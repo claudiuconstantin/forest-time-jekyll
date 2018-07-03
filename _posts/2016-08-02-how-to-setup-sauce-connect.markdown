@@ -2,6 +2,7 @@
 layout: post
 title:  "How to setup Sauce Connect"
 date:   2016-08-02 10:20:16 +0200
+published: false
 ---
 Sauce Labs is a testing cloud for web and mobile. With [Sauce Connect](https://wiki.saucelabs.com/display/DOCS/Sauce+Connect+Proxy) we can test local installments.
 

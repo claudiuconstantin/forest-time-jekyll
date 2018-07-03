@@ -3,6 +3,7 @@ layout: post
 title: "Homokóra"
 date: 2017-02-18 18:11:29
 categories: hungarian
+published: false
 ---
 
 > Az alábbi poszt csupán egy publikálatlan piszkozat volt, melyet megírása után hónapokkal fedeztem fel újra, viszont elég mókásnak találtam ahhoz hogy érintetlenül publikálásra kerüljön.

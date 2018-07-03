@@ -2,7 +2,8 @@
 layout: post
 title:  "Hipster Penguin - Illustrator assignment"
 date:   2014-09-8 06:49:16 +0200
-categories: design
+categories: project
+published: true
 ---
 At school, we had to create a a logo / illustration using Adobe Illustrator. Here is my result.
 

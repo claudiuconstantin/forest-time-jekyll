@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Hydra by Gabor Pinter</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,300italic' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div id='universe'>
+            
+            <div id='help'>
+                <div id="cover"></div>
+                <h1>How to play?</h1>
+                <p>In every round, every unit alive takes its turn, in a row. Your goal is to stay alive as long as possible.</p>
+                <p><b>Raider Hydra</b> deals his power (first number) as damage to the player.</p>
+                <p><b>Healer Hydra</b> heals the adjacent Hydras with his power.</p>
+                <p><b>Buffer Hydra</b> heals the adjacent Hydras with his power, and also increases their power by his own power.</p>
+                <p>In your turn you can choose which Hydra you wish to attack. Attacking each type grants you bonus effects.
+                Attacking <b>Raider Hydra</b> increases your power. Attacking <b>Healer Hydra</b> increases your health (second number). When you
+                attack a <b>Buffer Hydra</b> both your power and health are being increased.</p>
+                <p>At the end of the round, there is a "round luck" effect which may help you or not.</p>
+                <p>Good luck!</p>
+                <a href='#' onclick="document.getElementById('help').style.display='none'">Okay, gotcha, close this window!</a>
+
+            </div>
+
+            <div id='header'>
+                <a href='index.html'>Hydra JavaScript Game Beta v0.81</a> by <a href='http://gaborpinter.net' target='blank'>Gabor Pinter</a> |
+                 <a href='#' onclick="document.getElementById('help').style.display='inline'">How to play?</a>
+            </div>
+            <div id='sidebar'>
+                <h1>Console</h1>
+                    <div id='console'>
+                        <p>0. Welcome to the <b>Hydra Game</b>! Good luck, have fun!
+                         <a href='#' onclick="document.getElementById('help').style.display='inline'">How to play?</a></p>
+                    </div>
+            </div>
+            <div id='battlefield'>
+                    <h1>Battlefield</h1>
+            </div>
+        </div>
+
+    <script src='script.js'></script>
+    </body>
+</html>

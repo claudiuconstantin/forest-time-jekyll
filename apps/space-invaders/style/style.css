@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0em; background-color: black; zoom: 1.25;}
+#wrapper { margin: 1em; text-align: center; }
+canvas {
+	background-color: #090816;
+	/*background-image: url("http://cdn.mysitemyway.com/etc-mysitemyway/webtreats/assets/posts/857/full/tileable-classic-nebula-space-patterns-5.jpg");*/
+	/*background-size: cover;*/
+	margin: 0 auto;
+	border-radius: 8px;
+}

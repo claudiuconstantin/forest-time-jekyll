@@ -459,10 +459,45 @@ section {
   margin-left: 4rem;
 }
 
+.o-grid {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.o-grid--center {
+  justify-content: center;
+}
+
+.c-cab {
+  margin-top: 2rem;
+  background-color: $primary-color;
+  min-width: 200px;
+  padding: 1rem;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: lighten($primary-color, 5%);
+    cursor: pointer;
+  }
+}
+
 img.emoji {
   margin: 0rem;
 }
 
 article .c-post-header {
   margin-bottom: 3 * $base-margin;
+}
+
+.c-article-image {
+  width: 100%;
+}
+
+.c-post-header__subtitle {
+  font-size: 1.2rem;
+  color: #555;
 }

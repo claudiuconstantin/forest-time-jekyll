@@ -26,7 +26,7 @@ layout: default
 				<div class="title">
 					<a href="{{ post.url | prepend: site.baseurl }}" {% if post.categories != blank %} class="o-text--bold" {% endif %}>
 					
-						{% if post.categories contains 'project' %} 👉 Project: {% endif %}
+						{% if post.categories contains 'project' %} 👉 {% endif %}
 						{{ post.title }}
 
 					</a>

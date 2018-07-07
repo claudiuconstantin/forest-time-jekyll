@@ -15,6 +15,6 @@ To learn from sketch, I have went through the tutorials of [Brent Aureli](https:
 
 To save time on game design, I have bought my assets on [Gamedevmarket](https://www.gamedevmarket.net/), which seems like a really good source for indie game developers.
 
-The game is of course open-source, and can be found on my [GitHub](https://github.com/gaboratorium/flappy-hermelin). It can be also downloaded directly from [Google Play](https://play.google.com/store/apps/details?id=com.gaboratorium.mytestgame&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1).
+The game is of course open-source, and can be found on [GitHub](https://github.com/gaboratorium/flappy-hermelin). It can be also downloaded directly from [Google Play](https://play.google.com/store/apps/details?id=com.gaboratorium.mytestgame&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1).
 
 {% include cab.html text="Get it on Google Play" link="https://play.google.com/store/apps/details?id=com.gaboratorium.mytestgame" %}

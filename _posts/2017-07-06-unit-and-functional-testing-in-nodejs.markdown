@@ -9,8 +9,6 @@ In this post I am going to write about unit testing in Node.js. I am going to us
 > “Tests are more than just safeguards - they provide a
 living documentation for your codebase.”
 
-![Unit testing](https://i.stack.imgur.com/tmikt.png)
-
 We write unit tests to continously check if a given module works. We should always write tests for the exposed methods, not for the internal workings of the given module.
 
 ## Modules for Node.js unit testing

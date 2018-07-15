@@ -8,8 +8,6 @@ date:   2016-08-04 14:13:16 +0200
 ## About ##
 CSS is easy to write but can easily become hard to maintain as our app scales. ITCSS solves this maintainibility issue with an approach of taking care of the [specificity graph](http://csswizardry.com/2014/10/the-specificity-graph/) of the CSS codebase.
 
-![Specificity Graph](http://cdn-images-1.medium.com/max/1200/0*xGvZmx1u2K8D_ajm.png "specificity-graph")
-
 ### The structure
 ITCSS introduces layers with increasing specificity. This structure should be flat, meaning no imports should be present outside `app.scss`.
 

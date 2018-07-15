@@ -24,7 +24,7 @@ layout: default
 					<span>{{ post.date | date: "%b %d" }}</span>
 				</div>
 				<div class="title">
-					<a href="{{ post.url | prepend: site.baseurl }}" {% if post.categories != blank %} class="o-text--bold" {% endif %}>
+					<a href="{{ post.url | prepend: site.baseurl }}" {% if post.categories != blank %} class="c-post--highlighted" {% endif %}>
 					
 						{% if post.categories contains 'project' %} 👉 {% endif %}
 						{{ post.title }}

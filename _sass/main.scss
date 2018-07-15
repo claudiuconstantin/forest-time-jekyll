@@ -4,7 +4,9 @@ $text-color: #222;
 $primary-color: #4787ed;
 $base-margin: 1rem;
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i');
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 @import 'objects.text';
 @import 'objects.image';
@@ -14,7 +16,7 @@ body {
   line-height: 20px;
   font-weight: normal;
   font-style: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: $text-color;
   padding: 20px;
   margin: 0;
@@ -30,7 +32,7 @@ strong {
 }
 
 h1 {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 h2,
@@ -38,7 +40,7 @@ h3,
 h4,
 h5 {
   margin: 45px 0 25px;
-  font-weight: 600;
+  font-weight: 400;
 }
 img {
   max-width: 100%;
@@ -73,41 +75,41 @@ blockquote {
   position: relative;
   margin: 0 auto 35px;
   text-align: center;
-  animation-duration: 0.7s;
-  animation-fill-mode: both;
-  animation-name: bounce;
-  -webkit-animation-duration: 0.7s;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation-name: bounce;
+  // animation-duration: 0.7s;
+  // animation-fill-mode: both;
+  // animation-name: bounce;
+  // -webkit-animation-duration: 0.7s;
+  // -webkit-animation-fill-mode: both;
+  // -webkit-animation-name: bounce;
   a {
-    background: #ddd url("gravatar_wrapper.png");
+    // background: #ddd url("gravatar_wrapper.png");
     color: #000;
     text-decoration: none;
     font-weight: 700;
     height: 100px;
     width: 100px;
     font-size: 1.5em;
-    border-radius: 100%;
+    // border-radius: 100%;
     display: inline-block;
     text-align: center;
     line-height: 100px;
     border: 5px solid #fff;
     box-sizing: border-box;
-    &:hover,
-    &:focus {
-      background: $primary-color;
-    }
+    // &:hover,
+    // &:focus {
+    //   background: $primary-color;
+    // }
     &:hover + .logo-prompt,
     &:focus + .logo-prompt {
       display: inline-block !important;
     }
-    .gravatar {
-      margin-top: 5px;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      width: 80px;
-      border-radius: 50%;
-    }
+    // .gravatar {
+    //   margin-top: 5px;
+    //   -webkit-border-radius: 50%;
+    //   -moz-border-radius: 50%;
+    //   width: 80px;
+    //   border-radius: 50%;
+    // }
     @media (max-width : 480px) {&:hover + .logo-prompt,
       &:focus + .logo-prompt {
         display: none !important;
@@ -182,11 +184,12 @@ pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.4;
   white-space: pre;
   overflow-x: auto;
   background-color: #f9f9f9;
+  border-radius: 3px;
   border: 1px solid #ddd;
   padding: 1rem;
   code {
@@ -240,7 +243,7 @@ article {
     margin: 30px 0;
   }
   p {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.7em;
     word-wrap: break-word;
   }
@@ -431,7 +434,7 @@ section {
 
 .c-header__title {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .c-header__subtitle {
@@ -497,7 +500,41 @@ article .c-post-header {
   width: 100%;
 }
 
+.c-article--post {
+  max-width: 625px;
+
+}
+
+.c-post--highlighted {
+  // font-weight: 700;
+}
+
 .c-post-header__subtitle {
   font-size: 1.2rem;
   color: #555;
+}
+
+.c-bio {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+  margin-top: 1rem;
+  p {
+    // color: #777;
+  }
+}
+
+.c-bio__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.o-grid--align-items-center {
+  align-items: center;
+}
+
+.o-text--center {
+  text-align: center;
 }

@@ -2,6 +2,7 @@ $max-width: 725px;
 $max-width--home: 520px;
 $text-color: #222;
 $primary-color: #4787ed;
+$gray: #777;
 $base-margin: 1rem;
 
 // @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i');
@@ -166,9 +167,6 @@ sup {
   position: relative;
   top: -0.5em;
   margin-left: 1px;
-}
-time {
-  color: #555;
 }
 code,
 pre {
@@ -503,6 +501,19 @@ article .c-post-header {
 .c-article--post {
   max-width: 625px;
 
+}
+
+.c-article__meta {
+  color: $gray;
+}
+
+.c-article__meta--link {
+  font-weight: inherit;
+  color: inherit;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .c-post--highlighted {

@@ -9,12 +9,12 @@ layout: default
 
 	{% for post in site.posts %}
 		{% unless post.next %}
-			<h3>{{ post.date | date: '%Y' }} &#172;</h3>
+			<h3 class="post-year">{{ post.date | date: '%Y' }} &#172;</h3>
 		{% else %}
 			{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
 			{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
 			{% if year != nyear %}
-				<h3>{{ post.date | date: '%Y' }} &#172;</h3>
+				<h3 class="post-year">{{ post.date | date: '%Y' }} &#172;</h3>
 			{% endif %}
 		{% endunless %}
 
@@ -25,10 +25,7 @@ layout: default
 				</div>
 				<div class="title">
 					<a href="{{ post.url | prepend: site.baseurl }}" {% if post.categories != blank %} class="c-post--highlighted" {% endif %}>
-					
-						{% if post.categories contains 'project' %} 👉 {% endif %}
 						{{ post.title }}
-
 					</a>
 				</div>
 			</li>

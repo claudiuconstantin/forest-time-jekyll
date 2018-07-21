@@ -13,15 +13,15 @@ layout: default
 			{% if page.categories contains 'hungarian' %} :hungary: {% endif %}
 			{% if page.categories contains 'danish' %} :denmark: {% endif %}
 		</h1>
-		<span class="c-article__meta">Published on <time>{{ page.date | date: '%B %-d, %Y' }}</time> by <a href="{{ site.author_web }}" class="c-article__meta--link">{{ site.author_name }}</a></span>
+		<span class="c-article__meta">Published on <time>{{ page.date | date: '%B %-d, %Y' }}</time> by <a href="https://{{ site.author_web }}" class="c-article__meta--link">{{ site.author_name }}</a></span>
 	</div>
 
-	<div class="divider"></div>
+	<!-- <div class="divider"></div> -->
 
 	<!-- Content -->
 	{{ content }}
 
-	{% if page.comments %}
+	{% if page.comments != false %}
 	<div id="disqus_thread"></div>
 		<script>
 

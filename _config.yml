@@ -1,6 +1,6 @@
 # Site Info
 title:              "gaboratorium blog"
-description:        "Thoughts and essays about web development and cloud computing"
+description:        "Web Development and Cloud Computing tutorials"
 google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
 google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
 
@@ -30,6 +30,7 @@ sass:
 include:            [ "robots.txt", "Gemfile" ]
 exclude:            [ "LICENSE", "README.md", "CNAME", "vendor" ]
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
   - jemoji
   - tzinfo

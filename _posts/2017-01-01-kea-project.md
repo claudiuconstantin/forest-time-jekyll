@@ -3,6 +3,8 @@ layout: post
 title: "KEA: first semester repository"
 date: 2017-01-01 09:11:29
 categories: project
+published: false
+comments: false
 ---
 
 [KEA Project](https://github.com/gaboratorium/keaproject) is a shared repository where among with some of my classmates we have shared our notes from the first semester at Copenhagen School of Design & Technology's Web Development BA. 

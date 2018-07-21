@@ -6,8 +6,6 @@ date: 2017-06-24 09:11:29
 
 I am completely new to [Nginx](https://www.nginx.com/resources/wiki/), so I decided to read a little about the differences of Apache and Nginx. So I started with [this video](https://www.youtube.com/watch?v=ZhfpYgl8BtQ) by Aleksey Grebeshkov, and the first thing Aleksey says is that approximately 70% of the web traffic is served by either Apache or Nginx, which is pretty impressive. Another video I have went through was [this one](https://www.youtube.com/watch?v=YWvmnRpVbbc) by CarAni Studio.
 
-![Apache vs. Nginx](https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/apache_nginx_tw.png)
-
 ## Connection handling
 
 Apache provides a variety of multi-processing modules (called MPMs) that handle clients' requests. These MPMs provide a flexible architecture for choosing different connection and request handling algorithms, however this flexibility comes at a cost of resource consumption.

@@ -2,6 +2,7 @@ $max-width: 725px;
 $max-width--home: 520px;
 $text-color: #222;
 $primary-color: #4787ed;
+$secondary-color: #F37C22; 
 $gray: #777;
 $base-margin: 1rem;
 
@@ -60,6 +61,9 @@ a {
     border: 0;
     border-radius: 5px;
     margin: 30px 0;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 mark {
@@ -67,10 +71,11 @@ mark {
   padding: 0 5px;
 }
 blockquote {
-  border-left: 5px solid #ccc;
+  border-left: 5px solid #81D4FA;
   margin: 40px 0;
   padding: 5px 30px;
-  background: #eee;
+  background: #E1F5FE;
+  font-style: italic;
 }
 .logo {
   position: relative;
@@ -87,8 +92,8 @@ blockquote {
     color: #000;
     text-decoration: none;
     font-weight: 700;
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
     font-size: 1.5em;
     // border-radius: 100%;
     display: inline-block;
@@ -246,6 +251,10 @@ article {
     word-wrap: break-word;
   }
 
+  li {
+    margin-bottom: .5rem;
+  }
+
   img {
     border-radius: 4px;
     margin: 1rem 0rem;
@@ -270,6 +279,7 @@ article {
       padding-left: 15px;
       li {
         font-weight: bold;
+
       }
     }
     .reversefootnote {
@@ -278,8 +288,9 @@ article {
     }
   }
   a:hover {
-    color: #369;
+    color: $secondary-color;
     border-color: #369;
+    text-decoration: none;
   }
 }
 .back {
@@ -341,9 +352,6 @@ section {
       margin: 15px 0;
       .title {
         max-width: 100%;
-        //overflow: hidden !important;
-        //text-overflow: ellipsis !important;
-        //white-space: nowrap !important;
         word-wrap: normal !important;
       }
       a {
@@ -432,7 +440,7 @@ section {
 
 .c-header__title {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .c-header__subtitle {
@@ -513,6 +521,7 @@ article .c-post-header {
 
   &:hover {
     text-decoration: underline;
+    color: inherit;
   }
 }
 
@@ -548,4 +557,27 @@ article .c-post-header {
 
 .o-text--center {
   text-align: center;
+}
+
+.c-image__alt {
+  font-weight: normal;
+  color: #777;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+a.phantom {
+  color: $gray;
+  text-decoration: none;
+  font-weight: 400;
+
+  &:hover {
+    color: $gray;
+    text-decoration: underline;
+  }
+}
+
+.post-year {
+  color: gray;
 }

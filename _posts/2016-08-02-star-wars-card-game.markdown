@@ -3,14 +3,16 @@ layout: post
 title:  "Star Wars: Card Game"
 date:   2016-08-01 12:15:16 +0200
 categories: project
+comments: false
 ---
 
 Star Wars: Card Game is a JavaScript game I wrote for the course Casual Games at Copenhagen School of Design and Technology. I've been always a huge fan of board games and at the time, I was also a big fan of Hearthstone, so I've decided to write my own card game. Choosing Star Wars as the main theme seemed to be an obvious choice: first of all, I love Star Wars, and second, I could easily find a lot of resources for the game. 
 
+{% include image.html file="swcg-menu.png" alt="Early design for the main menu" %}
+
 Unfortunately when I moved the game to a new repo for cleaning purposes, I failed to check-in the assets folder of the game, and as a result I've lost all the graphics and sounds of the game. However I didn't want to let this relic disappear in the void, so I've spent a couple of hours trying to replicate the original version and bring the code back to a playable level.
 
-{% include image.html file="swcg-menu.png" %}
-{% include image.html file="swcg.png" %}
+{% include image.html file="swcg.png" alt="Early design for the gameplay" %}
 
 ## The rules
 

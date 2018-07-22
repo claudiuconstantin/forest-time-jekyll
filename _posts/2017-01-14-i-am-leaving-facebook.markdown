@@ -7,10 +7,7 @@ published: false
 
 It has been more than 2 weeks since I have requested my account deletion from the [Dark Side](https://medium.com/@hargup/leaving-the-evil-empire-of-facebook-7f7b1955bb37#.tc82crkhl), which means the detox period is over and my decision irreversibly came into force. [I have quit Facebook](https://www.youtube.com/watch?v=mGcHNnI2mh4).
 
-
 I've received various responses and questions from friends I've talked to about it, so let's go through the details and look at the whys and hows.
-
-![There is no spoon - The Matrix]({{site.cdn_path}}/img/posts/2017-01-14-i-am-leaving-facebook/neo-spoon.jpg)
 
 Before we dive in, let me sum up the reasons and answer for the WHY in short: 
 
@@ -67,8 +64,6 @@ I don't need gossips and ego booster photos. I am not interested in other people
 Therefore I came to the conclusion that the Facebook and Instagram feed is rather harmful than useful.
 
 I wanted out not by reducing the time I spend on these news feeds, but by leaving them entirely. I wanted to disconnect. I thought spending only a few minutes a week to run through the feed to see if there is something interesting would have still kept me in the loop. Just like with any other addiction; it takes serious commitment to quit. 
-
-![Do or do not, there is no try - Star Wars: The Empire Strikes Back]({{site.cdn_path}}/img/posts/2017-01-14-i-am-leaving-facebook/yoda.jpg)
 
 I think the lack of online presence and activity from a social perspective results in the desire and need of  more frequent and stronger real life social connections.
 
@@ -160,8 +155,6 @@ I am not expecting important messages on Skype because I don't have a lot of con
 ## Farewell "friends"
 
 So here I am now, sitting in my room with my e-mail address, Skype, Hungarian phone number and Danish phone number, without any game invitations or birthday notifications.
-
-![Cast away]({{site.cdn_path}}/img/posts/2017-01-14-i-am-leaving-facebook/cast-away.jpg)
 
 One thing I would like to emphasize is that the desired effect is a two-way street. As I expect others to invest more energy in our relationships, I expect the same thing from myself as well. 
 

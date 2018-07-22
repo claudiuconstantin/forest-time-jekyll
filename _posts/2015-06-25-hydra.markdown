@@ -6,6 +6,8 @@ categories: project
 comments: false
 ---
 
+**Hydra is a simple, JavaScript game I've written in order to learn about JavaScript. It is also the first web application I've considered to be finished and published.**
+
 I have decided to learn JavaScript by developing small applications and my plan was to finish Hydra first, before jumping into jQuery. Right now I feel I have managed to learn and understand how to interact JavaScript with HTML efficiently, how to work with objects, and acquired how to manipulate the DOM. But there is one more thing I would like to go through before starting jQuery, which is animations. Maybe that is going to be next update for Hydra.
 
 {% capture url %}

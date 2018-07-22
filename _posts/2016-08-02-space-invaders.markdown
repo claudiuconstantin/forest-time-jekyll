@@ -6,7 +6,9 @@ categories: project
 comments: false
 ---
 
-Space Invaders is a JavaScript game I wrote for the course Casual Games at Copenhagen School of Design and Technology. The game is rather simple, the player can move the spaceship using the cursor buttons and can fire using the spacebar. The goal of the game is to survive as long as possible: we can lose lives by crashing into aliens and meteroids or by letting aliens reach the bottom of the screen. As the game proceeds, aliens and meteoirds speed up gradually, therefore the game gets harder and harder.
+**Space Invaders is a JavaScript game I wrote for the course Casual Games at Copenhagen School of Design and Technology.**
+
+The game is very simple: the player can move the spaceship using the cursor buttons and can fire using the spacebar. The goal of the game is to survive as long as possible: we can lose lives by crashing into aliens and meteroids or by letting aliens reach the bottom of the screen. As the game proceeds, aliens and meteoirds speed up gradually, therefore the game gets harder and harder.
 
 Pro tip: meteroids can be exploded by firing enough bullets at them. Sometimes they have a suprise for you.
 

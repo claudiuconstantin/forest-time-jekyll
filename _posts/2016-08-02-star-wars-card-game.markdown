@@ -6,7 +6,9 @@ categories: project
 comments: false
 ---
 
-Star Wars: Card Game is a JavaScript game I wrote for the course Casual Games at Copenhagen School of Design and Technology. I've been always a huge fan of board games and at the time, I was also a big fan of Hearthstone, so I've decided to write my own card game. Choosing Star Wars as the main theme seemed to be an obvious choice: first of all, I love Star Wars, and second, I could easily find a lot of resources for the game. 
+**Star Wars: Card Game is a JavaScript game I wrote for the course Casual Games at Copenhagen School of Design and Technology.**
+
+I've been always a huge fan of board games and at the time, I was also a big fan of Hearthstone, so I've decided to write my own card game. Choosing Star Wars as the main theme seemed to be an obvious choice: first of all, I love Star Wars, and second, I could easily find a lot of resources for the game. 
 
 {% include image.html file="swcg-menu.png" alt="Early design for the main menu" %}
 

@@ -6,7 +6,9 @@ categories: project
 comments: false
 ---
 
-Octodo is an Android application I've written for the Mobile Development course at Copenhagen School of Design and Technology. The application is a simple to-do application, in which we can organize our todoes into 3 lists: All, Important and Someday.
+**Octodo is an Android application I've written for the Mobile Development course at Copenhagen School of Design and Technology.**
+
+ The application is a simple to-do application, in which we can organize our todoes into 3 lists: All, Important and Someday.
 
 {% include image.html file="octodo.png" small=true %}
 

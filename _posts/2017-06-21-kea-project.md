@@ -6,11 +6,11 @@ categories: project
 comments: false
 ---
 
+**The name KEA Project refers to two repositories created by my classmates and me throughout the Web Development BA programme at Copenhagen School of Design and Technology. They contain notes taken from classes, slideshows about the curriculum, hand-ins and assignments.**
+
 ## First semester
 
-[KEA Project](https://github.com/gaboratorium/keaproject) is a shared repository where my classmates and I have shared our notes from the first semester at Copenhagen School of Design & Technology's Web Development BA. 
-
-We had three courses in this semester: 
+[KEA Project](https://github.com/gaboratorium/keaproject) is the repository created for the first semester. We had three courses in this semester: 
 
 - Web development
 - Development environments

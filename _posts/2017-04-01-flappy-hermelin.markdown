@@ -6,7 +6,9 @@ categories: project
 comments: false
 ---
 
-I have created my first Android game called [Flappy Hermelin](https://play.google.com/store/apps/details?id=com.gaboratorium.mytestgame), and published it on the Google Play store. It was my first take on writing a native game, and what could be easier to experiment with than a Flappy Bird clone? As I already had classes in Android development at school, and my development environment was already set up for this platform, I was looking for something which integrates with it smoothly, and which is preferably open-source. 
+**I've created my first Android game called [Flappy Hermelin](https://play.google.com/store/apps/details?id=com.gaboratorium.mytestgame) and I've also published it on the Google Play store.**
+
+It was my first take on writing a native game and what could be easier to experiment with than a Flappy Bird clone? As I had classes in Android development at college and my development environment was already set up for this platform, I've decided to create a game. To do this, I was looking for a framework which integrates with it smoothly and which is preferably open-source. 
 
 {% include image.html file="flappy-hermelin.png" small=true %}
 

@@ -8,7 +8,6 @@ This article is a sequel and extension of one of the previous articles named 'Se
 
 This thought has already been formed in my head, since I have gone through this several times, and probably so have you. So have many people who I know, who say they will be this or that or they love to do something,  but the truth is they are not really doing it and it remains only on a plan level.
 
-![Into the wild - go watch it, if you haven't already]({{site.cdn_path}}/img/posts/2015-06-12-the-what-do-you-want-to-be-misunderstanding/intothewild.jpg)
 
 I am talking about people who say they will be video editors, rappers, designers or any other creatives, but they keep delaying to actually start doing it, because 'they are not there yet'. People who say they love museums and theatres but actually end up in one once a year. People who post on Facebook about how cool it is to be alone and forget the world, or how romantic and intimate it is to have an anniversary dinner with their partners alone.
 
@@ -25,6 +24,8 @@ Obviously a question can't be wrong, but let's have a look at why it can be a da
 The question keeps coming up since you were a little child and had absolutely no idea about the world, until you seemingly found your direction. I find it specially dangerous in the childhood, because it usually puts a completely unnecessary pressure on the questioned person.
 
 To form a matching answer for this question we are thinking in nouns or adjectives. I want to be a doctor. I want to be a CEO. I want to be free.
+
+{% include image.html file="monkey.jpg" alt="Photo by Andre Mouton from Unsplash" %}
 
 Why is that a bad thing? Well, these terms are stereotyped, labelled and  they are very influencing. They can easily make you place yourself in someone else's person.
 

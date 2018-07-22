@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installing XAMPP (LAMPP) on Ubuntu 16.04"
+title: "Installing XAMPP on Ubuntu 16.04"
 date: 2017-02-04 09:48:29
 ---
 

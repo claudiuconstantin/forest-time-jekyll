@@ -35,6 +35,10 @@ plugins:
   - jemoji
   - tzinfo
 
+
+feed:
+  path: rss/index.xml
+
 defaults:
   -
     scope:

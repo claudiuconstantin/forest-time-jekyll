@@ -5,7 +5,7 @@ title: About the blog
 
 Welcome to **gaboratorium blog** — the place for Web Development and Cloud Computing tutorials written by me. My name is Gábor Pintér and I am a 26-year-old full-stack web developer living in Copenhagen, Denmark. 
 
-The purpose of the blog is to share the professional knowledge and experience I gain or have with people who are interested in software engineering. Secondly, it is also a great way of practicing self-improvement and self-expression. The blog has been designed with special care of typography, colors and symmetry.
+The purpose of the blog is to share the professional knowledge and experience I gain or have with people who are interested in software engineering. Secondly, it is also a great way of practicing self-improvement and self-expression. The blog has been designed with special care of typography, vertical-rhythm, colors and symmetry.
 
 {% include image.html file="copenhagen.jpg" alt="Photo by Carlo Villarica (@sobermusings) from Unsplash" %}
 

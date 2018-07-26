@@ -11,7 +11,7 @@ Quite possibly one of those easy-but-useful proverbs, which are so easy to remem
 
 As I mentioned before, there is no better way to manage our goals and progression than drawing it up on a piece of paper, making up a deadline which keeps us motivated, but what about managing your time and every days?
 
-> If your memory sucks, a notebook is worth a few bucks
+> "If your memory sucks, a notebook is worth a few bucks." — My sister 
 
 Personally, I haven’t used neither diary nor calendar nor ToDo lists. Considering that
 

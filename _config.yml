@@ -32,7 +32,6 @@ exclude:            [ "LICENSE", "README.md", "CNAME", "vendor" ]
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jemoji
   - tzinfo
 
 

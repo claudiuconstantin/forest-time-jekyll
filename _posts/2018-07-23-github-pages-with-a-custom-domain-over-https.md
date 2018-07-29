@@ -9,7 +9,7 @@ categories: security
 
 By the end of the tutorial you will have your site published at your chosen domain or subdomain and served over HTTPS.
 
-## Prerequsities
+## Prerequisites
 
 - A purchased domain
 - A blog published on [GitHub Pages](https://pages.github.com)
@@ -32,7 +32,7 @@ This is a great opportunity to learn a bit about the HTTPS and DNS related termi
 - [AAAA record](): Points to an IPv6 address (e.g.: *2001:db8:0:1234:0:567:8:1*).
 - [CNAME record](): Alias for another domain name (e.g.: *example.com*).
 
-### 1. Set up our GitHub repository
+### 1. Set up your GitHub repository
 
 First, we have to set up our GitHub repository. Let's go to the **Settings** page of our repo, and let's set our **Custom domain** to the address at which we want to publish our site.
 

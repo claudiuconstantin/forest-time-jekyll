@@ -6,7 +6,7 @@ date: 2017-06-24 09:12:29
 
 In the following post I am going to set up a basic [CI](https://en.wikipedia.org/wiki/Continuous_integration) system using [Jenkins](https://jenkins.io/) to deploy a Node.js application into production. To to that, I am going to follow [this tutorial](https://codeforgeek.com/2016/04/continuous-integration-deployment-jenkins-node-js/) by Shahid Shaikh.
 
-> Most of the time testing and deployment steps do not change frequently and in order to keep the developer focus on writing code we do the automation of testing and deployment. This automation is called “continuous integration and deployment”.
+> "Most of the time testing and deployment steps do not change frequently and in order to keep the developer focus on writing code we do the automation of testing and deployment. This automation is called “continuous integration and deployment." — Shahid Shaikh on Codeforgeek
 
 ## Flow of the system
 

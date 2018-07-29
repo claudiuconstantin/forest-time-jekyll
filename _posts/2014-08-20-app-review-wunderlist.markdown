@@ -34,16 +34,16 @@ Wunderlist on iPad
 
 My choice is Wunderlist (I should be paid for this…) because it’s fast, smart and nice. As a matter of fact, it has became one of my favorite and most used mobile and desktop apps lately. Let’s see why, and what can you do with it.
 
-### Fast
+### It's fast
 
 A great tool is invisible, meaning that it does not stand between you and your task, but helps you to reach / achieve it. So your attention doesn’t need to focus on the interface or the tool itself, but on the task and service it provides. Like when you don’t even realize that you are using an app, just doing it. With intuitive design, Wunderlist makes it very easy and fast to create, modify and complete lists, and elements. There are no unnecessary, never used, useless features or overcomplicated menus. Easy peasy lemon squeeze.
 
-### Smart
+### It's smart
 
 Wunderlist is smart, because it works online and offline, on laptop, tablet and phone, Mac and PC, iOS and Android, in the air, on the ground, in the sea. You can assign due dates to your tasks, add reminders, use hashtags for easier organization, add notes, and add subtasks. What’s more, you can even share these, which makes a really nice collaboration workflow, suitable for students projects for instance.
 And the best of it: you can use all above for absolutely free! Tasty, isn’t it?
 
-### Nice
+### It's nice
 
 I don’t think I have to explain this. Beautiful, intuitive design. I like the way it’s not too flat, but managed to keep its original style.
 

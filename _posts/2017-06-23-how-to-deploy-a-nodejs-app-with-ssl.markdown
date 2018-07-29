@@ -17,7 +17,7 @@ I am going to assume that we have already set up a user on our server which uses
 
 ## Disabling password login
 
-> Since every server has a default `root` account that’s a target for automated server attacks — and because that account has unlimited power inside the server — it’s a good idea to make sure no one can use it.
+> "Since every server has a default `root` account that’s a target for automated server attacks — and because that account has unlimited power inside the server — it’s a good idea to make sure no one can use it." — Jason Lengstorf
 
 Open the SSH configuration file for editing: 
 

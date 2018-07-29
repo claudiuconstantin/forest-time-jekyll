@@ -3,7 +3,6 @@ layout: post
 title:  "GitHub Pages with a custom domain over HTTPS"
 date:   2018-07-23 10:23:16 +0200
 categories: security
-published: false
 ---
 
 **In this tutorial I am going to show you how you can add your custom domain to your GitHub Pages site and serve it over HTTPS using Cloudflare.**
@@ -25,7 +24,7 @@ We are going to set our domain's nameservers to point to Cloudflare's nameserver
 
 This is a great opportunity to learn a bit about the HTTPS and DNS related terminology, so let's have a quick look at them:
 
-- [HTTPS (Hypertext Transfer Protocol Secure)](https://en.wikipedia.org/wiki/HTTPS): secured HTTP communication. Encrypted using TLS or SSL.
+- [HTTPS (Hypertext Transfer Protocol Secure)](https://en.wikipedia.org/wiki/HTTPS): secured HTTP communication, that is encrypted using TLS or SSL.
 - [SSL (Secure Sockets Layer)](https://en.wikipedia.org/wiki/Transport_Layer_Security): cryptographic protocol that uses symmetric encryption. In short it works the following way: when the client wants to communicate with the server a standard SSL handshake takes place, in which the server has to provide an SSL certificate that has been issued by a certificate authority. A list of certificate authorities is present in the most commonly used operating systems, this way the client can check whether the certificate provided by the server has been issued by a trusted provider or not. If the handshake was successful, the following communication will be end-to-end encrypted.
 - [DNS (Domain Name System)](https://en.wikipedia.org/wiki/Domain_Name_System): naming system for resources connected to the Internet, in which we map IP addresses to memorable domain names (e.g.: example.com). The central database of Internet domain names and IP addresses is maintained by an American-based company called Network Solutions.
 - [DNS Record](https://en.wikipedia.org/wiki/List_of_DNS_record_types#SOA): DNS records are stored on a DNS name server. A commonly used metaphor for DNS name servers are telephone directories, in which a person (a domain name) is mapped to a phone number (an IP address). In such directories sometimes some kind of service, for example a plumber (a domain name) is not mapped to a phone number but to person (another domain name) that is mapped to a phone number (an IP address). These mappings are called DNS records and they have various types.
@@ -35,7 +34,7 @@ This is a great opportunity to learn a bit about the HTTPS and DNS related termi
 
 ### 1. Set up our GitHub repository
 
-First, we have to set up our GitHub repository. Let's go to the **Settings** page of our repo, and let's set our **Custom domain** to the address at which we want o publish our site.
+First, we have to set up our GitHub repository. Let's go to the **Settings** page of our repo, and let's set our **Custom domain** to the address at which we want to publish our site.
 
 ### 2. Add DNS records to your domain registrar
 

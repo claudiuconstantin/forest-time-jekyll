@@ -12,6 +12,6 @@ Extends (or placeholders) work in a different way; whenever we use an extend rul
 
 There are a number of articles out there ([here](https://www.sitepoint.com/avoid-sass-extend/) and [here](http://vanseodesign.com/css/sass-mixin-or-extend/)) explaining why extends suck, but there is one I would like to highlight, and that is [from Harry Roberts](http://csswizardry.com/2014/11/when-to-use-extend-when-to-use-a-mixin/), who points out the real purpose of DRY:
 
-> Repetition in a compiled system is not a bad thing: repetition in source is a bad thing.
+> "Repetition in a compiled system is not a bad thing: repetition in source is a bad thing." — Harry Roberts
 
 In that sense we can agree that using mixins (even without variables) will still be able to keep our code dry. The question is however: what performance issues may we face? To answer that, [Shay Howe did a very interesting experiment](https://tech.bellycard.com/blog/sass-mixins-vs-extends-the-data/): turned out thanks to Gzip, the more repetition we have in our file the better the compression will be. Very impressive.

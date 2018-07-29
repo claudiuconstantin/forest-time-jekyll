@@ -7,7 +7,7 @@ date: 2017-07-06 09:11:29
 In this post I am going to write about unit testing in Node.js. I am going to use [RisingStack's Node Hero tutorial](https://blog.risingstack.com/node-hero-node-js-unit-testing-tutorial/) as a guidance. You can read the tutorial online, or you can [downlad it in a clutter-free PDF format](https://risingstack.com/resources/node-hero) as well. Another resource I recommend is this presentation by Stacy Kirk: [Full stack testing with Node.js](https://www.youtube.com/watch?v=i4Eu3Cczkek)
 
 > “Tests are more than just safeguards - they provide a
-living documentation for your codebase.”
+living documentation for your codebase.” — RisingStack
 
 We write unit tests to continously check if a given module works. We should always write tests for the exposed methods, not for the internal workings of the given module.
 

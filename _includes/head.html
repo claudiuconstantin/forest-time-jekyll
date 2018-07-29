@@ -27,22 +27,15 @@
 
 <!-- Twitter cards -->
 <meta name="twitter:site"    content="@{{ site.twitter_username }}">
-<meta name="twitter:creator" content="@{{ page.author }}">
 <meta name="twitter:title"   content="{{ page.title }}">
-
 {% if page.summary %}
 <meta name="twitter:description" content="{{ page.summary }}">
 {% else %}
-<meta name="twitter:description" content="{{ site.description }}">
+<meta name="twitter:description" content="Published on {{ site.title }} — {{ site.description }}">
 {% endif %}
 
-{% if page.image %}
 <meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
-{% else %}
-<meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="{{ site.url }}/assets/avatar_lego.png">
-{% endif %}
+<meta name="twitter:image" content="{{ site.url }}/assets/logo_thumbnail.png">
 <!-- end of Twitter cards -->
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/core.css">

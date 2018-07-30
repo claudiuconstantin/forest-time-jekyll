@@ -8,7 +8,7 @@ Let me tell you my opinion about how can
 
   - chasing success, fame 
   - getting your ass in shape
-  - learning how to become a photoshop ninja
+  - learning how to become a Photoshop ninja
   - working out to get six pack
   - learning all night long flexing your brain
   - making as much money as you are able to
@@ -20,7 +20,7 @@ be the biggest weakness and failure of your life.
 
 One of the most baffling quote in one of my (and I’m sure many other people’s) all time favorite movie, the Fight Club is:
 
-> Self-developement is masturbation, now self destruction…(is the answer)
+> Self-development is masturbation, now self destruction…(is the answer)
 
 At first sight it seems to exceptionally destructive, and drives us on the wrong way easily without any explanation, so let’s have a look at it. Of course, nobody might know what the writer / director meant exactly (maybe not even they), but here is my solution related to my experiences.
 

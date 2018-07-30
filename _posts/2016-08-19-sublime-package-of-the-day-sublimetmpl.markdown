@@ -3,9 +3,9 @@ layout: post
 title: "Sublime package of the day: SublimeTmpl"
 date: 2016-08-19 10:07:44 +0200
 ---
-So far I have been enjoying Jekyll, but duplicating a post file to compose a new one (in order to keep the [Front Matter](https://jekyllrb.com/docs/frontmatter/) formatting) is sort of a pain in the butt, so I wanted to find another solution. First I was thinking about to write a gulp task, but gulp and npm are not installed on Jekyll by default so it seemed to be too much trouble. Eventually I found a more convinient solution: [SublimeTmpl](https://github.com/kairyou/SublimeTmpl) package.
+So far I have been enjoying Jekyll, but duplicating a post file to compose a new one (in order to keep the [Front Matter](https://jekyllrb.com/docs/frontmatter/) formatting) is sort of a pain in the butt, so I wanted to find another solution. First I was thinking about to write a gulp task, but gulp and npm are not installed on Jekyll by default so it seemed to be too much trouble. Eventually I found a more convenient solution: [SublimeTmpl](https://github.com/kairyou/SublimeTmpl) package.
 
-With this package we can easily create file templates with some *dynamic* content inside, and assign commands and shortucts to these actions.
+With this package we can easily create file templates with some *dynamic* content inside, and assign commands and shortcuts to these actions.
 
 ## Creating a post template
 

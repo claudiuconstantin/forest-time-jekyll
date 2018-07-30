@@ -10,7 +10,7 @@ published: false
 
 By the end of the tutorial you will have your site published at your custom main domain (e.g.: example.com) that is going to be served from an S3 bucket.
 
-## Prerequsities
+## Prerequisites
 
 - A custom domain
 - A free-tier AWS account

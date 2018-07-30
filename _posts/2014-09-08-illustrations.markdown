@@ -6,7 +6,7 @@ categories: project
 published: true
 ---
 
-Before I became a web developer, for a long-long time I imagined myself working as a professional graphic designer. That was actually one of the reasons I applied to the Multimedia Design & Comunication programme at Copenhagen Schoolf of Design and Technology. I enjoyed the process of building a character a lot; drawing them on paper, taking a photograph of them and then vectorizing them. In this post I'd like to give a noble and worthy placement for the ones that stand closest to my heart.
+Before I became a web developer, for a long-long time I imagined myself working as a professional graphic designer. That was actually one of the reasons I applied to the Multimedia Design & Comunication programme at Copenhagen School of Design and Technology. I enjoyed the process of building a character a lot; drawing them on paper, taking a photograph of them and then vectorizing them. In this post I'd like to give a noble and worthy placement for the ones that stand closest to my heart.
 
 For most of the illustrations I've used [Inkscape](https://inkscape.org); a free and open-source vector graphics editor. Feel free to give it a try if you are interested in graphic design.
 

@@ -38,6 +38,6 @@ In addition I recommend this webcast to watch: [Webcast Getting started with CI 
 
   - [ ] Create a Yaml file without any specific script, push it, check GitLab Piplines if it gets processed (Pending, Failed, Succesful) - by default GitLab will use its shared Runners
   - [ ] Create your custom Runner if necessary, check if your Yaml gets processed with that Runner
-  - [ ] Set up an environment on GitLab Piplines > Environments, define it in Yaml
+  - [ ] Set up an environment on GitLab Pipelines > Environments, define it in Yaml
   - [ ] Check if code gets deployed
   - [ ] Create your Build and Test scripts, don't forget to use the right Docker Images

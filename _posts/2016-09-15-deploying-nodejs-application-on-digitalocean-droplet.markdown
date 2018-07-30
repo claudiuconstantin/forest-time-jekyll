@@ -9,7 +9,7 @@ Tutorials I have went through during deployment:
   2. [Initial Server Setup with Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04)
     - Root login
     - Creating users
-    - Root priviliges
+    - Root privileges
     - Public key authentication  
   3. [Additional Recommended Steps for New Ubuntu 14.04 Servers](https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-ubuntu-14-04-servers)
     - Firewall (allowing ports)

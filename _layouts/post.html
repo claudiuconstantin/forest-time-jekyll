@@ -14,21 +14,62 @@ layout: default
 			{% if page.categories contains 'danish' %} :denmark: {% endif %}
 		</h1>
 		<span class="c-article__meta">Published on <time>{{ page.date | date: '%B %-d, %Y' }}</time> by <a href="{{ site.baseurl }}/about" class="c-article__meta--link">{{ site.author_name }}</a></span>
+		<div class="c-post-header__player">
+			<audio controls id="player">
+				<source id="audiopost" src="http://s3.eu-central-1.amazonaws.com/polly.gaboratorium.com{{ page.url }}.mp3" type='audio/mpeg'>
+			</audio>
+		</div>
 	</div>
 
-	<!-- <div class="divider"></div> -->
-
 	<!-- Content -->
-	{{ content }}
+	<div id="content">
+		{{ content }}
+	</div>
 
+
+	<!-- AWS Polly -->
+	<script>
+
+		$( document ).ready(function() {
+			$("#audiopost").on("error", function (e) {
+	            createAudiopost();
+	        });
+		});
+
+		function createAudiopost(){
+
+			var audiopostid = "{{page.url}}";
+			audiopostid = audiopostid.replace("/", "");
+
+			console.log("Creating audiopost in with ID: " + audiopostid);
+
+			
+
+			var inputData = {
+				"audiopostid": audiopostid,
+				"text": $('#content').text(),
+				"voice" : "Brian"
+			};
+
+			$.ajax({
+				url: "https://6ra6sowv65.execute-api.eu-central-1.amazonaws.com/Production/audioposts",
+				type: 'POST',
+				data:  JSON.stringify(inputData)  ,
+				contentType: 'application/json; charset=utf-8',
+				success: function (response) {
+					document.getElementById("player").load();
+				},
+				error: function () {
+					$(".c-post-header__player").text("Audiopost was not found and creation request denied.");
+				}
+		  	});
+		}
+	</script>
+
+	<!-- Disquss comments -->
 	{% if page.comments != false %}
 	<div id="disqus_thread"></div>
-		<script>
-
-		/**
-		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-		
+		<script>	
 		var disqus_config = function () {
 		this.page.url = "{{ site.baseurl }}";  // Replace PAGE_URL with your page's canonical URL variable
 		this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable

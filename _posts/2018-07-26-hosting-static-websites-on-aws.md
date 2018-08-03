@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building static websites on AWS"
+title:  "Hosting static websites on AWS"
 date:   2018-07-23 10:23:16 +0200
 categories: aws
 ---

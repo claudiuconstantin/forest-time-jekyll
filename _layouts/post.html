@@ -16,7 +16,12 @@ layout: default
 		<span class="c-article__meta">Published on <time>{{ page.date | date: '%B %-d, %Y' }}</time> by <a href="{{ site.baseurl }}/about" class="c-article__meta--link">{{ site.author_name }}</a></span>
 		<div class="c-post-header__player">
 			<audio controls id="player">
-				<source id="audiopost" src="http://s3.eu-central-1.amazonaws.com/polly.gaboratorium.com{{ page.url }}.mp3" type='audio/mpeg'>
+				{% assign url = page.url %} 
+				{% if url == '/star-wars-card-game' %}
+					{% assign url = '/star-wars-card-game-little-test' %}
+				{% endif %}
+				<source id="audiopost" src="https://d3e6cwu83ridgj.cloudfront.net{{ url }}.mp3" type='audio/mpeg'>
+				}
 			</audio>
 		</div>
 	</div>
@@ -30,6 +35,8 @@ layout: default
 	<!-- AWS Polly -->
 
 	<script>
+		console.log("Page url: {{page.url}}");
+		console.log("Url: {{ url }}");
 		$( document ).ready(function() {
 			$("#audiopost").on("error", function (e) {
 	            createAudiopost();
@@ -38,6 +45,7 @@ layout: default
 
 		function createAudiopost(){
 			var inputData = getInputData();
+			console.log(inputData.text);
 			$.ajax({
 				url: "https://6ra6sowv65.execute-api.eu-central-1.amazonaws.com/Production/audioposts",
 				type: 'POST',

@@ -28,8 +28,8 @@ layout: default
 
 
 	<!-- AWS Polly -->
-	<script>
 
+	<script>
 		$( document ).ready(function() {
 			$("#audiopost").on("error", function (e) {
 	            createAudiopost();
@@ -37,20 +37,7 @@ layout: default
 		});
 
 		function createAudiopost(){
-
-			var audiopostid = "{{page.url}}";
-			audiopostid = audiopostid.replace("/", "");
-
-			console.log("Creating audiopost in with ID: " + audiopostid);
-
-			
-
-			var inputData = {
-				"audiopostid": audiopostid,
-				"text": $('#content').text(),
-				"voice" : "Brian"
-			};
-
+			var inputData = getInputData();
 			$.ajax({
 				url: "https://6ra6sowv65.execute-api.eu-central-1.amazonaws.com/Production/audioposts",
 				type: 'POST',
@@ -64,7 +51,24 @@ layout: default
 				}
 		  	});
 		}
+
+		function getInputData() {
+	  		
+	  		var audiopostid = "{{page.url}}";
+			audiopostid = audiopostid.replace("/", "");
+
+			var text = $("#content").html();
+			var s = $(text).find('pre').replaceWith("<span>Here is a code snippet.</span>").end().text();
+			var inputData = {
+				"audiopostid": audiopostid,
+				"text": s,
+				"voice" : "Brian"
+			};
+
+			return inputData;
+	  	}
 	</script>
+
 
 	<!-- Disquss comments -->
 	{% if page.comments != false %}

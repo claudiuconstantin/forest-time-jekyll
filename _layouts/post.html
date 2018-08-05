@@ -14,16 +14,14 @@ layout: default
 			{% if page.categories contains 'danish' %} :denmark: {% endif %}
 		</h1>
 		<span class="c-article__meta">Published on <time>{{ page.date | date: '%B %-d, %Y' }}</time> by <a href="{{ site.baseurl }}/about" class="c-article__meta--link">{{ site.author_name }}</a></span>
+		{% if page.audiopost %}
 		<div class="c-post-header__player">
 			<audio controls id="player">
-				{% assign url = page.url %} 
-				{% if url == '/star-wars-card-game' %}
-					{% assign url = '/star-wars-card-game-little-test-brian' %}
-				{% endif %}
-				<source id="audiopost" src="https://d3e6cwu83ridgj.cloudfront.net{{ url }}.mp3" type='audio/mpeg'>
+				<source id="audiopost" src="https://d3e6cwu83ridgj.cloudfront.net{{ page.url }}.mp3" type='audio/mpeg'>
 				}
 			</audio>
 		</div>
+		{% endif %}
 	</div>
 
 	<!-- Content -->
@@ -34,10 +32,12 @@ layout: default
 
 	<!-- AWS Polly -->
 
+	{% if page.audiopost %}
 	<script>
-		console.log("Page url: {{page.url}}");
-		console.log("Url: {{ url }}");
 		$( document ).ready(function() {
+
+			console.log(getInputData());
+
 			$("#audiopost").on("error", function (e) {
 	            createAudiopost();
 	        });
@@ -45,7 +45,6 @@ layout: default
 
 		function createAudiopost(){
 			var inputData = getInputData();
-			console.log(inputData.text);
 			$.ajax({
 				url: "https://6ra6sowv65.execute-api.eu-central-1.amazonaws.com/Production/audioposts",
 				type: 'POST',
@@ -62,7 +61,7 @@ layout: default
 
 		function getInputData() {
 	  		
-	  		var audiopostid = "{{page.url}}";
+	  		var audiopostid = "{{ page.url }}";
 			audiopostid = audiopostid.replace("/", "");
 
 			var text = $("#content").html();
@@ -76,6 +75,7 @@ layout: default
 			return inputData;
 	  	}
 	</script>
+	{% endif %}
 
 
 	<!-- Disquss comments -->

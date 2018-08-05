@@ -1,29 +1,88 @@
 ---
 layout: post
-title:  "Create Text-to-Speech with AWS Polly"
+title:  "Create audioposts for your blog"
 date:   2018-08-02 10:23:16 +0200
 categories: aws
 published: false
 ---
 
-In this tutorial we are going to add Text-to-Speach function to our blog using Amazon Polly. By the end of the tutorial you will have a Play button in your posts by which we can ask Polly to read out loud our blog posts.
+**In this tutorial we are going to add Text-to-Speach conversion to our Jekyll blog using AWS Polly, AWS Gateway and AWS Lambda.**
+
+By the end of the tutorial you will have a Play button in your posts by which we can ask Polly to read out loud our blog posts.
 
 ## Prerequisites
 
-- A website hosted anywhere
+- A Jekyll blog hosted on GitHub Pages
 - A free-tier AWS account
 
 ## The setup
 
-We are going to store the mp3 files in an S3 bucket. To create the mp3 files we are going to use AWS Lambda that will trigger AWS Polly.
+We are going to store the mp3 files in an S3 bucket. To create the mp3 files we are going to use an AWS Lambda function that will trigger AWS Polly and then save the generated files into our bucket.
 
-We are going to create two Lambda functions: a public one and a private one. The public one will be available by the public by pressing the Play button, which will try to fetch and play the mp3 file of the post from an S3 bucket. 
-
-If the public function can't find the file (because it hasn't been created yet), it will trigger our second (private) Lambda function which will use Polly to convert text to audio and save it to our S3 bucket. Note that our second Lambda function should not be triggered twice asynchronously, so if someone has triggered it, then it should stay that way.
-
-To access our public Lambda function we will create an AWS API Gateway.
+To access our public Lambda function we will create an AWS API Gateway. API Gateway will accept requests coming from a our domain and kick-off our Lambda function. We will also set up AWS CloudFront to serve our audio files over HTTPS.
 
 ## Let's build
+
+
+### Let's build the client
+
+```html
+{{ if page.audiopost %} }}
+<div class="c-post-header__player">
+    <audio controls id="player">
+        {% assign url = page.url %} 
+        {% if url == '/star-wars-card-game' %}
+            {% assign url = '/star-wars-card-game-little-test-brian' %}
+        {% endif %}
+        <source id="audiopost" src="https://d3e6cwu83ridgj.cloudfront.net{{ url }}.mp3" type='audio/mpeg'>
+        }
+    </audio>
+</div>
+{% endif %}
+```
+
+```html
+<script>
+    $( document ).ready(function() {
+        $("#audiopost").on("error", function (e) {
+            createAudiopost();
+        });
+    });
+
+    function createAudiopost(){
+        var inputData = getInputData();
+        console.log(inputData.text);
+        $.ajax({
+            url: "https://6ra6sowv65.execute-api.eu-central-1.amazonaws.com/Production/audioposts",
+            type: 'POST',
+            data:  JSON.stringify(inputData)  ,
+            contentType: 'application/json; charset=utf-8',
+            success: function (response) {
+                document.getElementById("player").load();
+            },
+            error: function () {
+                $(".c-post-header__player").text("Audiopost was not found and creation request denied.");
+            }
+        });
+    }
+
+    function getInputData() {
+        
+        var audiopostid = "{{page.url}}";
+        audiopostid = audiopostid.replace("/", "");
+
+        var text = $("#content").html();
+        var s = $(text).find('pre').replaceWith("<span>Here is a code snippet.</span>").end().text();
+        var inputData = {
+            "audiopostid": audiopostid,
+            "text": s,
+            "voice" : "Brian"
+        };
+
+        return inputData;
+    }
+</script>
+```
 
 1. Create a bucket for mp3 files.
 2. Create an IAM for Lambda, Create new policy
@@ -169,7 +228,7 @@ def lambda_handler(event, context):
 14. 5 minutes timeout
 15. Add Trigger, SNS, Configuration required, topic, new_posts topic, ADD, Save.
 
-16. API Gateway - Create API
+16. API Gateway - Create API -> CORS from our domain.
 17. Create method: GET -> Lambda Function
 18. Enable CORS
 19. URL Query String Parameters
@@ -178,4 +237,7 @@ def lambda_handler(event, context):
 22. Click on application/json > insert template
 23. Click `/` Actions -> Deploy API, create new deployment
 24. Copy Invoke URL
-25. Concurrency?
+
+## Concurrency
+
+Keep in mind that with this set up we can run into concurrency issues: it is possible to kick off Lambda several times. 

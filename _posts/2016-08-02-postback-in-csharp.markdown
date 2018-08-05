@@ -2,6 +2,7 @@
 layout: post
 title:  "Postback and UpdatePanel in C#"
 date:   2016-08-02 14:01:16 +0200
+published: false
 ---
 
 ## The issue

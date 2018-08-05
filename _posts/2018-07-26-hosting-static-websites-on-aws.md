@@ -3,6 +3,7 @@ layout: post
 title:  "Hosting static websites on AWS"
 date:   2018-07-23 10:23:16 +0200
 categories: aws
+audiopost: true
 ---
 
 **In this tutorial I am going to show you how you can host a static website on an AWS S3 bucket and serve it over HTTPS using AWS CloudFront.**

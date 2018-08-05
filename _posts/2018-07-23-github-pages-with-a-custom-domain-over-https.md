@@ -3,6 +3,7 @@ layout: post
 title:  "GitHub Pages with a custom domain over HTTPS"
 date:   2018-07-23 10:23:16 +0200
 categories: security
+audiopost: true
 ---
 
 **In this tutorial I am going to show you how you can add your custom domain to your GitHub Pages site and serve it over HTTPS using Cloudflare.**

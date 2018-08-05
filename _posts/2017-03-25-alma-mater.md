@@ -4,6 +4,7 @@ title: "Alma Mater"
 date: 2017-05-25 09:11:29
 categories: project
 comments: false
+audiopost: true
 ---
 
 **Alma Mater was my final project assignment for Copenhagen School of Design & Technology's Multimedia Design & Communication AP. It was also my first personal project using Angular.js JavaScript framework.**

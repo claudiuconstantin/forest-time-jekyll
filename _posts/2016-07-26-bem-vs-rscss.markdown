@@ -2,6 +2,7 @@
 layout: post
 title:  "BEM vs RSCSS"
 date:   2016-07-26 20:24:16 +0200
+audiopost: true
 ---
 I have stumbled upon a “stylesheet structure” called [RSCSS (Reasonable System for CSS)](https://github.com/rstacruz/rscss), which is basically a set of rules regarding how to write highly maintainable CSS. Meanwhile I like the extra rules, the naming convention is pretty much BEM, only with different syntax.
 

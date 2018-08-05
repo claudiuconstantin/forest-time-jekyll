@@ -4,6 +4,7 @@ title: "KEA Project"
 date: 2017-06-21 09:11:29
 categories: project
 comments: false
+audiopost: true
 ---
 
 **The name KEA Project refers to two repositories created by my classmates and me throughout the Web Development BA programme at Copenhagen School of Design and Technology. They contain notes taken from classes, slideshows about the curriculum, hand-ins and assignments.**

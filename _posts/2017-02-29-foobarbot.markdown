@@ -3,6 +3,7 @@ layout: post
 title: "Foobarbot"
 date: 2017-02-29 09:11:29
 comments: false
+audiopost: true
 ---
 
 **Foobarbot is a full-stack JavaScript application one of my classmates and I have written. The app was built using [Vue.js](https://vuejs.org/) on the frontend and [Node.js](https://nodejs.org/en/) on the backend.**

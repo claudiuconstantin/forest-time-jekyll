@@ -3,7 +3,8 @@ layout: post
 title:  "Space Invaders"
 date:   2016-08-01 12:15:16 +0200
 categories: project
-comments: false
+comments: true
+audiopost: true
 ---
 
 **Space Invaders is a JavaScript game I wrote for the course Casual Games at Copenhagen School of Design and Technology.**

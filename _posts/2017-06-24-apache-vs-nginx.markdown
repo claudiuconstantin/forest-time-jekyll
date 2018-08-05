@@ -2,6 +2,7 @@
 layout: post
 title: Apache vs. Nginx
 date: 2017-06-24 09:11:29
+audiopost: true
 ---
 
 I am completely new to [Nginx](https://www.nginx.com/resources/wiki/), so I decided to read a little about the differences of Apache and Nginx. So I started with [this video](https://www.youtube.com/watch?v=ZhfpYgl8BtQ) by Aleksey Grebeshkov, and the first thing Aleksey says is that approximately 70% of the web traffic is served by either Apache or Nginx, which is pretty impressive. Another video I have went through was [this one](https://www.youtube.com/watch?v=YWvmnRpVbbc) by CarAni Studio.

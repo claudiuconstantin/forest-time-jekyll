@@ -2,6 +2,7 @@
 layout: post
 title: "Deploying Nodejs application on DigitalOcean droplet"
 date: 2016-09-15 16:30:29
+published: false
 ---
 Tutorials I have went through during deployment:
 

@@ -4,6 +4,7 @@ title: Stash Backend
 date: 2018-06-03 09:11:29
 categories: project
 comments: false
+audiopost: true
 ---
 
 **Stash Backend is my Bachelor project made for Copenhagen School of Design & Technology's Web Development BA programme.**

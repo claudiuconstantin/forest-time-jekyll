@@ -4,6 +4,7 @@ title:  "Star Wars: Card Game"
 date:   2016-08-01 12:15:16 +0200
 categories: project
 comments: false
+audiopost: true
 ---
 
 **Star Wars: Card Game is a JavaScript game I wrote for the course Casual Games at Copenhagen School of Design and Technology.**

@@ -4,6 +4,7 @@ title:  "Hydra"
 date:   2015-06-25 18:23:16 +0200
 categories: project
 comments: false
+audiopost: true
 ---
 
 **Hydra is a simple, JavaScript game I've written in order to learn about JavaScript. It is also the first web application I've considered to be finished and published.**

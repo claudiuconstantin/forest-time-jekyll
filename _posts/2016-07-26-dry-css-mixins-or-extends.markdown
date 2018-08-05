@@ -2,6 +2,7 @@
 layout: post
 title:  "Dry CSS: mixins or extends?"
 date:   2016-07-26 20:25:16 +0200
+audiopost: true
 ---
 I have been doing some research on CSS optimization lately so I bumped into an apparently popular question about mixins and extends: which of these 2 seemingly powerful tools of Sass should we use and when?
 

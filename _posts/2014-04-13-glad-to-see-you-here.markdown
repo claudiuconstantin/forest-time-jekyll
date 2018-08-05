@@ -3,6 +3,7 @@ layout: post
 title:  "Glad to see you here!"
 date:   2014-04-13 20:23:16 +0200
 published: true
+audiopost: true
 ---
 
 On this very day I've launched my blog. Since then, the blog has gone through several changes regarding both content and design. In the very beginning I was using WordPress for example, which I have replaced with Jekyll later on. I had to import, export and sort out the posts several times, because the theme of the blog kept changing; slowly but steadily it shifted from a personal tone to a more professional direction with tutorials and guides.

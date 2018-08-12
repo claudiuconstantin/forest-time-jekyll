@@ -4,7 +4,6 @@ title:  "Create audioposts for your blog"
 date:   2018-08-12 10:23:16 +0200
 categories: aws
 audiopost: true
-published: true
 ---
 
 **In this tutorial we are going to add Text-to-Speech conversion to our Jekyll blog using AWS Polly, AWS Gateway and AWS Lambda.**

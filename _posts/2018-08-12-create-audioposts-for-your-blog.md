@@ -115,7 +115,7 @@ Because we are opening the files in append mode, we have to make sure that there
 
 As you can see this script utilizes an environment variable called `BUCKET_NAME`. Don't forget to set this variable to your bucket name under the text editor. Because this function will wait for Polly to convert the provided text into audio, it might take some time to execute the whole function. To make sure that our request will not time out, go to the **Basic settings** of the function and set the **Timeout** to 5 minutes.
 
-### Create our API Gateway
+### Creating our API Gateway
 
 The very last step in the cloud setup is to create an endpoint for our Lambda function in API Gateway. Let's navigate to API Gateway service and hit the **Create API** button. Once created, let's created a new Resource and then a new Method. When creating the new method, set the **Integration type** to a **Lambda function**, and select your newly created Lambda function below.
 
@@ -135,7 +135,7 @@ Now it is about time to create our client. Let's navigate to our Jekyll template
 {% endif %}{% endraw %}
 ```
 
-Now we have to handle the case in which the audio file cannot be found. In this case, we would like to kick-off our Lambda function to start the conversion. Once the request succeeded successfully, we will try to reload the file.
+Now we have to handle the case in which the audio file cannot be found. In this case, we would like to kick-off our Lambda function to start the conversion. Once the request succeeded, we will try to reload the file.
 
 ```html
 {% raw %}{% if page.audiopost %}

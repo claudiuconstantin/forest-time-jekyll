@@ -3,6 +3,7 @@ layout: post
 title: TypeScript module resolution
 date: 2017-07-19 09:11:29
 comments: true
+published: false
 ---
 The official TypeScript documentation about [modules](https://www.typescriptlang.org/docs/handbook/modules.html) and [module resolution](https://www.typescriptlang.org/docs/handbook/module-resolution.html) already provide a great set of information, but here are my notes which sums up the most important know-hows.
 

@@ -4,7 +4,7 @@ branches:
   only:
   - master
 rvm:
-- 2.2.3
+- 2.5.3
 # set execution permission on our build script
 before_script:
  - chmod +x ./scripts/cibuild

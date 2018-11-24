@@ -1,3 +1,3 @@
-# gaboratorium.github.io
+# forest-time-jekyll
 
-A very simple jekyll blog
+A simple theme for your static blog, fresh as a forest

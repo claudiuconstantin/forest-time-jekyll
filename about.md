@@ -1,13 +1,11 @@
 ---
 layout: page
-title: About the blog
+title: About the theme
 ---
 
-Welcome to **gaboratorium blog** — the place for Web Development and Cloud Computing tutorials written by me. My name is Gábor Pintér and I am a 26-year-old full-stack web developer living in Copenhagen, Denmark. 
+A simple theme for your static blog, fresh as a forest
 
-The purpose of the blog is to share the professional knowledge and experience I gain or have with people who are interested in software engineering. Secondly, it is also a great way of practicing self-improvement and self-expression. The blog has been designed with special care of typography, vertical-rhythm, colors and symmetry.
-
-{% include image.html file="copenhagen.jpg" alt="Photo by Carlo Villarica (@sobermusings) from Unsplash" %}
+{% include image.html file="forest.jpg" alt="Photo by Imat Bagja Gumilar from Unsplash" %}
 
 ## Under the hood
 
@@ -15,10 +13,9 @@ The entire blog is created and hosted by using only free resources, tools and se
 
 - The site is powered by [Jekyll](https://jekyllrb.com/), a free static-site generator
 - It is hosted by [GitHub Pages](https://pages.github.com)
-- The theme is a modified version of [The Plain theme](http://github.com/heiswayi/the-plain) by [Heiswayi Nrird](http://heiswayi.github.io)
+- The theme is a modified version of [The Plain theme](http://github.com/heiswayi/the-plain) and [Gaboratorium](https://github.com/gaboratorium/gaboratorium.github.io)
 - Photo illustrations are downloaded from [Unsplash](https://unsplash.com/)
-- The comment section is powered by [Disqus](https://disqus.com)
 
 ## Contact
 
-If you have any questions, remarks or feedback, please feel free to leave a comment under the posts. If you'd like to get in touch with me, don't hesitate to throw me a message on [Twitter](https://twitter.com/@gaboratorium) or [LinkedIn](https://linkedin.com/in/gaboratorium), or visit my personal site at [gaboratorium.com](https://gaboratorium.com).
+If you have any questions, remarks or feedback, please feel free to leave a comment under the posts. If you'd like to get in touch with me, don't hesitate to throw me a message on [LinkedIn](https://www.linkedin.com/in/claudiuconstantin/), or visit my personal site at [claudiuconstantin.com](https://claudiuconstantin.com).

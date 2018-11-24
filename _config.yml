@@ -15,7 +15,7 @@ timezone:           Europe/Bucharest # https://en.wikipedia.org/wiki/List_of_tz_
 
 # Other Params
 include:            [ "robots.txt", "Gemfile" ]
-exclude:            [ "LICENSE.md", "README.md" ]
+exclude:            [ "LICENSE.md", "README.md", "vendor" ]
 plugins:
   - jekyll-feed
   - jekyll-sitemap

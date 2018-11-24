@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		{% include head.html %}
-	</head>
+<head>
+	{% include head.html %}
+</head>
 
-	<body>
+<body>
+	<main> {{ content }} </main>
 
-		<main>
-			{{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
-		</main>
-
-		{% include footer.html %}
-
-	</body>
+	{% include footer.html %}
+</body>
 
 </html>

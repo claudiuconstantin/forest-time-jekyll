@@ -1,20 +1,18 @@
 $max-width: 725px;
-$max-width--home: 520px;
+$max-width--home: 650px;
 $text-color: #222;
 $primary-color: #4787ed;
 $secondary-color: #F37C22; 
 $gray: #777;
 $base-margin: 1rem;
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,500,700&subset=latin-ext');
 
 @import 'objects.text';
 @import 'objects.image';
 
 body {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 20px;
   font-weight: normal;
   font-style: normal;
@@ -34,8 +32,8 @@ strong {
 }
 
 h1 {
-  font-weight: 400;
-  font-family: 'Roboto Slab', Roboto, sans-serif;
+  font-family: Roboto Slab;
+  font-weight: 100;
   line-height: 1.7rem;
 }
 
@@ -237,7 +235,7 @@ article {
     margin: 30px 0;
   }
   p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.7em;
     word-wrap: break-word;
   }
@@ -340,8 +338,13 @@ section {
     margin: 0;
     padding: 0;
     li {
-      margin: 15px 0;
+      margin: 25px 0;
+      .description {
+        // font-style: italic;
+        color: #666;
+      }
       .title {
+        font-size: larger;
         max-width: 100%;
         word-wrap: normal !important;
       }
@@ -430,8 +433,10 @@ section {
 }
 
 .c-header__title {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 30px;  
+  font-weight: 100;
+  font-family: 'Roboto Slab';
+  margin-bottom: 0;
 }
 
 .c-header__subtitle {
@@ -498,7 +503,7 @@ article .c-post-header {
 }
 
 .c-article--post {
-  max-width: 625px;
+  max-width: 650px;
 
 }
 

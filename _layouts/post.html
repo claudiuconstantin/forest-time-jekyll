@@ -5,93 +5,12 @@ layout: default
 {% include header.html %}
 
 <article class="c-article--post">
-
-	<!-- Header -->
 	<div class="center c-post-header">
-		<h1>{{ page.title }} 
-			{% if page.categories contains 'design' %} :art: {% endif %}
-			{% if page.categories contains 'hungarian' %} :hungary: {% endif %}
-			{% if page.categories contains 'danish' %} :denmark: {% endif %}
-		</h1>
-		<span class="c-article__meta">Published on <time>{{ page.date | date: '%B %-d, %Y' }}</time> by <a href="{{ site.baseurl }}/about" class="c-article__meta--link">{{ site.author_name }}</a></span>
-		{% if page.audiopost %}
-		<div class="c-post-header__player">
-			<audio controls id="player">
-				<source id="audiopost" src="https://d3e6cwu83ridgj.cloudfront.net{{ page.url }}.mp3" type='audio/mpeg'>
-			</audio>
-		</div>
-		{% endif %}
+		<h1>{{ page.title }}</h1>
+		<span class="c-article__meta">Published on <time>{{ page.date | date: '%B %-d, %Y' }}</time> by <a href="{{ site.baseurl }}/about"
+			 class="c-article__meta--link">{{ site.author_name }}</a>
+		</span>
 	</div>
 
-	<!-- Content -->
-	<div id="content">
-		{{ content }}
-	</div>
-
-
-	<!-- AWS Polly -->
-
-	{% if page.audiopost %}
-	<script>
-		$( document ).ready(function() {
-			$("#audiopost").on("error", function (e) {
-	            createAudiopost();
-	        });
-		});
-
-		function createAudiopost(){
-			var inputData = getInputData();
-			$.ajax({
-				url: "https://6ra6sowv65.execute-api.eu-central-1.amazonaws.com/Production/audioposts",
-				type: 'POST',
-				data:  JSON.stringify(inputData)  ,
-				contentType: 'application/json; charset=utf-8',
-				success: function (response) {
-					document.getElementById("player").load();
-				},
-				error: function () {
-					$(".c-post-header__player").text("Audiopost was not found and creation request denied.");
-				}
-		  	});
-		}
-
-		function getInputData() {
-	  		
-	  		var audiopostid = "{{ page.url }}";
-			audiopostid = audiopostid.replace("/", "");
-
-			var text = $("#content").html();
-			var s = $(text).find('pre').replaceWith("<span>Here is a code snippet.</span>").end().text();
-			var inputData = {
-				"audiopostid": audiopostid,
-				"text": s,
-				"voice" : "Brian"
-			};
-
-			return inputData;
-	  	}
-	</script>
-	{% endif %}
-
-
-	<!-- Disquss comments -->
-	{% if page.comments != false %}
-	<div id="disqus_thread"></div>
-		<script>	
-		var disqus_config = function () {
-		this.page.url = "{{ site.baseurl }}";  // Replace PAGE_URL with your page's canonical URL variable
-		this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-		};
-		
-		(function() { // DON'T EDIT BELOW THIS LINE
-		var d = document, s = d.createElement('script');
-		s.src = 'https://gaboratorium-notes.disqus.com/embed.js';
-		s.setAttribute('data-timestamp', +new Date());
-		(d.head || d.body).appendChild(s);
-		})();
-		</script>
-	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            
-	{% endif %}
-
+	<div id="content"> {{ content }} </div>
 </article>

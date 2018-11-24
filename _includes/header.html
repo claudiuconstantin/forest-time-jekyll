@@ -1,5 +1,4 @@
 <aside class="logo">
-
 	{% if page.url == '/index.html' or page.url == '/' %}
 		{% assign link = site.baseur' %}
 		{% assign prompt = 'Home' %}
@@ -9,8 +8,7 @@
 	{% endif %}
 
 	<a href="{{ link | prepend: site.baseurl }}">
-		<img src="{{ site.baseurl }}/assets/avatar_lego.png" class="gravatar">
+		<img src="{{ site.baseurl }}/assets/logo.jpg" class="gravatar">
 	</a>
 	<span class="logo-prompt">{{ prompt }}</span>
-
 </aside>

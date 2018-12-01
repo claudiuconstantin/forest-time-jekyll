@@ -17,6 +17,7 @@ mkdir _site
 git clone https://${GH_TOKEN}@github.com/claudiuconstantin/forest-time-jekyll.git --branch gh-pages _site
 
 # build with Jekyll into "_site"
+gem install bundler
 bundle exec jekyll build
 
 # push
@@ -24,5 +25,5 @@ cd _site
 git config user.email "claudiu@fastmail.com"
 git config user.name "Claudiu Constantin"
 git add --all
-git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
+git commit -a -m "New TravisCI build #$TRAVIS_BUILD_NUMBER"
 git push --force origin gh-pages

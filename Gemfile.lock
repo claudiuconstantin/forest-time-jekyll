@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    forest-time-jekyll (0.1.0)
+      jekyll (~> 3.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -216,6 +222,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
+    rake (12.3.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -250,7 +257,10 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bundler (~> 1.16)
+  forest-time-jekyll!
   github-pages
+  rake (~> 12.0)
   tzinfo-data
   wdm
 

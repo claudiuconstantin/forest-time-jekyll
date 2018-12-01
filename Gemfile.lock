@@ -251,7 +251,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jemoji
   tzinfo-data
   wdm
 

@@ -6,7 +6,7 @@ $secondary-color: #F37C22;
 $gray: #777;
 $base-margin: 1rem;
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,500,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400|Roboto:400,500,700&subset=latin-ext');
 
 @import 'objects.text';
 @import 'objects.image';
@@ -309,7 +309,7 @@ article {
   text-align: center;
   max-width: $max-width;
   margin: 0 auto;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .page-navigation {
   margin: 50px auto 0 auto;
@@ -340,8 +340,8 @@ section {
     li {
       margin: 25px 0;
       .description {
-        // font-style: italic;
-        color: #666;
+        color: gray;
+        font-size: 15px;
       }
       .title {
         font-size: larger;
@@ -408,10 +408,6 @@ section {
   }
 }
 
-.c-navigation {
-
-}
-
 .c-navigation__menu {
   display: inline-block;
   text-transform: uppercase;
@@ -471,23 +467,6 @@ section {
 
 .o-grid--center {
   justify-content: center;
-}
-
-.c-cab {
-  margin-top: 2rem;
-  background-color: $primary-color;
-  min-width: 200px;
-  padding: 1rem;
-  border-radius: 4px;
-  color: #fff;
-  text-align: center;
-
-  &:hover {
-    text-decoration: none;
-    color: #fff;
-    background-color: lighten($primary-color, 5%);
-    cursor: pointer;
-  }
 }
 
 img.emoji {

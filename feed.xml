@@ -1,22 +1,292 @@
----
-layout: null
----
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title }}</title>
-    <description>{{ site.description }}</description>
-    <link>{{ site.baseurl | prepend: site.url }}</link>
-    {% for post in site.posts %}
-      {% unless post.draft %}
+    <title>Forest time</title>
+    <description>About the woodlands I will go</description>
+    <link>/forest-time-jekyll</link>
+    
+      
         <item>
-          <title>{{ post.title | xml_escape }}</title>
-          <description>{{ post.content | xml_escape }}</description>
-          <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-          <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-          <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+          <title>Winter trees - Sylvia Plath</title>
+          <description>&lt;p&gt;The wet dawn inks are doing their blue dissolve.&lt;br /&gt;
+On their blotter of fog the trees&lt;br /&gt;
+Seem a botanical drawing.&lt;br /&gt;
+Memories growing, ring on ring,&lt;br /&gt;
+A series of weddings.&lt;/p&gt;
+
+&lt;p&gt;Knowing neither abortions nor bitchery,&lt;br /&gt;
+Truer than women,&lt;br /&gt;
+They seed so effortlessly!&lt;br /&gt;
+Tasting the winds, that are footless,&lt;br /&gt;
+Waist-deep in history.&lt;/p&gt;
+
+&lt;p&gt;Full of wings, otherworldliness.&lt;br /&gt;
+In this, they are Ledas.&lt;br /&gt;
+O mother of leaves and sweetness&lt;br /&gt;
+Who are these pietas?&lt;br /&gt;
+The shadows of ringdoves chanting, but chasing nothing.&lt;/p&gt;
+</description>
+          <pubDate>2018-11-20T10:23:16+02:00</pubDate>
+          <link>/forest-time-jekyll/winter-trees</link>
+          <guid isPermaLink="true">/forest-time-jekyll/winter-trees</guid>
         </item>
-      {% endunless %}
-    {% endfor %}
+      
+    
+      
+        <item>
+          <title>The trees - Philip Larkin</title>
+          <description>&lt;p&gt;The trees are coming into leaf&lt;br /&gt;
+Like something almost being said;&lt;br /&gt;
+The recent buds relax and spread,&lt;br /&gt;
+Their greenness is a kind of grief.&lt;/p&gt;
+
+&lt;p&gt;Is it that they are born again&lt;br /&gt;
+And we grow old? No, they die too,&lt;br /&gt;
+Their yearly trick of looking new&lt;br /&gt;
+Is written down in rings of grain.&lt;/p&gt;
+
+&lt;p&gt;Yet still the unresting castles thresh&lt;br /&gt;
+In fullgrown thickness every May.&lt;br /&gt;
+Last year is dead, they seem to say,&lt;br /&gt;
+Begin afresh, afresh, afresh.&lt;/p&gt;
+</description>
+          <pubDate>2018-11-19T10:23:16+02:00</pubDate>
+          <link>/forest-time-jekyll/the-trees</link>
+          <guid isPermaLink="true">/forest-time-jekyll/the-trees</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Trees - Joyce Kilmer</title>
+          <description>&lt;p&gt;I think that I shall never see&lt;br /&gt;
+A poem lovely as a tree.&lt;br /&gt;
+A tree whose hungry mouth is prest&lt;br /&gt;
+Against the earth’s sweet flowing breast;&lt;br /&gt;
+A tree that looks at God all day,&lt;br /&gt;
+And lifts her leafy arms to pray;&lt;/p&gt;
+
+&lt;p&gt;A tree that may in Summer wear&lt;br /&gt;
+A nest of robins in her hair;&lt;br /&gt;
+Upon whose bosom snow has lain;&lt;br /&gt;
+Who intimately lives with rain.&lt;br /&gt;
+Poems are made by fools like me,&lt;br /&gt;
+But only God can make a tree.&lt;/p&gt;
+</description>
+          <pubDate>2018-11-18T10:23:16+02:00</pubDate>
+          <link>/forest-time-jekyll/trees</link>
+          <guid isPermaLink="true">/forest-time-jekyll/trees</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Oread - Hilda Doolittle</title>
+          <description>&lt;p&gt;Whirl up, sea — &lt;br /&gt;
+whirl your pointed pines,&lt;br /&gt;
+splash your great pines&lt;br /&gt;
+on our rocks,&lt;br /&gt;
+hurl your green over us,&lt;br /&gt;
+cover us with your pools of fir.&lt;/p&gt;
+</description>
+          <pubDate>2018-11-17T10:23:16+02:00</pubDate>
+          <link>/forest-time-jekyll/oread</link>
+          <guid isPermaLink="true">/forest-time-jekyll/oread</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Aspens - Eduard Thomas</title>
+          <description>&lt;p&gt;All day and night, save winter, every weather,&lt;br /&gt;
+Above the inn, the smithy, and the shop,&lt;br /&gt;
+The aspens at the cross-roads talk together&lt;br /&gt;
+Of rain, until their last leaves fall from the top.&lt;/p&gt;
+
+&lt;p&gt;Out of the blacksmith’s cavern comes the ringing&lt;br /&gt;
+Of hammer, shoe, and anvil; out of the inn&lt;br /&gt;
+The clink, the hum, the roar, the random singing –&lt;br /&gt;
+The sounds that for these fifty years have been.&lt;/p&gt;
+
+&lt;p&gt;The whisper of the aspens is not drowned,&lt;br /&gt;
+And over lightless pane and footless road,&lt;br /&gt;
+Empty as sky, with every other sound&lt;br /&gt;
+Not ceasing, calls their ghosts from their abode,&lt;/p&gt;
+
+&lt;p&gt;A silent smithy, a silent inn, nor fails&lt;br /&gt;
+In the bare moonlight or the thick-furred gloom,&lt;br /&gt;
+In tempest or the night of nightingales,&lt;br /&gt;
+To turn the cross-roads to a ghostly room.&lt;/p&gt;
+
+&lt;p&gt;And it would be the same were no house near.&lt;br /&gt;
+Over all sorts of weather, men, and times,&lt;br /&gt;
+Aspens must shake their leaves and men may hear&lt;br /&gt;
+But need not listen, more than to my rhymes.&lt;/p&gt;
+
+&lt;p&gt;Whatever wind blows, while they and I have leaves&lt;br /&gt;
+We cannot other than an aspen be&lt;br /&gt;
+That ceaselessly, unreasonably grieves,&lt;br /&gt;
+Or so men think who like a different tree.&lt;/p&gt;
+</description>
+          <pubDate>2018-11-16T10:23:16+02:00</pubDate>
+          <link>/forest-time-jekyll/aspens</link>
+          <guid isPermaLink="true">/forest-time-jekyll/aspens</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Stopping by Woods on a Snowy Evening - Robert Frost</title>
+          <description>&lt;p&gt;Whose woods these are I think I know. &lt;br /&gt;
+His house is in the village though; &lt;br /&gt;
+He will not see me stopping here &lt;br /&gt;
+To watch his woods fill up with snow.&lt;/p&gt;
+
+&lt;p&gt;My little horse must think it queer &lt;br /&gt;
+To stop without a farmhouse near &lt;br /&gt;
+Between the woods and frozen lake &lt;br /&gt;
+The darkest evening of the year.&lt;/p&gt;
+
+&lt;p&gt;He gives his harness bells a shake &lt;br /&gt;
+To ask if there is some mistake. &lt;br /&gt;
+The only other sound’s the sweep &lt;br /&gt;
+Of easy wind and downy flake.&lt;/p&gt;
+
+&lt;p&gt;The woods are lovely, dark and deep, &lt;br /&gt;
+But I have promises to keep, &lt;br /&gt;
+And miles to go before I sleep, &lt;br /&gt;
+And miles to go before I sleep.&lt;/p&gt;
+</description>
+          <pubDate>2018-11-15T10:23:16+02:00</pubDate>
+          <link>/forest-time-jekyll/stopping-by-woods</link>
+          <guid isPermaLink="true">/forest-time-jekyll/stopping-by-woods</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>The Way through the Woods - Rudyard Kipling</title>
+          <description>&lt;p&gt;They shut the road through the woods&lt;br /&gt;
+Seventy years ago.&lt;br /&gt;
+Weather and rain have undone it again,&lt;br /&gt;
+And now you would never know&lt;br /&gt;
+There was once a road through the woods&lt;br /&gt;
+Before they planted the trees.&lt;br /&gt;
+It is underneath the coppice and heath,&lt;br /&gt;
+And the thin anemones.&lt;br /&gt;
+Only the keeper sees&lt;br /&gt;
+That, where the ring-dove broods,&lt;br /&gt;
+And the badgers roll at ease,&lt;br /&gt;
+There was once a road through the woods.&lt;/p&gt;
+
+&lt;p&gt;Yet, if you enter the woods&lt;br /&gt;
+Of a summer evening late,&lt;br /&gt;
+When the night-air cools on the trout-ringed pools&lt;br /&gt;
+Where the otter whistles his mate,&lt;br /&gt;
+(They fear not men in the woods,&lt;br /&gt;
+Because they see so few.)&lt;br /&gt;
+You will hear the beat of a horse’s feet,&lt;br /&gt;
+And the swish of a skirt in the dew,&lt;br /&gt;
+Steadily cantering through&lt;br /&gt;
+The misty solitudes,&lt;br /&gt;
+As though they perfectly knew&lt;br /&gt;
+The old lost road through the woods.&lt;br /&gt;
+But there is no road through the woods.&lt;/p&gt;
+</description>
+          <pubDate>2018-11-14T10:23:16+02:00</pubDate>
+          <link>/forest-time-jekyll/the-way-through-the-woods</link>
+          <guid isPermaLink="true">/forest-time-jekyll/the-way-through-the-woods</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Loveliest of Trees, the Cherry Now - A. E. Housman</title>
+          <description>&lt;p&gt;Loveliest of trees, the cherry now&lt;br /&gt;
+Is hung with bloom along the bough,&lt;br /&gt;
+And stands about the woodland ride&lt;br /&gt;
+Wearing white for Eastertide.&lt;/p&gt;
+
+&lt;p&gt;Now, of my threescore years and ten,&lt;br /&gt;
+Twenty will not come again,&lt;br /&gt;
+And take from seventy springs a score,&lt;br /&gt;
+It only leaves me fifty more.&lt;/p&gt;
+
+&lt;p&gt;And since to look at things in bloom&lt;br /&gt;
+Fifty springs are little room,&lt;br /&gt;
+About the woodlands I will go&lt;br /&gt;
+To see the cherry hung with snow.&lt;/p&gt;
+</description>
+          <pubDate>2018-11-13T10:23:16+02:00</pubDate>
+          <link>/forest-time-jekyll/loveliest-of-trees</link>
+          <guid isPermaLink="true">/forest-time-jekyll/loveliest-of-trees</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Binsey Poplars - Gerard Manley Hopkins</title>
+          <description>&lt;p&gt;My aspens dear, whose airy cages quelled,&lt;br /&gt;
+Quelled or quenched in leaves the leaping sun,&lt;br /&gt;
+All felled, felled, are all felled;&lt;br /&gt;
+Of a fresh and following folded rank&lt;br /&gt;
+Not spared, not one&lt;br /&gt;
+That dandled a sandalled&lt;br /&gt;
+Shadow that swam or sank&lt;br /&gt;
+On meadow and river and wind-wandering weed-winding bank.&lt;/p&gt;
+
+&lt;p&gt;O if we but knew what we do&lt;br /&gt;
+When we delve or hew –&lt;br /&gt;
+Hack and rack the growing green!&lt;br /&gt;
+Since country is so tender&lt;br /&gt;
+To touch, her being so slender,&lt;br /&gt;
+That, like this sleek and seeing ball&lt;br /&gt;
+But a prick will make no eye at all,&lt;/p&gt;
+
+&lt;p&gt;Where we, even where we mean&lt;br /&gt;
+To mend her we end her,&lt;br /&gt;
+When we hew or delve:&lt;br /&gt;
+After-comers cannot guess the beauty been.&lt;br /&gt;
+Ten or twelve, only ten or twelve&lt;br /&gt;
+Strokes of havoc unselve&lt;br /&gt;
+The sweet especial scene,&lt;br /&gt;
+Rural scene, a rural scene,&lt;br /&gt;
+Sweet especial rural scene.&lt;/p&gt;
+</description>
+          <pubDate>2018-11-12T10:23:16+02:00</pubDate>
+          <link>/forest-time-jekyll/binsey-poplars</link>
+          <guid isPermaLink="true">/forest-time-jekyll/binsey-poplars</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>A Poison Tree - William Blake</title>
+          <description>&lt;p&gt;I was angry with my friend:&lt;br /&gt;
+I told my wrath, my wrath did end.&lt;br /&gt;
+I was angry with my foe:&lt;br /&gt;
+I told it not, my wrath did grow.&lt;/p&gt;
+
+&lt;p&gt;And I watered it in fears.&lt;br /&gt;
+Night and morning with my tears:&lt;br /&gt;
+And I sunned it with smiles.&lt;br /&gt;
+And with soft deceitful wiles.&lt;/p&gt;
+
+&lt;p&gt;And it grew both day and night.&lt;br /&gt;
+Till it bore an apple bright.&lt;br /&gt;
+And my foe beheld it shine.&lt;br /&gt;
+And he knew that it was mine.&lt;/p&gt;
+
+&lt;p&gt;And into my garden stole.&lt;br /&gt;
+When the night had veild the pole;&lt;br /&gt;
+In the morning glad I see;&lt;br /&gt;
+My foe outstretchd beneath the tree.&lt;/p&gt;
+</description>
+          <pubDate>2018-11-11T10:23:16+02:00</pubDate>
+          <link>/forest-time-jekyll/a-poison-tree</link>
+          <guid isPermaLink="true">/forest-time-jekyll/a-poison-tree</guid>
+        </item>
+      
+    
   </channel>
 </rss>

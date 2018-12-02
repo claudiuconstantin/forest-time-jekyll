@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    forest-time-jekyll (0.1.1)
+    forest-time-jekyll (0.1.2)
       jekyll (~> 3.7)
 
 GEM
@@ -262,7 +262,7 @@ DEPENDENCIES
   github-pages
   rake (~> 12.0)
   tzinfo-data
-  wdm
+  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.17.1

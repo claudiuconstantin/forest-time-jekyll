@@ -1,5 +1,5 @@
 # Site Info
-title:              "Forest time"
+title:              "Forest time Jekyll theme"
 description:        "About the woodlands I will go"
 google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
 
@@ -11,10 +11,12 @@ author_web:         example.com
 # Site Settings
 baseurl:            "/forest-time-jekyll" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /:title
-timezone:           Europe/Bucharest # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# icons
+brandingFolder:     "assets/icons"
 
 # Other Params
-include:            [ "robots.txt", "Gemfile" ]
+include:            [ "Gemfile" ]
 exclude:            [ "LICENSE.md", "README.md", "test-gem", "vendor" ]
 plugins:
   - jekyll-feed

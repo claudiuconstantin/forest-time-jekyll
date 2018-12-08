@@ -6,12 +6,13 @@ about             : "About"
 and               : "and"
 onn               : "on" # for some reason "on" does not show up when used... !?
 of                : "of"
+here              : "here"
 published_by      : "Published by"
 powered_by        : "Powered by"
 page              : "Page"
 previous          : "Previous"
-not_found_page    : "Oh, snap! Looks like this page doesn't exist..."
-oldPostNotice     : "Dear reader, this piece was migrated from an older address. If you notice something wrong, let me know " # will be followed by a "here" link
+not_found_page    : "Oh, snap! Looks like this one doesn't exist anymore..."
+oldPostNotice     : "Dear reader, this piece was moved here from an older address. If you notice something wrong, let me know " # will be followed by a "here" link
 noComments        : "Yup, there's no comment section, but I can always be contacted " # will be followed by a "here" link
 next              : "Next"
 xml_feed          : "XML feed"

@@ -172,6 +172,10 @@ a.phantom:hover { color: #777; text-decoration: underline; }
 
 .pagination { text-align: center; }
 
+.alert { position: relative; padding: .75rem 1.25rem; margin-bottom: 1rem; border: 1px solid transparent; border-radius: .15rem; font-size: medium; }
+
+.alert-light { color: #717171; background-color: #f6f6f6; border-color: #e4e4e4; }
+
 code { background-color: #f9f9f9; color: #444; }
 
 .highlight .hll { background-color: #ffffcc; }

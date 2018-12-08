@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "forest-time-jekyll"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.3"
   spec.authors       = ["Claudiu Constantin"]
   spec.email         = ["claudiu@fastmail.com"]
 
@@ -14,6 +14,6 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "jekyll", "~> 3.7"
 
-  spec.add_development_dependency "bundler", "~> 1.16"
-  spec.add_development_dependency "rake", "~> 12.0"
+  spec.add_development_dependency "bundler", "~> 1.17"
+  spec.add_development_dependency "rake", "~> 12.3"
 end

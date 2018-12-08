@@ -10,8 +10,9 @@ layout: default
 		<span class="c-article__meta">
 			{{ site.data.ui-text.published_by}}
 			<a href="{{ site.baseurl }}{{ site.author_about }}" class="c-article__meta--link">{{ site.author_name }}</a>
-			{{ site.data.ui-text.on }}
-			<time>{% assign m = page.date | date: "%-m" %}
+			{{ site.data.ui-text.onn }}
+			<time>
+				{% assign m = page.date | date: "%-m" %}
 				{{ page.date | date: "%-d" }}
 				{% case m %}
 					{% when '1' %} {{ site.data.ui-text.months.january }}
@@ -32,5 +33,11 @@ layout: default
 		</span>
 	</div>
 
+	{% if page.date < site.oldPostNoticeBefore %}
+		{% include oldPostNotice.html %}		
+	{% endif %}
+
 	<div id="content"> {{ content }} </div>
+
+	{% include comments.html %}
 </article>

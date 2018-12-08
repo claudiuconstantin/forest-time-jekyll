@@ -1,23 +1,24 @@
 # Site info
-title:              "My awesome blog"
-lang:               "en"
-description:        "About the woodlands I will go"
-google_analytics:   UA-XXXXXXX-X
-
-# Author info
-author_name:        "Jimmy Forester"
-author_email:       jimmy@example.com
-author_about:       /about
-author_web:         example.com
-
-# Site settings
-baseurl:            "/forest-time-jekyll"
-permalink:          "/:title"
-paginate:           20
-paginate_path:      "/page:num"
-
-# Custom parameters
-brandingFolder:     "/assets/icons"
+title:                "My awesome blog"
+lang:                 "en"
+description:          "About the woodlands I will go"
+google_analytics:     "UA-XXXXXXX-X"
+  
+# Author info 
+author_name:          "Jimmy Forester"
+author_email:         "jimmy@example.com"
+author_about:         "/about"
+author_web:           "example.com"
+  
+# Site settings 
+baseurl:              "/forest-time-jekyll"
+permalink:            "/:title"
+paginate:             3
+paginate_path:        "/page:num"
+  
+# Custom parameters 
+brandingFolder:       "/assets/icons"
+oldPostNoticeBefore:  2018-11-15 08:00:00 +0200 # display a notice for posts older than this date
 
 # Other Params
 include:            [ "Gemfile" ]

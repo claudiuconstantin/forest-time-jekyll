@@ -2,8 +2,8 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 3.7"
 
-gem "forest-time-jekyll", :path => "../"
-# gem "forest-time-jekyll", "~> 0.1.5"
+# gem "forest-time-jekyll", :path => "../"
+gem "forest-time-jekyll", "~> 0.1.6"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

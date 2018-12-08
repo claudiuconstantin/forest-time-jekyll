@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll, yay"
-description: "This is a short description of the article. It will appear under the main title"
+description: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes"
 date:   2018-12-01 13:00:59 +0200
 categories: jekyll update
 ---

@@ -8,16 +8,17 @@ description: >-
   Google search results) and in your feed.xml site description.
 
 # Author info
-author_name:      "John Doer"
-author_email:     john.doe@example.com
-author_about:     /about-john
-author_web:       example.com
-
-# Site settings
-baseurl:          "/test"
-paginate:         3
-paginate_path:    "/page:num"
-brandingFolder:   "/assets/icons"
+author_name:          "John Doer"
+author_email:         "john.doe@example.com"
+author_about:         "/about-john"
+author_web:           "example.com"
+    
+# Site settings   
+baseurl:              "/test"
+paginate:             3
+paginate_path:        "/page:num"
+brandingFolder:       "/assets/icons"
+oldPostNoticeBefore:  2018-12-02 08:00:00 +0200 # display a notice for posts older than this date
 
 # Build settings
 markdown: kramdown

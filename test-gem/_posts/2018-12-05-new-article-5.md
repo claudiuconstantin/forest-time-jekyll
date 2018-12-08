@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll, yay"
-description: "This is a short description of the article. It will appear under the main title"
+description: "To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext`"
 date:   2018-12-05 13:00:59 +0200
 categories: jekyll update
 ---

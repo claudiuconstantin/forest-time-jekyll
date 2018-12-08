@@ -163,7 +163,7 @@ article .c-post-header { margin-bottom: 3rem; }
 .c-image__alt { font-weight: normal; color: #777; }
 .c-image__alt:hover { text-decoration: none; }
 
-a.phantom { color: #777; text-decoration: none; font-weight: 400; }
+a.phantom { color: #777; font-weight: 500; }
 a.phantom:hover { color: #777; text-decoration: underline; }
 
 .post-year { color: gray; }

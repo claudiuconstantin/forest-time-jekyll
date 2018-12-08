@@ -176,6 +176,8 @@ a.phantom:hover { color: #777; text-decoration: underline; }
 
 .alert-light { color: #717171; background-color: #f6f6f6; border-color: #e4e4e4; }
 
+.alert-bottom { margin-top: 50px; }
+
 code { background-color: #f9f9f9; color: #444; }
 
 .highlight .hll { background-color: #ffffcc; }

@@ -1,10 +1,10 @@
 <aside class="logo">
 	{% if page.url == '/index.html' or page.url == '/' %}
-		{% assign prompt = 'Home' %}
+		{% assign prompt = site.data.ui-text.home %}
 	{% else %}
-		{% assign prompt = 'Back to Home' %}
+		{% assign prompt = site.data.ui-text.back_to_home %}
 	{% endif %}
-	
+
 	<a href="{{ site.baseurl }}/">
 		<img src="{{ site.baseurl }}{{ site.brandingFolder }}/avatar.jpg">
 	</a>

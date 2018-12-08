@@ -1,0 +1,28 @@
+# User interface text and labels
+
+home         : "Home"
+back_to_home : "Back to home"
+about        : "About"
+and          : "and"
+on           : "on"
+of           : "of"
+published_by : "Published by"
+powered_by   : "Powered by"
+page         : "Page"
+previous     : "Previous"
+next         : "Next"
+xml_feed     : "XML feed"
+
+months:
+  january    : "January"
+  february   : "February"
+  march      : "March"
+  april      : "April"
+  may        : "May"
+  june       : "June"
+  july       : "July"
+  august     : "August"
+  september  : "September"
+  october    : "October"
+  november   : "November"
+  december   : "December"

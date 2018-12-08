@@ -21,22 +21,22 @@ layout: default
 </section>
 
 <!-- Pagination links -->
-<section>
-	<div class="pagination">
-		{% if paginator.previous_page %}
-		<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">
-			Previous
-		</a>
-		{% else %}
-		<span class="previous">Previous</span>
-		{% endif %}
-		<span class="page_number ">
-			Page: {{ paginator.page }} of {{ paginator.total_pages }}
-		</span>
-		{% if paginator.next_page %}
-		<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Next</a>
-		{% else %}
-		<span class="next ">Next</span>
-		{% endif %}
-	</div>
-</section>
+{% if paginator.total_pages > 1 %}
+	<section>
+		<div class="pagination">
+			{% if paginator.previous_page %}
+			<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">
+				{{ site.data.ui-text.previous }}
+			</a>
+			{% endif %}
+
+			<span class="page_number ">
+				{{ site.data.ui-text.page }} {{ paginator.page }} {{ site.data.ui-text.of }} {{ paginator.total_pages }}
+			</span>
+
+			{% if paginator.next_page %}
+			<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">{{ site.data.ui-text.next }}</a>
+			{% endif %}
+		</div>
+	</section>
+{% endif %}

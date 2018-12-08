@@ -2,12 +2,12 @@
   <hr />
 
   <span>
-    <a href="{{ site.baseurl }}/" class="phantom">Home</a> ・
-    <a href="{{ site.baseurl }}{{ site.author_about }}" class="phantom">About</a> ・
-    <a href="{{ site.baseurl }}/feed.xml" class="phantom">XML Feed</a></span>
+    <a href="{{ site.baseurl }}/" class="phantom">{{ site.data.ui-text.home }}</a> ・
+    <a href="{{ site.baseurl }}{{ site.author_about }}" class="phantom">{{ site.data.ui-text.about }}</a> ・
+    <a href="{{ site.baseurl }}/feed.xml" class="phantom">{{ site.data.ui-text.xml_feed }}</a></span>
   <span class="block">{{ site.title }} &copy; {{ site.time | date: '%Y' }}</span>
   <span>
-    Powered by <a href="https://jekyllrb.com/" class="phantom">Jekyll</a>
-    and
+    {{ site.data.ui-text.powered_by }} <a href="https://jekyllrb.com/" class="phantom">Jekyll</a>
+    {{ site.data.ui-text.and }}
     <a href="https://github.com/claudiuconstantin/forest-time-jekyll" class="phantom">Forest Time</a></span>
 </div>

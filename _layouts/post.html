@@ -7,8 +7,28 @@ layout: default
 <article class="c-article--post">
 	<div class="center c-post-header">
 		<h1>{{ page.title }}</h1>
-		<span class="c-article__meta">Published on <time>{{ page.date | date: '%B %-d, %Y' }}</time> by <a href="{{ site.baseurl }}{{ site.author_about }}"
-			 class="c-article__meta--link">{{ site.author_name }}</a>
+		<span class="c-article__meta">
+			{{ site.data.ui-text.published_by}}
+			<a href="{{ site.baseurl }}{{ site.author_about }}" class="c-article__meta--link">{{ site.author_name }}</a>
+			{{ site.data.ui-text.on }}
+			<time>{% assign m = page.date | date: "%-m" %}
+				{{ page.date | date: "%-d" }}
+				{% case m %}
+					{% when '1' %} {{ site.data.ui-text.months.january }}
+					{% when '2' %} {{ site.data.ui-text.months.february }}
+					{% when '3' %} {{ site.data.ui-text.months.march }}
+					{% when '4' %} {{ site.data.ui-text.months.april }}
+					{% when '5' %} {{ site.data.ui-text.months.may }}
+					{% when '6' %} {{ site.data.ui-text.months.june }}
+					{% when '7' %} {{ site.data.ui-text.months.july }}
+					{% when '8' %} {{ site.data.ui-text.months.august }}
+					{% when '9' %} {{ site.data.ui-text.months.september }}
+					{% when '10' %} {{ site.data.ui-text.months.october }}
+					{% when '11' %} {{ site.data.ui-text.months.november }}
+					{% when '12' %} {{ site.data.ui-text.months.december }}
+				{% endcase %}
+				{{ page.date | date: "%Y" }}
+			</time>
 		</span>
 	</div>
 

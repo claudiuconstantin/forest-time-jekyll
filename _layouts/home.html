@@ -5,8 +5,9 @@ layout: default
 {% include header.html %}
 {% include navigation.html %}
 
+<!-- paginated posts -->
 <section>
-	{% for post in site.posts %}
+	{% for post in paginator.posts %}
 	<ul>
 		<li>
 			<div class="post-date"> <span>{{ post.date | date: "%b %d" }}</span> </div>
@@ -17,4 +18,25 @@ layout: default
 		</li>
 	</ul>
 	{% endfor %}
+</section>
+
+<!-- Pagination links -->
+<section>
+	<div class="pagination">
+		{% if paginator.previous_page %}
+		<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">
+			Previous
+		</a>
+		{% else %}
+		<span class="previous">Previous</span>
+		{% endif %}
+		<span class="page_number ">
+			Page: {{ paginator.page }} of {{ paginator.total_pages }}
+		</span>
+		{% if paginator.next_page %}
+		<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Next</a>
+		{% else %}
+		<span class="next ">Next</span>
+		{% endif %}
+	</div>
 </section>

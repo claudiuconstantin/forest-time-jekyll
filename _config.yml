@@ -1,23 +1,27 @@
-# Site Info
+# Site info
 title:              "Forest time Jekyll theme"
+lang:               "ro"
 description:        "About the woodlands I will go"
-google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
+google_analytics:   UA-XXXXXXX-X
 
-# Author Info
+# Author info
 author_name:        "Jimmy Forester"
 author_email:       jimmy@example.com
+author_about:       /about
 author_web:         example.com
 
-# Site Settings
-baseurl:            "/forest-time-jekyll" # Base URL must end WITHOUT a slash, default: ""
-permalink:          /:title
+# Site settings
+baseurl:            "/forest-time-jekyll"
+permalink:          "/:title"
+paginate:           20
+paginate_path:      "/page:num"
 
-# icons
-brandingFolder:     "assets/icons"
+# Custom parameters
+brandingFolder:     "/assets/icons"
 
 # Other Params
 include:            [ "Gemfile" ]
-exclude:            [ "LICENSE.md", "README.md", "test-gem", "vendor" ]
+exclude:            [ "LICENSE.md", "README.md", "test-gem", "scripts", "vendor" ]
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -25,20 +29,3 @@ plugins:
 
 feed:
   path: rss/index.xml
-
-defaults:
-  -
-    scope:
-      path:         ""
-    values:
-      layout:       "null"
-  -
-    scope:
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      type:         "posts"
-    values:
-      layout:       "post"

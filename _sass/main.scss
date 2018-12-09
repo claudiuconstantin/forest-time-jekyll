@@ -77,10 +77,9 @@ mark {
 }
 
 blockquote {
-    // border: 1px solid #81D4FA;
-    border-left: 5px solid #81D4FA; // border-radius: 4px;
+    border-left: 5px solid #81D4FA;
     margin: 40px 0;
-    padding: 5px 30px; // background: #E1F5FE;
+    padding: 5px 30px;
     font-style: italic;
 }
 
@@ -316,7 +315,7 @@ article {
     text-align: center;
     max-width: $max-width;
     margin: 0 auto;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .page-navigation {
@@ -342,42 +341,36 @@ article {
 
 section {
     max-width: $max-width--home;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 70px auto;
     ul {
         list-style: none;
         margin: 0;
         padding: 0;
         li {
-            margin: 25px 0;
+            margin: 35px 0;
             .description {
                 color: gray;
-                font-size: 15px;
+                font-size: 16px;
+                margin-top: 10px;
             }
             .title {
-                font-size: larger;
+                font-size: 22px;
                 max-width: 100%;
                 word-wrap: normal !important;
             }
-            a {
-                text-decoration: none;
-                font-weight: normal;
-                border: 0;
-                color: #000;
-                box-sizing: border-box;
+            a {           
+                color: #3d3d3d;
             }
             .post-date {
                 float: right;
                 margin: 0 0 0 20px;
             }
-            span {
+            time {
                 display: inline-block;
                 color: #757575;
-                letter-spacing: 1px;
-                text-transform: uppercase;
             }
             @media (min-width: 992px) {
                 a {
-                    // border-bottom: 2px solid transparent;
                     &:hover {
                         border-color: #000;
                     }
@@ -505,16 +498,11 @@ article .c-post-header {
 }
 
 .c-article__meta--link {
-    font-weight: inherit;
     color: inherit;
     &:hover {
         text-decoration: underline;
         color: inherit;
     }
-}
-
-.c-post--highlighted {
-    // font-weight: 700;
 }
 
 .c-post-header__subtitle {
@@ -526,10 +514,7 @@ article .c-post-header {
     text-align: center;
     color: #777;
     font-style: italic;
-    margin-top: 1rem;
-    p {
-        // color: #777;
-    }
+    margin-top: 1rem;    
 }
 
 .c-bio__avatar {
@@ -579,20 +564,17 @@ a.phantom {
 }
 
 .alert {
+    font-size: medium;
     position: relative;
     padding: .75rem 1.25rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     border: 1px solid transparent;
     border-radius: .15rem;
-    font-size: medium;
+    margin-top: 60px;
 }
 
 .alert-light {
     color: #717171;
     background-color: #f6f6f6;
     border-color: #e4e4e4;
-}
-
-.alert-bottom {
-    margin-top: 50px;
 }

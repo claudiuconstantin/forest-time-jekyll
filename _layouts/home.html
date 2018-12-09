@@ -7,36 +7,56 @@ layout: default
 
 <!-- paginated posts -->
 <section>
-	{% for post in paginator.posts %}
 	<ul>
-		<li>
-			<div class="post-date"> <span>{{ post.date | date: "%b %d" }}</span> </div>
-			<div class="title">
-				<a href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }} </a>
-			</div>
-			<div class="description"> {{ post.description}} </div>
-		</li>
+		{% for post in paginator.posts %}
+			<li>
+				<div class="post-date">
+					<time>
+						{% assign m = post.date | date: "%-m" %}
+						{{ post.date | date: "%-d" }}
+						{% case m %}
+						{% when '1' %} {{ site.data.ui-text.months.january }}
+						{% when '2' %} {{ site.data.ui-text.months.february }}
+						{% when '3' %} {{ site.data.ui-text.months.march }}
+						{% when '4' %} {{ site.data.ui-text.months.april }}
+						{% when '5' %} {{ site.data.ui-text.months.may }}
+						{% when '6' %} {{ site.data.ui-text.months.june }}
+						{% when '7' %} {{ site.data.ui-text.months.july }}
+						{% when '8' %} {{ site.data.ui-text.months.august }}
+						{% when '9' %} {{ site.data.ui-text.months.september }}
+						{% when '10' %} {{ site.data.ui-text.months.october }}
+						{% when '11' %} {{ site.data.ui-text.months.november }}
+						{% when '12' %} {{ site.data.ui-text.months.december }}
+						{% endcase %}
+						{{ post.date | date: "%Y" }}
+					</time>
+				</div>
+				<div class="title">
+					<a href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }} </a>
+				</div>
+				<div class="description"> {{ post.description}} </div>
+			</li>
+		{% endfor %}
 	</ul>
-	{% endfor %}
 </section>
 
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
-	<section>
-		<div class="pagination">
-			{% if paginator.previous_page %}
-			<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">
-				{{ site.data.ui-text.previous }}
-			</a>
-			{% endif %}
+<section>
+	<div class="pagination">
+		{% if paginator.previous_page %}
+		<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">
+			{{ site.data.ui-text.previous }}
+		</a>
+		{% endif %}
 
-			<span class="page_number ">
-				{{ site.data.ui-text.page }} {{ paginator.page }} {{ site.data.ui-text.of }} {{ paginator.total_pages }}
-			</span>
+		<span class="page_number ">
+			{{ site.data.ui-text.page }} {{ paginator.page }} {{ site.data.ui-text.of }} {{ paginator.total_pages }}
+		</span>
 
-			{% if paginator.next_page %}
-			<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">{{ site.data.ui-text.next }}</a>
-			{% endif %}
-		</div>
-	</section>
+		{% if paginator.next_page %}
+		<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">{{ site.data.ui-text.next }}</a>
+		{% endif %}
+	</div>
+</section>
 {% endif %}

@@ -100,7 +100,7 @@ section ul li { margin: 35px 0; }
 section ul li .description { color: gray; font-size: 16px; margin-top: 10px; }
 section ul li .title { font-size: 22px; max-width: 100%; word-wrap: normal !important; }
 section ul li a { color: #3d3d3d; }
-section ul li .post-date { float: right; margin: 0 0 0 20px; }
+section ul li .post-date { font-size: smaller; text-transform: uppercase; }
 section ul li time { display: inline-block; color: #757575; }
 @media (min-width: 992px) { section ul li a:hover { border-color: #000; } }
 

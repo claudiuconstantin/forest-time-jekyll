@@ -5,16 +5,17 @@ layout: default
 {% include header.html %}
 {% include navigation.html %}
 
-<!-- paginated posts -->
+<!-- Paginated posts -->
 <section>
 	<ul>
 		{% for post in paginator.posts %}
-			<li>
-				<div class="post-date">
-					<time>
-						{% assign m = post.date | date: "%-m" %}
-						{{ post.date | date: "%-d" }}
-						{% case m %}
+		<li>
+			<div class="title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+			<div class="post-date">
+				<time>
+					{% assign m = post.date | date: "%-m" %}
+					{{ post.date | date: "%-d" }}
+					{% case m %}
 						{% when '1' %} {{ site.data.ui-text.months.january }}
 						{% when '2' %} {{ site.data.ui-text.months.february }}
 						{% when '3' %} {{ site.data.ui-text.months.march }}
@@ -27,15 +28,12 @@ layout: default
 						{% when '10' %} {{ site.data.ui-text.months.october }}
 						{% when '11' %} {{ site.data.ui-text.months.november }}
 						{% when '12' %} {{ site.data.ui-text.months.december }}
-						{% endcase %}
-						{{ post.date | date: "%Y" }}
-					</time>
-				</div>
-				<div class="title">
-					<a href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }} </a>
-				</div>
-				<div class="description"> {{ post.description}} </div>
-			</li>
+					{% endcase %}
+					{{ post.date | date: "%Y" }}
+				</time>
+			</div>
+			<div class="description">{{ post.description}}</div>
+		</li>
 		{% endfor %}
 	</ul>
 </section>
@@ -43,20 +41,21 @@ layout: default
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
 <section>
-	<div class="pagination">
+	<nav role="navigation" class="pagination">
 		{% if paginator.previous_page %}
 		<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">
-			{{ site.data.ui-text.previous }}
+			&larr; {{ site.data.ui-text.previous }}
 		</a>
 		{% endif %}
 
-		<span class="page_number ">
+		<span class="page_number">
 			{{ site.data.ui-text.page }} {{ paginator.page }} {{ site.data.ui-text.of }} {{ paginator.total_pages }}
 		</span>
 
 		{% if paginator.next_page %}
-		<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">{{ site.data.ui-text.next }}</a>
+		<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">
+			{{ site.data.ui-text.next }} &rarr;</a>
 		{% endif %}
-	</div>
+	</nav>
 </section>
 {% endif %}

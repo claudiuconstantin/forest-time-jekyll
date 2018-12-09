@@ -85,7 +85,7 @@ article a:hover { color: #F37C22; border-color: #369; text-decoration: none; }
 
 .block { display: block; }
 
-.page-navigation, .footer { text-align: center; max-width: 725px; margin: 0 auto; font-size: 0.9rem; }
+.page-navigation, .footer { text-align: center; max-width: 725px; margin: 0 auto; font-size: 1rem; }
 
 .page-navigation { margin: 50px auto 0 auto; }
 .page-navigation a { display: inline-block; text-decoration: none; border-bottom: none; }
@@ -94,14 +94,14 @@ article a:hover { color: #F37C22; border-color: #369; text-decoration: none; }
 .footer { margin-top: 50px; color: #777; }
 .footer a { border: none; font-weight: bold; }
 
-section { max-width: 650px; margin: 0 auto 50px auto; }
+section { max-width: 650px; margin: 0 auto 70px auto; }
 section ul { list-style: none; margin: 0; padding: 0; }
-section ul li { margin: 25px 0; }
-section ul li .description { color: gray; font-size: 15px; }
-section ul li .title { font-size: larger; max-width: 100%; word-wrap: normal !important; }
-section ul li a { text-decoration: none; font-weight: normal; border: 0; color: #000; box-sizing: border-box; }
+section ul li { margin: 35px 0; }
+section ul li .description { color: gray; font-size: 16px; margin-top: 10px; }
+section ul li .title { font-size: 22px; max-width: 100%; word-wrap: normal !important; }
+section ul li a { color: #3d3d3d; }
 section ul li .post-date { float: right; margin: 0 0 0 20px; }
-section ul li span { display: inline-block; color: #757575; letter-spacing: 1px; text-transform: uppercase; }
+section ul li time { display: inline-block; color: #757575; }
 @media (min-width: 992px) { section ul li a:hover { border-color: #000; } }
 
 @keyframes bounce { 0% { transform: translate3d(0, -1000px, 0); }
@@ -147,7 +147,7 @@ article .c-post-header { margin-bottom: 3rem; }
 
 .c-article__meta { color: #777; }
 
-.c-article__meta--link { font-weight: inherit; color: inherit; }
+.c-article__meta--link { color: inherit; }
 .c-article__meta--link:hover { text-decoration: underline; color: inherit; }
 
 .c-post-header__subtitle { font-size: 1.2rem; color: #555; }
@@ -172,11 +172,9 @@ a.phantom:hover { color: #777; text-decoration: underline; }
 
 .pagination { text-align: center; }
 
-.alert { position: relative; padding: .75rem 1.25rem; margin-bottom: 1rem; border: 1px solid transparent; border-radius: .15rem; font-size: medium; }
+.alert { font-size: medium; position: relative; padding: .75rem 1.25rem; margin-bottom: 3rem; border: 1px solid transparent; border-radius: .15rem; margin-top: 60px; }
 
 .alert-light { color: #717171; background-color: #f6f6f6; border-color: #e4e4e4; }
-
-.alert-bottom { margin-top: 50px; }
 
 code { background-color: #f9f9f9; color: #444; }
 

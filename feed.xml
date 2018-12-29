@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>My awesome blog</title>
+    <link>http://localhost:4000/</link>
     <description>About the woodlands I will go</description>
-    <link>http://localhost:4000/forest-time-jekyll</link>
     
       
-        <item>
-          <title>Winter trees - Sylvia Plath</title>
-          <description>&lt;p&gt;The wet dawn inks are doing their blue dissolve.&lt;br /&gt;
+      <item>
+        <title>Winter trees - Sylvia Plath</title>       
+        <link>/forest-time-jekyllhttp://localhost:4000//winter-trees</link>
+        <description>&lt;p&gt;The wet dawn inks are doing their blue dissolve.&lt;br /&gt;
 On their blotter of fog the trees&lt;br /&gt;
 Seem a botanical drawing.&lt;br /&gt;
 Memories growing, ring on ring,&lt;br /&gt;
@@ -25,17 +26,17 @@ In this, they are Ledas.&lt;br /&gt;
 O mother of leaves and sweetness&lt;br /&gt;
 Who are these pietas?&lt;br /&gt;
 The shadows of ringdoves chanting, but chasing nothing.&lt;/p&gt;
-</description>
-          <pubDate>2018-11-20T08:23:16+00:00</pubDate>
-          <link>http://localhost:4000/forest-time-jekyll/winter-trees</link>
-          <guid isPermaLink="true">http://localhost:4000/forest-time-jekyll/winter-trees</guid>
-        </item>
+</description>        
+        <pubDate>Tue, 20 Nov 2018 08:23:16 +0000</pubDate>
+        <guid isPermaLink="true">http://localhost:4000/winter-trees</guid>
+      </item>
       
     
       
-        <item>
-          <title>The trees - Philip Larkin</title>
-          <description>&lt;p&gt;The trees are coming into leaf&lt;br /&gt;
+      <item>
+        <title>The trees - Philip Larkin</title>       
+        <link>/forest-time-jekyllhttp://localhost:4000//the-trees</link>
+        <description>&lt;p&gt;The trees are coming into leaf&lt;br /&gt;
 Like something almost being said;&lt;br /&gt;
 The recent buds relax and spread,&lt;br /&gt;
 Their greenness is a kind of grief.&lt;/p&gt;
@@ -49,17 +50,17 @@ Is written down in rings of grain.&lt;/p&gt;
 In fullgrown thickness every May.&lt;br /&gt;
 Last year is dead, they seem to say,&lt;br /&gt;
 Begin afresh, afresh, afresh.&lt;/p&gt;
-</description>
-          <pubDate>2018-11-19T08:23:16+00:00</pubDate>
-          <link>http://localhost:4000/forest-time-jekyll/the-trees</link>
-          <guid isPermaLink="true">http://localhost:4000/forest-time-jekyll/the-trees</guid>
-        </item>
+</description>        
+        <pubDate>Mon, 19 Nov 2018 08:23:16 +0000</pubDate>
+        <guid isPermaLink="true">http://localhost:4000/the-trees</guid>
+      </item>
       
     
       
-        <item>
-          <title>Trees - Joyce Kilmer</title>
-          <description>&lt;p&gt;I think that I shall never see&lt;br /&gt;
+      <item>
+        <title>Trees - Joyce Kilmer</title>       
+        <link>/forest-time-jekyllhttp://localhost:4000//trees</link>
+        <description>&lt;p&gt;I think that I shall never see&lt;br /&gt;
 A poem lovely as a tree.&lt;br /&gt;
 A tree whose hungry mouth is prest&lt;br /&gt;
 Against the earth’s sweet flowing breast;&lt;br /&gt;
@@ -72,33 +73,33 @@ Upon whose bosom snow has lain;&lt;br /&gt;
 Who intimately lives with rain.&lt;br /&gt;
 Poems are made by fools like me,&lt;br /&gt;
 But only God can make a tree.&lt;/p&gt;
-</description>
-          <pubDate>2018-11-18T08:23:16+00:00</pubDate>
-          <link>http://localhost:4000/forest-time-jekyll/trees</link>
-          <guid isPermaLink="true">http://localhost:4000/forest-time-jekyll/trees</guid>
-        </item>
+</description>        
+        <pubDate>Sun, 18 Nov 2018 08:23:16 +0000</pubDate>
+        <guid isPermaLink="true">http://localhost:4000/trees</guid>
+      </item>
       
     
       
-        <item>
-          <title>Oread - Hilda Doolittle</title>
-          <description>&lt;p&gt;Whirl up, sea — &lt;br /&gt;
+      <item>
+        <title>Oread - Hilda Doolittle</title>       
+        <link>/forest-time-jekyllhttp://localhost:4000//oread</link>
+        <description>&lt;p&gt;Whirl up, sea — &lt;br /&gt;
 whirl your pointed pines,&lt;br /&gt;
 splash your great pines&lt;br /&gt;
 on our rocks,&lt;br /&gt;
 hurl your green over us,&lt;br /&gt;
 cover us with your pools of fir.&lt;/p&gt;
-</description>
-          <pubDate>2018-11-17T08:23:16+00:00</pubDate>
-          <link>http://localhost:4000/forest-time-jekyll/oread</link>
-          <guid isPermaLink="true">http://localhost:4000/forest-time-jekyll/oread</guid>
-        </item>
+</description>        
+        <pubDate>Sat, 17 Nov 2018 08:23:16 +0000</pubDate>
+        <guid isPermaLink="true">http://localhost:4000/oread</guid>
+      </item>
       
     
       
-        <item>
-          <title>Aspens - Eduard Thomas</title>
-          <description>&lt;p&gt;All day and night, save winter, every weather,&lt;br /&gt;
+      <item>
+        <title>Aspens - Eduard Thomas</title>       
+        <link>/forest-time-jekyllhttp://localhost:4000//aspens</link>
+        <description>&lt;p&gt;All day and night, save winter, every weather,&lt;br /&gt;
 Above the inn, the smithy, and the shop,&lt;br /&gt;
 The aspens at the cross-roads talk together&lt;br /&gt;
 Of rain, until their last leaves fall from the top.&lt;/p&gt;
@@ -127,17 +128,17 @@ But need not listen, more than to my rhymes.&lt;/p&gt;
 We cannot other than an aspen be&lt;br /&gt;
 That ceaselessly, unreasonably grieves,&lt;br /&gt;
 Or so men think who like a different tree.&lt;/p&gt;
-</description>
-          <pubDate>2018-11-16T08:23:16+00:00</pubDate>
-          <link>http://localhost:4000/forest-time-jekyll/aspens</link>
-          <guid isPermaLink="true">http://localhost:4000/forest-time-jekyll/aspens</guid>
-        </item>
+</description>        
+        <pubDate>Fri, 16 Nov 2018 08:23:16 +0000</pubDate>
+        <guid isPermaLink="true">http://localhost:4000/aspens</guid>
+      </item>
       
     
       
-        <item>
-          <title>Stopping by Woods on a Snowy Evening - Robert Frost</title>
-          <description>&lt;p&gt;Whose woods these are I think I know. &lt;br /&gt;
+      <item>
+        <title>Stopping by Woods on a Snowy Evening - Robert Frost</title>       
+        <link>/forest-time-jekyllhttp://localhost:4000//stopping-by-woods</link>
+        <description>&lt;p&gt;Whose woods these are I think I know. &lt;br /&gt;
 His house is in the village though; &lt;br /&gt;
 He will not see me stopping here &lt;br /&gt;
 To watch his woods fill up with snow.&lt;/p&gt;
@@ -156,17 +157,17 @@ Of easy wind and downy flake.&lt;/p&gt;
 But I have promises to keep, &lt;br /&gt;
 And miles to go before I sleep, &lt;br /&gt;
 And miles to go before I sleep.&lt;/p&gt;
-</description>
-          <pubDate>2018-11-15T08:23:16+00:00</pubDate>
-          <link>http://localhost:4000/forest-time-jekyll/stopping-by-woods</link>
-          <guid isPermaLink="true">http://localhost:4000/forest-time-jekyll/stopping-by-woods</guid>
-        </item>
+</description>        
+        <pubDate>Thu, 15 Nov 2018 08:23:16 +0000</pubDate>
+        <guid isPermaLink="true">http://localhost:4000/stopping-by-woods</guid>
+      </item>
       
     
       
-        <item>
-          <title>The Way through the Woods - Rudyard Kipling</title>
-          <description>&lt;p&gt;They shut the road through the woods&lt;br /&gt;
+      <item>
+        <title>The Way through the Woods - Rudyard Kipling</title>       
+        <link>/forest-time-jekyllhttp://localhost:4000//the-way-through-the-woods</link>
+        <description>&lt;p&gt;They shut the road through the woods&lt;br /&gt;
 Seventy years ago.&lt;br /&gt;
 Weather and rain have undone it again,&lt;br /&gt;
 And now you would never know&lt;br /&gt;
@@ -192,17 +193,17 @@ The misty solitudes,&lt;br /&gt;
 As though they perfectly knew&lt;br /&gt;
 The old lost road through the woods.&lt;br /&gt;
 But there is no road through the woods.&lt;/p&gt;
-</description>
-          <pubDate>2018-11-14T08:23:16+00:00</pubDate>
-          <link>http://localhost:4000/forest-time-jekyll/the-way-through-the-woods</link>
-          <guid isPermaLink="true">http://localhost:4000/forest-time-jekyll/the-way-through-the-woods</guid>
-        </item>
+</description>        
+        <pubDate>Wed, 14 Nov 2018 08:23:16 +0000</pubDate>
+        <guid isPermaLink="true">http://localhost:4000/the-way-through-the-woods</guid>
+      </item>
       
     
       
-        <item>
-          <title>Loveliest of Trees, the Cherry Now - A. E. Housman</title>
-          <description>&lt;p&gt;Loveliest of trees, the cherry now&lt;br /&gt;
+      <item>
+        <title>Loveliest of Trees, the Cherry Now - A. E. Housman</title>       
+        <link>/forest-time-jekyllhttp://localhost:4000//loveliest-of-trees</link>
+        <description>&lt;p&gt;Loveliest of trees, the cherry now&lt;br /&gt;
 Is hung with bloom along the bough,&lt;br /&gt;
 And stands about the woodland ride&lt;br /&gt;
 Wearing white for Eastertide.&lt;/p&gt;
@@ -216,17 +217,17 @@ It only leaves me fifty more.&lt;/p&gt;
 Fifty springs are little room,&lt;br /&gt;
 About the woodlands I will go&lt;br /&gt;
 To see the cherry hung with snow.&lt;/p&gt;
-</description>
-          <pubDate>2018-11-13T08:23:16+00:00</pubDate>
-          <link>http://localhost:4000/forest-time-jekyll/loveliest-of-trees</link>
-          <guid isPermaLink="true">http://localhost:4000/forest-time-jekyll/loveliest-of-trees</guid>
-        </item>
+</description>        
+        <pubDate>Tue, 13 Nov 2018 08:23:16 +0000</pubDate>
+        <guid isPermaLink="true">http://localhost:4000/loveliest-of-trees</guid>
+      </item>
       
     
       
-        <item>
-          <title>Binsey Poplars - Gerard Manley Hopkins</title>
-          <description>&lt;p&gt;My aspens dear, whose airy cages quelled,&lt;br /&gt;
+      <item>
+        <title>Binsey Poplars - Gerard Manley Hopkins</title>       
+        <link>/forest-time-jekyllhttp://localhost:4000//binsey-poplars</link>
+        <description>&lt;p&gt;My aspens dear, whose airy cages quelled,&lt;br /&gt;
 Quelled or quenched in leaves the leaping sun,&lt;br /&gt;
 All felled, felled, are all felled;&lt;br /&gt;
 Of a fresh and following folded rank&lt;br /&gt;
@@ -252,17 +253,17 @@ Strokes of havoc unselve&lt;br /&gt;
 The sweet especial scene,&lt;br /&gt;
 Rural scene, a rural scene,&lt;br /&gt;
 Sweet especial rural scene.&lt;/p&gt;
-</description>
-          <pubDate>2018-11-12T08:23:16+00:00</pubDate>
-          <link>http://localhost:4000/forest-time-jekyll/binsey-poplars</link>
-          <guid isPermaLink="true">http://localhost:4000/forest-time-jekyll/binsey-poplars</guid>
-        </item>
+</description>        
+        <pubDate>Mon, 12 Nov 2018 08:23:16 +0000</pubDate>
+        <guid isPermaLink="true">http://localhost:4000/binsey-poplars</guid>
+      </item>
       
     
       
-        <item>
-          <title>A Poison Tree - William Blake</title>
-          <description>&lt;p&gt;I was angry with my friend:&lt;br /&gt;
+      <item>
+        <title>A Poison Tree - William Blake</title>       
+        <link>/forest-time-jekyllhttp://localhost:4000//a-poison-tree</link>
+        <description>&lt;p&gt;I was angry with my friend:&lt;br /&gt;
 I told my wrath, my wrath did end.&lt;br /&gt;
 I was angry with my foe:&lt;br /&gt;
 I told it not, my wrath did grow.&lt;/p&gt;
@@ -281,11 +282,10 @@ And he knew that it was mine.&lt;/p&gt;
 When the night had veild the pole;&lt;br /&gt;
 In the morning glad I see;&lt;br /&gt;
 My foe outstretchd beneath the tree.&lt;/p&gt;
-</description>
-          <pubDate>2018-11-11T08:23:16+00:00</pubDate>
-          <link>http://localhost:4000/forest-time-jekyll/a-poison-tree</link>
-          <guid isPermaLink="true">http://localhost:4000/forest-time-jekyll/a-poison-tree</guid>
-        </item>
+</description>        
+        <pubDate>Sun, 11 Nov 2018 08:23:16 +0000</pubDate>
+        <guid isPermaLink="true">http://localhost:4000/a-poison-tree</guid>
+      </item>
       
     
   </channel>

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    forest-time-jekyll (0.2.4)
+    forest-time-jekyll (0.2.5)
       jekyll (~> 3.7)
 
 GEM

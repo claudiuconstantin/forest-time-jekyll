@@ -16,7 +16,12 @@ url:                  "http://localhost:4000/"
 permalink:            "/:title"
 paginate:             4
 paginate_path:        "/page:num"
-  
+
+# Mailchimp newsletter
+mailchimp:
+  url:                "https://your-url-here.us6.list-manage.com/subscribe/post?u=your-u-here&amp;id=your-id-here"
+  inputName:          "your-input-name-here"
+
 # Custom parameters 
 brandingFolder:       "/assets/icons"
 oldPostNoticeBefore:  2018-11-15 08:00:00 +0200 # display a notice for posts older than this date

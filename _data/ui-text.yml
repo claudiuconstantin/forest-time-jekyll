@@ -4,6 +4,7 @@ home              : "Home"
 back_to_home      : "Back to home"
 about             : "About"
 and               : "and"
+emailPlaceholder  : "address@site.com"
 onn               : "on" # for some reason "on" does not show up when used... !?
 of                : "of"
 here              : "here"
@@ -15,6 +16,8 @@ not_found_page    : "Oh, snap! Looks like this one doesn't exist anymore..."
 oldPostNotice     : "Dear reader, this piece was moved here from an older address. If you notice something wrong, let me know " # will be followed by a "here" link
 noComments        : "Yup, there's no comment section, but I can always be contacted " # will be followed by a "here" link
 next              : "Next"
+newsletterNotice  : "Get the latest news straight to your inbox:"
+subscribe         : "Subscribe"
 xml_feed          : "XML feed"
 
 months:     

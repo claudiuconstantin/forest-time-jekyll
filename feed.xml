@@ -11,10 +11,10 @@ layout: null
       {% unless post.link %}
       <item>
         <title>{{ post.title | xml_escape }}</title>       
-        <link>{{ site.url | prepend: site.baseurl }}{{ post.url | remove_first: '/' }}</link>
+        <link>{{ site.url | append: site.baseurl }}{{ post.url | remove_first: '/' }}</link>
         <description>{{ post.content | xml_escape }}</description>        
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url | remove_first: '/' }}</guid>
+        <guid isPermaLink="true">{{ site.url | append: site.baseurl }}{{ post.url | remove_first: '/' }}</guid>
       </item>
       {% endunless %}
     {% endfor %}

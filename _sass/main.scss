@@ -571,7 +571,7 @@ a.phantom {
     padding: .75rem 1.25rem;
     margin-bottom: 3rem;
     border: 1px solid transparent;
-    border-radius: .15rem;
+    border-radius: .17rem;
     margin-top: 60px;
 }
 
@@ -579,4 +579,9 @@ a.phantom {
     color: #717171;
     background-color: #f6f6f6;
     border-color: #e4e4e4;
+}
+
+.alert-custom {
+    border: 1px solid #edf4f8;
+    background: #f4f8fb;
 }

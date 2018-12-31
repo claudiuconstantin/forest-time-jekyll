@@ -18,6 +18,11 @@ noComments        : "Yup, there's no comment section, but I can always be contac
 next              : "Next"
 newsletterNotice  : "Get the latest news straight to your inbox:"
 subscribe         : "Subscribe"
+submit            : "Submit"
+sending           : "...sending"
+yourName          : "Your name"
+yourEmail         : "Your email (so I can get back to you)"
+yourMessage       : "Type a message..."
 xml_feed          : "XML feed"
 
 months:     

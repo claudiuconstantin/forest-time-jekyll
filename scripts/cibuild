@@ -17,7 +17,6 @@ mkdir _site
 git clone https://${GH_TOKEN}@github.com/claudiuconstantin/forest-time-jekyll.git --branch gh-pages _site
 
 # build with Jekyll into "_site"
-gem install bundler
 bundle exec jekyll build
 
 # push

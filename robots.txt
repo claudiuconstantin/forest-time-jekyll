@@ -1,1 +1,1 @@
-Sitemap: https://claudiuconstantin.github.io/forest-time-jekyll//forest-time-jekyll/sitemap.xml
+Sitemap: https://claudiuconstantin.github.io/forest-time-jekyll/sitemap.xml

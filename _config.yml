@@ -5,14 +5,12 @@ description:          "About the woodlands I will go"
 google_analytics:     "UA-XXXXXXX-X"
   
 # Author info 
-author_name:          "Jimmy Forester"
+author:               "Jimmy Forester"
 author_email:         "jimmy@example.com"
-author_about:         "/about"
-author_web:           "example.com"
   
 # Site settings 
 baseurl:              "/forest-time-jekyll"
-url:                  "https://claudiuconstantin.github.io/forest-time-jekyll/"
+url:                  "https://claudiuconstantin.github.io"
 permalink:            "/:title"
 paginate:             4
 paginate_path:        "/page:num"
@@ -25,15 +23,11 @@ mailchimp:
 # Custom parameters 
 brandingFolder:       "/assets/icons"
 oldPostNoticeBefore:  2018-11-15 08:00:00 +0200 # display a notice for posts older than this date
-minimalistHome:       false # experimental - hides post date and excerpt, centers title on homepage
+timezone:             "Europe/Bucharest"
+
+# TODO: create a separate home layour for this
+# minimalistHome:       false # experimental - hides post date and excerpt, centers title on homepage
 
 # Other Params
 include:            [ "Gemfile" ]
 exclude:            [ "LICENSE.md", "README.md", "test-gem", "scripts", "vendor", "forest-time-jekyll.gemspec" ]
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - tzinfo
-
-feed:
-  path: feed.xml

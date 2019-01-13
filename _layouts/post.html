@@ -9,7 +9,7 @@ layout: default
 		<h1>{{ page.title }}</h1>
 		<span class="c-article__meta">
 			{{ site.data.ui-text.published_by}}
-			<a href="{{ site.baseurl }}{{ site.author_about }}" class="c-article__meta--link">{{ site.author_name }}</a>
+			<a href="{{ site.baseurl }}{{ site.author_about }}" class="c-article__meta--link">{{ site.author }}</a>
 			{{ site.data.ui-text.onn }}
 			<time>
 				{% assign m = page.date | date: "%-m" %}

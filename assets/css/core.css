@@ -11,16 +11,16 @@
 
 .o-image--bordered { border: 1px solid lightgray; }
 
-body { font-size: 17px; line-height: 20px; font-weight: normal; font-style: normal; font-family: 'Roboto', sans-serif; color: #222; padding: 20px; margin: 0; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; }
+body { font-size: 17px; line-height: 20px; font-weight: normal; font-style: normal; font-family: "Roboto", sans-serif; color: #222; padding: 20px; margin: 0; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; }
 @media (min-width: 992px) { body { padding: 35px 50px; } }
 
 strong { font-weight: 600; }
 
-h1 { font-family: 'Open Sans'; font-weight: 100; line-height: 1.7rem; }
+h1 { font-family: "Open Sans"; font-weight: 100; line-height: 1.7rem; }
 
 h3 { font-size: 1.2rem; }
 
-h2, h3, h4, h5 { margin: 45px 0 25px; font-family: 'Open Sans', Roboto, sans-serif; font-weight: 400; line-height: 1.7rem; }
+h2, h3, h4, h5 { margin: 45px 0 25px; font-family: "Open Sans", Roboto, sans-serif; font-weight: 400; line-height: 1.7rem; }
 
 img { max-width: 100%; }
 
@@ -31,7 +31,7 @@ a.image:hover { text-decoration: none; }
 
 mark { background: #fffc76; padding: 0 5px; }
 
-blockquote { border-left: 5px solid #81D4FA; margin: 40px 0; padding: 5px 30px; font-style: italic; }
+blockquote { border-left: 5px solid #81d4fa; margin: 40px 0; padding: 5px 30px; font-style: italic; }
 
 .logo { position: relative; margin: 0 auto 35px; text-align: center; }
 .logo a { color: #000; text-decoration: none; font-weight: 700; height: 90px; width: 90px; font-size: 1.5em; display: inline-block; text-align: center; line-height: 100px; border: 5px solid #fff; box-sizing: border-box; }
@@ -68,15 +68,15 @@ article .divider { background: #ddd; background: -webkit-gradient(linear, left t
 article .center { text-align: center; margin: 0 auto; }
 article hr { border: 0; border-bottom: 1px solid #000; margin: 30px 0; }
 article p { font-size: 1.1rem; line-height: 1.7em; word-wrap: break-word; }
-article li { margin-bottom: .25rem; }
+article li { margin-bottom: 0.25rem; }
 article img { border-radius: 4px; margin: 1rem 0rem; }
-article .footnote { border: 0; background-color: #0087BE; color: #fff; padding-left: 2px; padding-right: 2px; }
+article .footnote { border: 0; background-color: #0087be; color: #fff; padding-left: 2px; padding-right: 2px; }
 article .footnotes { margin: 50px auto; display: block; }
 article .footnotes p { line-height: 1rem; font-weight: normal; }
 article .footnotes ol { margin: 0; padding-left: 15px; }
 article .footnotes ol li { font-weight: bold; }
-article .footnotes .reversefootnote { border: 0; color: #0087BE; }
-article a:hover { color: #F37C22; border-color: #369; text-decoration: none; }
+article .footnotes .reversefootnote { border: 0; color: #0087be; }
+article a:hover { color: #f37c22; border-color: #369; text-decoration: none; }
 
 .back { text-align: center; }
 .back a { text-decoration: none; margin: 40px auto 0; display: inline-block; padding: 10px; border: 0; }
@@ -98,7 +98,7 @@ section { max-width: 650px; margin: 0 auto 70px auto; }
 section ul { list-style: none; margin: 0; padding: 0; }
 section ul li { margin: 35px 0; }
 section ul li .description { color: gray; font-size: 16px; margin-top: 10px; }
-section ul li .title { font-size: 22px; font-family: 'Open Sans'; max-width: 100%; word-wrap: normal !important; }
+section ul li .title { font-size: 22px; font-family: "Open Sans"; max-width: 100%; word-wrap: normal !important; }
 section ul li a { color: #3d3d3d; }
 section ul li .post-date { font-size: smaller; text-transform: uppercase; }
 section ul li time { display: inline-block; color: #757575; }
@@ -121,7 +121,7 @@ section ul li time { display: inline-block; color: #757575; }
 
 .c-header { text-align: center; }
 
-.c-header__title { font-size: 30px; font-weight: 100; font-family: 'Open Sans'; margin-bottom: 0; }
+.c-header__title { font-size: 30px; font-weight: 100; font-family: "Open Sans"; margin-bottom: 0; }
 
 .c-header__subtitle { color: gray; font-size: 16px; line-height: 1.5rem; }
 
@@ -172,7 +172,7 @@ a.phantom:hover { color: #777; text-decoration: underline; }
 
 .pagination { text-align: center; }
 
-.alert { font-size: medium; position: relative; padding: .75rem 1.25rem; margin-bottom: 3rem; border: 1px solid transparent; border-radius: .17rem; margin-top: 60px; text-align: center; }
+.alert { font-size: medium; position: relative; padding: 0.75rem 1.25rem; margin-bottom: 3rem; border: 1px solid transparent; border-radius: 0.17rem; margin-top: 60px; text-align: center; }
 
 .alert-light { color: #717171; background-color: #f6f6f6; border-color: #e4e4e4; }
 
@@ -183,26 +183,26 @@ a.phantom:hover { color: #777; text-decoration: underline; }
 .mc-field-group { display: inline-block; }
 
 /* positions input field horizontally */
-#mc_embed_signup input.email { font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif; font-size: 15px; border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; color: #343434; background-color: #fff; box-sizing: border-box; height: 32px; padding: 0px 0.4em; display: inline-block; margin: 0; width: 350px; vertical-align: top; }
+#mc_embed_signup input.email { font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif; font-size: 15px; border: 1px solid #abb0b2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; color: #343434; background-color: #fff; box-sizing: border-box; height: 32px; padding: 0px 0.4em; display: inline-block; margin: 0; width: 350px; vertical-align: top; }
 
 #mc_embed_signup label { display: block; font-size: 16px; padding-bottom: 10px; font-weight: bold; }
 
 #mc_embed_signup .clear { display: inline-block; }
 
 /* positions button horizontally in line with input */
-#mc_embed_signup .button { font-size: 13px; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; letter-spacing: .03em; color: #fff; background-color: #aaa; box-sizing: border-box; height: 32px; line-height: 32px; padding: 0 18px; display: inline-block; margin: 0; transition: all 0.23s ease-in-out 0s; }
+#mc_embed_signup .button { font-size: 13px; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; letter-spacing: 0.03em; color: #fff; background-color: #aaa; box-sizing: border-box; height: 32px; line-height: 32px; padding: 0 18px; display: inline-block; margin: 0; transition: all 0.23s ease-in-out 0s; }
 
 #mc_embed_signup .button:hover { background-color: #777; cursor: pointer; }
 
-#mc_embed_signup div#mce-responses { float: left; top: -1.4em; padding: 0em .5em 0em .5em; overflow: hidden; width: 90%; margin: 0 5%; clear: both; }
+#mc_embed_signup div#mce-responses { float: left; top: -1.4em; padding: 0em 0.5em 0em 0.5em; overflow: hidden; width: 90%; margin: 0 5%; clear: both; }
 
-#mc_embed_signup div.response { margin: 1em 0; padding: 1em .5em .5em 0; font-weight: bold; float: left; top: -1.5em; z-index: 1; width: 80%; }
+#mc_embed_signup div.response { margin: 1em 0; padding: 1em 0.5em 0.5em 0; font-weight: bold; float: left; top: -1.5em; z-index: 1; width: 80%; }
 
 #mc_embed_signup #mce-error-response { display: none; }
 
 #mc_embed_signup #mce-success-response { color: #529214; display: none; }
 
-#mc_embed_signup label.error { display: block; float: none; width: auto; margin-left: 1.05em; text-align: left; padding: .5em 0; }
+#mc_embed_signup label.error { display: block; float: none; width: auto; margin-left: 1.05em; text-align: left; padding: 0.5em 0; }
 
 @media (max-width: 768px) { #mc_embed_signup input.email { width: 100%; margin-bottom: 5px; }
   #mc_embed_signup .clear { display: block; width: 100%; }
@@ -211,23 +211,23 @@ a.phantom:hover { color: #777; text-decoration: underline; }
 
 .container { width: 100%; margin: 0 auto; position: relative; }
 
-#contact { background: #F9F9F9; padding: 25px; margin: 50px 0; }
+#contact { background: #f9f9f9; padding: 25px; margin: 50px 0; }
 
-#contact h3 { color: #F96; display: block; font-size: 30px; font-weight: 400; }
+#contact h3 { color: #f96; display: block; font-size: 30px; font-weight: 400; }
 
 #contact h4 { margin: 5px 0 15px; display: block; }
 
 fieldset { border: medium none !important; margin: 0 0 10px; min-width: 100%; padding: 0; width: 100%; }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea { width: 100%; border: 1px solid #CCC; background: #FFF; margin: 0 0 5px; padding: 10px; }
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea { width: 100%; border: 1px solid #ccc; background: #fff; margin: 0 0 5px; padding: 10px; }
 
-#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover { -webkit-transition: border-color 0.3s ease-in-out; -moz-transition: border-color 0.3s ease-in-out; transition: border-color 0.3s ease-in-out; border: 1px solid #AAA; }
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover { -webkit-transition: border-color 0.3s ease-in-out; -moz-transition: border-color 0.3s ease-in-out; transition: border-color 0.3s ease-in-out; border: 1px solid #aaa; }
 
 #contact textarea { height: 200px; min-height: 100px; max-width: 100%; }
 
-#contact button[type="submit"] { cursor: pointer; width: 100%; border: none; background: #0CF; color: #FFF; margin: 0 0 5px; padding: 10px; }
+#contact button[type="submit"] { cursor: pointer; width: 100%; border: none; background: #0cf; color: #fff; margin: 0 0 5px; padding: 10px; }
 
-#contact button[type="submit"]:hover { background: #09C; -webkit-transition: background 0.3s ease-in-out; -moz-transition: background 0.3s ease-in-out; transition: background-color 0.3s ease-in-out; }
+#contact button[type="submit"]:hover { background: #09c; -webkit-transition: background 0.3s ease-in-out; -moz-transition: background 0.3s ease-in-out; transition: background-color 0.3s ease-in-out; }
 
 #contact button[type="submit"]:active { box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); }
 
@@ -245,10 +245,10 @@ code { background-color: #f9f9f9; color: #444; }
 
 .highlight .hll { background-color: #ffffcc; }
 
-.highlight .c { color: #0099FF; font-style: italic; }
+.highlight .c { color: #0099ff; font-style: italic; }
 
 /* Comment */
-.highlight .err { color: #AA0000; background-color: #FFAAAA; }
+.highlight .err { color: #aa0000; background-color: #ffaaaa; }
 
 /* Error */
 .highlight .k { color: #006699; font-weight: bold; }
@@ -257,34 +257,34 @@ code { background-color: #f9f9f9; color: #444; }
 .highlight .o { color: #555555; }
 
 /* Operator */
-.highlight .cm { color: #0099FF; font-style: italic; }
+.highlight .cm { color: #0099ff; font-style: italic; }
 
 /* Comment.Multiline */
 .highlight .cp { color: #009999; }
 
 /* Comment.Preproc */
-.highlight .c1 { color: #0099FF; font-style: italic; }
+.highlight .c1 { color: #0099ff; font-style: italic; }
 
 /* Comment.Single */
-.highlight .cs { color: #0099FF; font-weight: bold; font-style: italic; }
+.highlight .cs { color: #0099ff; font-weight: bold; font-style: italic; }
 
 /* Comment.Special */
-.highlight .gd { background-color: #FFCCCC; border: 1px solid #CC0000; }
+.highlight .gd { background-color: #ffcccc; border: 1px solid #cc0000; }
 
 /* Generic.Deleted */
 .highlight .ge { font-style: italic; }
 
 /* Generic.Emph */
-.highlight .gr { color: #FF0000; }
+.highlight .gr { color: #ff0000; }
 
 /* Generic.Error */
 .highlight .gh { color: #003300; font-weight: bold; }
 
 /* Generic.Heading */
-.highlight .gi { background-color: #CCFFCC; border: 1px solid #00CC00; }
+.highlight .gi { background-color: #ccffcc; border: 1px solid #00cc00; }
 
 /* Generic.Inserted */
-.highlight .go { color: #AAAAAA; }
+.highlight .go { color: #aaaaaa; }
 
 /* Generic.Output */
 .highlight .gp { color: #000099; font-weight: bold; }
@@ -296,7 +296,7 @@ code { background-color: #f9f9f9; color: #444; }
 .highlight .gu { color: #003300; font-weight: bold; }
 
 /* Generic.Subheading */
-.highlight .gt { color: #99CC66; }
+.highlight .gt { color: #99cc66; }
 
 /* Generic.Traceback */
 .highlight .kc { color: #006699; font-weight: bold; }
@@ -317,10 +317,10 @@ code { background-color: #f9f9f9; color: #444; }
 .highlight .kt { color: #007788; font-weight: bold; }
 
 /* Keyword.Type */
-.highlight .m { color: #FF6600; }
+.highlight .m { color: #ff6600; }
 
 /* Literal.Number */
-.highlight .s { color: #CC3300; }
+.highlight .s { color: #cc3300; }
 
 /* Literal.String */
 .highlight .na { color: #330099; }
@@ -329,28 +329,28 @@ code { background-color: #f9f9f9; color: #444; }
 .highlight .nb { color: #336666; }
 
 /* Name.Builtin */
-.highlight .nc { color: #00AA88; font-weight: bold; }
+.highlight .nc { color: #00aa88; font-weight: bold; }
 
 /* Name.Class */
 .highlight .no { color: #336600; }
 
 /* Name.Constant */
-.highlight .nd { color: #9999FF; }
+.highlight .nd { color: #9999ff; }
 
 /* Name.Decorator */
 .highlight .ni { color: #999999; font-weight: bold; }
 
 /* Name.Entity */
-.highlight .ne { color: #CC0000; font-weight: bold; }
+.highlight .ne { color: #cc0000; font-weight: bold; }
 
 /* Name.Exception */
-.highlight .nf { color: #CC00FF; }
+.highlight .nf { color: #cc00ff; }
 
 /* Name.Function */
-.highlight .nl { color: #9999FF; }
+.highlight .nl { color: #9999ff; }
 
 /* Name.Label */
-.highlight .nn { color: #00CCFF; font-weight: bold; }
+.highlight .nn { color: #00ccff; font-weight: bold; }
 
 /* Name.Namespace */
 .highlight .nt { color: #330099; font-weight: bold; }
@@ -365,49 +365,49 @@ code { background-color: #f9f9f9; color: #444; }
 .highlight .w { color: #bbbbbb; }
 
 /* Text.Whitespace */
-.highlight .mf { color: #FF6600; }
+.highlight .mf { color: #ff6600; }
 
 /* Literal.Number.Float */
-.highlight .mh { color: #FF6600; }
+.highlight .mh { color: #ff6600; }
 
 /* Literal.Number.Hex */
-.highlight .mi { color: #FF6600; }
+.highlight .mi { color: #ff6600; }
 
 /* Literal.Number.Integer */
-.highlight .mo { color: #FF6600; }
+.highlight .mo { color: #ff6600; }
 
 /* Literal.Number.Oct */
-.highlight .sb { color: #CC3300; }
+.highlight .sb { color: #cc3300; }
 
 /* Literal.String.Backtick */
-.highlight .sc { color: #CC3300; }
+.highlight .sc { color: #cc3300; }
 
 /* Literal.String.Char */
-.highlight .sd { color: #CC3300; font-style: italic; }
+.highlight .sd { color: #cc3300; font-style: italic; }
 
 /* Literal.String.Doc */
-.highlight .s2 { color: #CC3300; }
+.highlight .s2 { color: #cc3300; }
 
 /* Literal.String.Double */
-.highlight .se { color: #CC3300; font-weight: bold; }
+.highlight .se { color: #cc3300; font-weight: bold; }
 
 /* Literal.String.Escape */
-.highlight .sh { color: #CC3300; }
+.highlight .sh { color: #cc3300; }
 
 /* Literal.String.Heredoc */
-.highlight .si { color: #AA0000; }
+.highlight .si { color: #aa0000; }
 
 /* Literal.String.Interpol */
-.highlight .sx { color: #CC3300; }
+.highlight .sx { color: #cc3300; }
 
 /* Literal.String.Other */
-.highlight .sr { color: #33AAAA; }
+.highlight .sr { color: #33aaaa; }
 
 /* Literal.String.Regex */
-.highlight .s1 { color: #CC3300; }
+.highlight .s1 { color: #cc3300; }
 
 /* Literal.String.Single */
-.highlight .ss { color: #FFCC33; }
+.highlight .ss { color: #ffcc33; }
 
 /* Literal.String.Symbol */
 .highlight .bp { color: #336666; }
@@ -422,6 +422,6 @@ code { background-color: #f9f9f9; color: #444; }
 .highlight .vi { color: #003333; }
 
 /* Name.Variable.Instance */
-.highlight .il { color: #FF6600; }
+.highlight .il { color: #ff6600; }
 
 /* Literal.Number.Integer.Long */

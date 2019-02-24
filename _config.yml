@@ -7,6 +7,8 @@ google_analytics:     "UA-XXXXXXX-X"
 # Author info 
 author:               "Jimmy Forester"
 author_email:         "jimmy@example.com"
+author_about:         "/about"
+author_contact:       "/contact"
   
 # Site settings 
 baseurl:              "/forest-time-jekyll"
@@ -14,6 +16,7 @@ url:                  "https://claudiuconstantin.github.io"
 permalink:            "/:title"
 paginate:             4
 paginate_path:        "/page:num"
+showComments:         true
 
 # Mailchimp newsletter
 mailchimp:

@@ -6,7 +6,8 @@ $secondary-color: #F37C22;
 $gray: #777;
 $base-margin: 1rem;
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400|Roboto:400,500,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,700|Roboto:400,500,700&subset=latin-ext');
+
 @import 'objects.text';
 @import 'objects.image';
 
@@ -31,7 +32,7 @@ strong {
 }
 
 h1 {
-    font-family: Roboto Slab;
+    font-family: 'Open Sans';
     font-weight: 100;
     line-height: 1.7rem;
 }
@@ -45,7 +46,7 @@ h3,
 h4,
 h5 {
     margin: 45px 0 25px;
-    font-family: 'Roboto Slab', Roboto, sans-serif;
+    font-family: 'Open Sans', Roboto, sans-serif;
     font-weight: 400;
     line-height: 1.7rem;
 }
@@ -357,6 +358,7 @@ section {
             }
             .title {
                 font-size: 22px;
+                font-family: 'Open Sans';
                 max-width: 100%;
                 word-wrap: normal !important;
             }
@@ -441,7 +443,7 @@ section {
 .c-header__title {
     font-size: 30px;
     font-weight: 100;
-    font-family: 'Roboto Slab';
+    font-family: 'Open Sans';
     margin-bottom: 0;
 }
 
@@ -573,6 +575,7 @@ a.phantom {
     border: 1px solid transparent;
     border-radius: .17rem;
     margin-top: 60px;
+    text-align: center;
 }
 
 .alert-light {
@@ -582,6 +585,6 @@ a.phantom {
 }
 
 .alert-custom {
-    border: 1px solid #edf4f8;
+    border: 1px solid #e4e4e4;
     background: #f4f8fb;
 }

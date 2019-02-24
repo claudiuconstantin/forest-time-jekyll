@@ -37,9 +37,11 @@ layout: default
 		{% include oldPostNotice.html %}		
 	{% endif %}
 
-	<div id="content"> {{ content }} </div>
+	<div id="content">{{ content }}</div>
 
 	{% include subscribe-form.html %}
 
-	{% include comments.html %}
+	{% if site.showComments %}
+		{% include comments.html %}
+	{% endif %}
 </article>

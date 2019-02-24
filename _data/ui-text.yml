@@ -4,6 +4,7 @@ home              : "Home"
 back_to_home      : "Back to home"
 about             : "About"
 and               : "and"
+Contact           : "Contact"
 emailPlaceholder  : "address@site.com"
 onn               : "on" # for some reason "on" does not show up when used... !?
 of                : "of"

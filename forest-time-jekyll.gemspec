@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "forest-time-jekyll"
-  spec.version       = "0.3.1"
+  spec.version       = "0.3.2"
   spec.authors       = ["Claudiu Constantin"]
   spec.email         = ["claudiu@fastmail.com"]
 

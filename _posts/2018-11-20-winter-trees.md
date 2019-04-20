@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Winter trees - Sylvia Plath"
+cover: "assets/static/forest.jpg"
 description: "In this poem, Plath looks out and observes the trees in winter, envying their uncomplicated lives (especially their sex lives: ‘abortions’ and ‘bitchery’ are unknown to them, and they reproduce with ease) and yet finding no comfort or relief from her own troubled life by watching them"
 date:   2018-11-20 10:23:16 +0200
 ---

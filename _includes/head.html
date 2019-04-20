@@ -27,11 +27,14 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 
+<!-- "calculate" cover -->
+{% if page.cover %} {% assign pageCover = page.cover %} {% else %} {% assign pageCover = site.cover %} {% endif %}
+
 <!-- Open Graph -->
 <meta property="og:title" content="{{ title }}" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="{{ site.url }}{{ page.url | prepend: site.baseurl }}" />
-<meta property="og:image" content="{{ site.brandingFolder | prepend: site.baseurl | prepend: site.url }}/cover.jpg" />
+<meta property="og:image" content="{{ site.baseurl | prepend: site.url }}/{{ pageCover }}" />
 <meta property="og:description" content="{{ description }}" />
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/core.css">
